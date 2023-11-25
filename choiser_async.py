@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import json
 import re
+from collections import Counter
 
 token = None
 token_lock = asyncio.Lock()
@@ -44,9 +45,9 @@ async def get_rating(isin):
                     raise Exception(f"Ошибка: {data}")
                 elif not data['results']:
                     return
-                for r in data['results'][0]['ratings']:
-                    if r['value']:
-                        return r['value']       
+                ratings = Counter([k['value'] for k in data['results'][0]['ratings'] if k['value'] not in (None, 'Отозван', 'отозван')])
+                if ratings:
+                    return ratings.most_common(1)[0][0]
         except (aiohttp.client_exceptions.ClientOSError, aiohttp.client_exceptions.ServerDisconnectedError):
             return None  
 
@@ -60,34 +61,34 @@ no_date = []
 last_deal = []
 big_nom = []
 kval1 = []
-# no_exist = [
-#     "ОткрФКББ03",
-#     "МФК ЦФПО02",
-#     "МФК ЦФПО01",
-#     "МаниМен 03",
-#     "Займер 01",
-#     "АйДиКоле01",
-#     "МаниМен 02",
-#     "ОткрБРСО3",
-#     "ОткрБРСО5",
-#     "ВЭББНКР 01",
-#     "Займер 02",
-#     "Маныч02",
-#     "Брус 1P02",
-#     "Займер 03",
-#     "Kviku1P1",
-#     "AAG-01",
-#     "ГПБ-КИ-02",
-#     "СФОВТБИП03",
-#     "ОткрБРСО6",
-#     "СФОВТБИП02",
-#     "АйДиКоле02",
-#     "ВЭББНКР 02",
-#     "АСПЭКДом01",
-#     "ЛаймЗайм01",
-#     "КарМани 01",
-#     "ОткрБРСО4",
-# ]
+no_exist = [
+    "ОткрФКББ03",
+    "МФК ЦФПО02",
+    "МФК ЦФПО01",
+    "МаниМен 03",
+    "Займер 01",
+    "АйДиКоле01",
+    "МаниМен 02",
+    "ОткрБРСО3",
+    "ОткрБРСО5",
+    "ВЭББНКР 01",
+    "Займер 02",
+    "Маныч02",
+    "Брус 1P02",
+    "Займер 03",
+    "Kviku1P1",
+    "AAG-01",
+    "ГПБ-КИ-02",
+    "СФОВТБИП03",
+    "ОткрБРСО6",
+    "СФОВТБИП02",
+    "АйДиКоле02",
+    "ВЭББНКР 02",
+    "АСПЭКДом01",
+    "ЛаймЗайм01",
+    "КарМани 01",
+    "ОткрБРСО4",
+]
 # exc = [
 #     "ВсИнстрБ",
 #     "ЛКМБ-РТ1P1",
@@ -163,68 +164,69 @@ kval1 = []
 #     "РегПрод",
 #     "СПМК ",
 # ]
-# kval = ["МежИнБ",
-#     "Феррони",
-#     "ОйлРесур0",
-#     "МГКЛ 1P",
-#     "АйДиКоле03",
-#     "ВТБ Б1-",
-#     "BCS",
-#     "СберИОС",
-#     "МКБ П0",
-#     "ВТБ Б-1",
-#     "ОткрФКБИО",
-#     "МКБ П",
-#     "ТинькоффИ",
-#     "ОткрФКИОП",
-#     "СибЭнМаш",
-#     "ВЭББНКР ",
-#     "ОткрФКИО13",
-#     "ОткрБРСО7",
-#     "БКСБ1Р-01",
-#     "ЕАБР 1Р-04",
-#     "ГПБ002P-12",
-#     "МежИнБанк4",
-#     "ЛаймЗайм02",
-#     "ОткрБРСО9",
-#     "ОткрБРСО8",
-#     "МежИнБ01P5",
-#     "МежИнБ01P5",
-#     "МежИнБ01P1",
-#     "ОткрБРСО12",
-#     "ОткрБРСО11",
-#     "ОткрФКИО12",
-#     "Страна 01",
-#     "МГКЛ 1P3",
-#     "АйДиКоле03",
-#     "ВТБ Б1-",
-#     "BCS",
-#     "СберИОС",
-#     "МКБ П0",
-#     "ВТБ Б-1",
-#     "ОткрФКБИО",
-#     "МКБ П",
-#     "ТинькоффИ",
-#     "ОткрФКИОП",
-#     "СибЭнМаш",
-#     "ВЭББНКР ",
-#     "ОткрФКИО13",
-#     "ОткрБРСО7",
-#     "БКСБ1Р-01",
-#     "ЕАБР 1Р-04",
-#     "ГПБ002P-12",
-#     "МежИнБанк4",
-#     "ЛаймЗайм02",
-#     "ОткрБРСО9",
-#     "ОткрБРСО8",
-#     "МежИнБ01P5",
-#     "МежИнБ01P5",
-#     "МежИнБ01P1",
-#     "ОткрБРСО12",
-#     "ОткрБРСО11",
-#     "ОткрФКИО12",
-#     "Страна 01",
-# ]
+kval = ["МежИнБ",
+        "Самолет1P4",
+    "Феррони",
+    "ОйлРесур0",
+    "МГКЛ 1P",
+    "АйДиКоле03",
+    "ВТБ Б1-",
+    "BCS",
+    "СберИОС",
+    "МКБ П0",
+    "ВТБ Б-1",
+    "ОткрФКБИО",
+    "МКБ П",
+    "ТинькоффИ",
+    "ОткрФКИОП",
+    "СибЭнМаш",
+    "ВЭББНКР ",
+    "ОткрФКИО13",
+    "ОткрБРСО7",
+    "БКСБ1Р-01",
+    "ЕАБР 1Р-04",
+    "ГПБ002P-12",
+    "МежИнБанк4",
+    "ЛаймЗайм02",
+    "ОткрБРСО9",
+    "ОткрБРСО8",
+    "МежИнБ01P5",
+    "МежИнБ01P5",
+    "МежИнБ01P1",
+    "ОткрБРСО12",
+    "ОткрБРСО11",
+    "ОткрФКИО12",
+    "Страна 01",
+    "МГКЛ 1P3",
+    "АйДиКоле03",
+    "ВТБ Б1-",
+    "BCS",
+    "СберИОС",
+    "МКБ П0",
+    "ВТБ Б-1",
+    "ОткрФКБИО",
+    "МКБ П",
+    "ТинькоффИ",
+    "ОткрФКИОП",
+    "СибЭнМаш",
+    "ВЭББНКР ",
+    "ОткрФКИО13",
+    "ОткрБРСО7",
+    "БКСБ1Р-01",
+    "ЕАБР 1Р-04",
+    "ГПБ002P-12",
+    "МежИнБанк4",
+    "ЛаймЗайм02",
+    "ОткрБРСО9",
+    "ОткрБРСО8",
+    "МежИнБ01P5",
+    "МежИнБ01P5",
+    "МежИнБ01P1",
+    "ОткрБРСО12",
+    "ОткрБРСО11",
+    "ОткрФКИО12",
+    "Страна 01",
+]
 
 
 def flatten_list(nested_list):
@@ -318,8 +320,8 @@ def my_func(obl, params):
         if oferta <= datetime.now().date():
             oferta = None
         else:
-            oferta_delta = (oferta - datetime.today().date()).days
-            oferta_years = oferta_delta / 365
+            days = (oferta - datetime.today().date()).days
+            years = days / 365
     if params.get("Переменный купон") == 'ПК':
         freq = float(extr(obl, "Частота купона, раз в год"))
 
@@ -346,34 +348,33 @@ def my_func(obl, params):
             else:
                 q = coup.contents[5].string
             if q == "—":
-                oferta_delta = delta    # не учитывать закончившиеся
-                oferta_years = oferta_delta / 365
+                days = delta    # не учитывать закончившиеся
+                years = delta / 365
                 oferta = n
                 # закончились известные купоны
                 break
             inc = float(q) * 0.87  # купон за вычетом налогов
             profit += inc
+            # защита от официальной инфляции
             profit_in += inc * inf4day**delta / (of_inf4day**delta if params.get("Переменный купон") == 'ИН' else 1)
     nom = min(cost, nom) if oferta else nom
+    nom = nom / (of_inf4day**delta) if params.get("Переменный купон") == 'ИН' else nom
     perc = ((profit + nom) / cost - 1) * 100  # общая прибыль
-    perc_g = perc / (oferta_years if oferta else years)  # прибыль в год
-    if "ОФЗ-ИН" in name or params.get("Переменный купон") and params["Переменный купон"] == 'ИН':
-        perc_i = ((profit + nom) / cost - 1) * 100  # офз с защитой от инфляции
-    else:
-        perc_i = (
-            (profit_in + nom * inf4day**(oferta_delta if oferta else days)) / cost - 1
+    perc_g = perc / years  # прибыль в год
+    perc_i = (
+            (profit_in + nom * inf4day**days) / cost - 1
         ) * 100  # общая прибыль с учётом инфляции
-    perc_in = perc_i / (oferta_years if oferta else years)  # прибыль в год с учётом инфляции
+    perc_in = perc_i / years  # прибыль в год с учётом инфляции
     return {
         "Облигация": name,
         "Прибыль, %": round(perc, 3),
         "Прибыль с учётом инфляции, %": round(perc_i, 3),
         "Годовая прибыль, %": round(perc_g, 3),
         "Годовая прибыль с учётом инфляции, %": round(perc_in, 3),
-        "Дата погашения": datetime.now().date() + timedelta(days=days),
+        "Дата погашения": datetime.strptime(params["Погашение"], form),
         "Рейтинг": rating,
         'Оферта': oferta,
-        "Цена": cost,
+        "Цена, %": cost_p,
         'Рейтинг, порядок': params['Рейтинг, порядок'],
     }
 
@@ -388,18 +389,20 @@ async def fetch(session, url, max_retries=3):
                     return await response.text()
                 else:
                     return None
-        except aiohttp.ClientConnectorError as e:
-            print(f"Ошибка подключения: {e}")
-        except aiohttp.ClientError as e:
-            print(f"Ошибка клиента: {e}")
-        except asyncio.exceptions.CancelledError:
-            print(f"URL {url} не смог быть обработан")
+        # except aiohttp.ClientConnectorError as e:
+        #     print(f"Ошибка подключения: {e}")
+        # except aiohttp.ClientError as e:
+        #     print(f"Ошибка клиента: {e}")
+        # except asyncio.exceptions.CancelledError:
+        #     print(f"URL {url} не смог быть обработан")
         except Exception as e:
-            print(f"Неизвестная ошибка {e}")
+            pass
+            # print(f"Неизвестная ошибка {e}")
 
         retries += 1
         await asyncio.sleep(1)  # Ожидаем перед повторной попыткой
 
+    print(f"{url} не смог быть обработан")
     return None
 
 
@@ -438,6 +441,15 @@ async def process_site(session, site_url, soup="", params=None):
             value = tds[v].find_all(string=True)
             if value:
                 def_params[k] = value[0].string.strip()
+        if def_params["Имя"] in no_exist:
+            continue
+        flag = False
+        for i in kval:
+            if i in def_params["Имя"]:
+                flag = True
+                break
+        if flag:
+            continue
         if def_params["Имя"] not in ended:
             async with ended_lock:
                 ended.add(def_params["Имя"])
@@ -510,7 +522,7 @@ async def main():
         await asyncio.gather(*site_tasks)
     df = pd.read_csv("Итоги.csv", sep=",")
     df.sort_values(["Рейтинг, порядок", "Годовая прибыль с учётом инфляции, %"], ascending=[False, False], inplace=True)
-    df.drop("Рейтинг, порядок", axis=1, inplace=True)
+    # df.drop("Рейтинг, порядок", axis=1, inplace=True)
     df.to_csv(path_or_buf="Итоги.csv", sep=",", index=False)
 
 
@@ -524,7 +536,7 @@ df = pd.DataFrame(
         "Дата погашения",
         "Рейтинг",
         "Оферта",
-        "Цена",
+        "Цена, %",
         "Рейтинг, порядок",
     ]
 )
@@ -533,7 +545,7 @@ loop = asyncio.get_event_loop()
 # loop.set_debug(True)
 loop.run_until_complete(main())
 df = pd.read_csv("Итоги.csv", sep=",")
-max_profit = df.groupby("Рейтинг")["Годовая прибыль с учётом инфляции, %"].max()
+max_profit = df.groupby("Рейтинг, порядок")["Рейтинг", "Годовая прибыль с учётом инфляции, %"].max()
 print(max_profit)
 
 # Проверить, нужны ли функции
@@ -545,4 +557,3 @@ print(max_profit)
 # current_task()
 # all_tasks()
 # get_running_loop().run_in_executor()
-
