@@ -1,0 +1,1409 @@
+https://fin-plan.org/lk/obligations/RU000A105NA6/, МТС 1P-23, AAA, 7.6, 95.76, 18.12.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A105KQ8/, Магнит4P01, None, 12.0, 95.94, 02.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1008P1/, Роснфт2P6, None, 5.7, 98.70, 23.03.29, 03.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYVU5/, Роснфт2P5, None, 30.0, 99.28, 18.02.28, 28.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A104VS4/, Ростел2P8R, None, 11.2, 96.23, 11.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106672/, ГазпромКP5, None, 23.6, 92.75, 20.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A101QM3/, ГазпромКP3, None, 8.6, 90.15, 27.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030X9/, СэтлГрБ1P3, None, 1.2, 98.60, 17.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JT403/, ВЭБ.РФ 18, None, 24.2, 95.50, 17.09.32, 01.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A105XE7/, ВымпелК1Р2, None, 8.2, 86.13, 14.09.28, 14.09.28, 0
+https://fin-plan.org/lk/obligations/RU000A104JQ3/, СамолетP11, None, 55.7, 97.17, 08.02.28, 14.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A103M10/, БалтЛизБП4, None, 6.5, 97.46, 26.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101CQ4/, СУЭК-Ф1P5R, None, 34.0, 93.20, 16.01.30, 27.01.25, 0
+https://fin-plan.org/lk/obligations/RU000A1070X5/, АБЗ-1 1Р05, None, 3.6, 100.49, 30.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102Y66/, ЛЕГЕНДА1P4, None, 3.5, 95.30, 08.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103PX8/, ЛСР БО 1Р7, None, 9.0, 90.39, 11.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107A28/, ГПБ005P01P, None, 19.2, 100.00, 28.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106SP1/, Новотр 1Р4, None, 18.5, 97.27, 25.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1035D0/, СТМ 1P1, None, 13.1, 98.06, 24.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1032P1/, ВТБРКС01, None, 4.6, 88.64, 01.12.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A107KV4/, СИБАВТО1Р3, None, 2.1, 101.76, 11.01.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A105KB0/, ГТЛК 2P-02, None, 15.4, 93.55, 17.11.37, 04.12.26, 0
+https://fin-plan.org/lk/obligations/RU000A100LL8/, ГазпромКP2, None, 2.4, 97.41, 11.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SG9/, iСелктлР1R, None, 35.2, 99.39, 22.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107D33/, ВИС Ф БП05, None, 17.3, 100.08, 09.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103WV8/, Сбер Sb33R, None, 16.3, 96.34, 15.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101Q26/, Систем1P13, None, 11.0, 97.19, 15.05.30, 27.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A105ZX2/, БорецК1Р01, None, 10.4, 95.40, 19.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1078L3/, Автодор5Р5, None, 23.9, 100.00, 19.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103NY1/, АФиБАНК1Р9, None, 28.4, 96.79, 12.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101Z74/, ГПБ001P17P, None, 28.1, 99.78, 31.07.30, 05.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A104ZK2/, МВ ФИН 1Р3, None, 30.5, 83.38, 22.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106UW3/, iКарРус1P3, None, 6.0, 99.25, 18.08.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1077X0/, ИнтЛиз1Р07, None, 3.1, 101.96, 31.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106F40/, Европлн1Р6, None, 7.6, 94.55, 24.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106AT1/, ГазпромКP6, None, 15.1, 94.11, 23.05.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A103L03/, СамолетP10, None, 15.3, 96.85, 21.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1069P3/, Сбер Sb44R, None, 13.8, 92.76, 27.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107043/, Автодор6Р2, None, -, 100.97, 08.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107AJ0/, ИКС5Фин3P3, None, 17.0, 99.00, 22.11.33, 05.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A104YT6/, СамолетP12, None, 3.6, 99.10, 11.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107AW3/, Аэрфью2Р02, None, 22.8, 100.85, 27.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106A86/, iКарРус1P2, None, 20.5, 96.24, 22.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107BZ4/, ТелХолБ2-5, None, 19.9, 100.73, 06.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107C34/, АйДиКоле06, None, 7.9, 100.05, 21.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1053P7/, Сегежа2P5R, None, 46.5, 76.50, 30.07.37, -, 0
+https://fin-plan.org/lk/obligations/RU000A100238/, МТС 1P-07, None, 21.5, 100.00, 23.01.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104V75/, ПочтаР2P01, None, 14.7, 93.00, 26.05.32, 07.06.27, 0
+https://fin-plan.org/lk/obligations/RU000A101QW2/, Сбер Sb16R, None, 8.1, 97.05, 31.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106R95/, iСелкт1Р3R, None, 57.2, 99.08, 14.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103HT3/, МВ ФИН 1Р2, None, 16.6, 92.84, 07.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102RX6/, Самолет1P9, None, 39.2, 99.60, 15.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101QL5/, ГТЛК 1P-17, None, 11.4, 84.50, 14.05.35, 28.05.26, 0
+https://fin-plan.org/lk/obligations/RU000A106540/, МВ ФИН 1Р4, None, 1.1, 86.52, 17.04.26, 23.04.25, 0
+https://fin-plan.org/lk/obligations/RU000A106ZP6/, РКСЭталон3, None, 7.0, 100.15, 03.12.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A1061K1/, ЕвроТранс3, None, 8.6, 99.13, 14.03.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A104Z48/, ВЭБ2P-33, None, 1.1, 92.42, 15.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1036H9/, Магнит2Р04, None, 10.4, 97.75, 29.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106HB4/, iВУШ 1P2, None, 5.8, 94.65, 02.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101M04/, РЖД 1Р-20R, None, 18.9, 85.82, 15.03.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SP3/, Сегежа3P2R, None, 23.2, 84.15, 15.01.38, 07.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A107480/, ЛТрейд1P10, None, 0.6, 103.24, 26.09.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030Y7/, АФиБанк1Р8, None, 18.5, 97.75, 23.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106EM8/, БалтЛизБП8, None, 0.9, 94.50, 31.05.33, 17.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A102GU5/, НоваБевБП4, None, 9.1, 91.03, 05.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100XU4/, РЕСОЛизБП7, None, 23.9, 96.47, 11.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107FG5/, ТрансМ БО2, None, 1.1, 101.84, 30.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1066J2/, ТГК-14 1Р1, None, 31.1, 100.46, 30.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106WZ2/, АПРИФП 2Р3, None, 19.6, 100.40, 14.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105VU7/, ЭталонФин1, None, 22.9, 97.72, 03.02.38, 20.02.26, 0
+https://fin-plan.org/lk/obligations/RU000A103FP5/, МКБ 1P3, None, 41.4, 96.50, 23.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103RD6/, ИнфрОблP1, None, 14.9, 97.70, 15.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105A61/, НорНикБ1P2, None, 27.8, 94.07, 05.10.27, 14.10.25, 0
+https://fin-plan.org/lk/obligations/RU000A100P85/, ЕврХол2P1R, None, 38.1, 97.99, 29.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104Z71/, БинФарм1P2, None, 1.1, 97.70, 02.07.37, -, 0
+https://fin-plan.org/lk/obligations/RU000A106Z38/, Джи-гр 2Р3, None, 8.4, 101.40, 29.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107720/, МКЛизинг1, None, 3.4, 102.00, 10.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106SF2/, ИнтЛиз1Р06, None, 20.7, 97.09, 24.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103SV6/, Росгео01, None, 28.6, 97.01, 26.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107KR2/, МигКр 04, None, 3.5, 101.20, 31.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105WR1/, АЗБУКАВКП2, None, 14.6, 94.25, 18.02.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A106938/, НОВАТЭК1Р1, None, 15.5, 92.86, 19.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105CS1/, Селигдар1Р, None, 24.3, 94.48, 29.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102FT9/, Систем1P17, None, 9.1, 89.25, 25.11.30, 05.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A107GU4/, БДеньг-2P4, None, 16.3, 102.16, 08.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106862/, ГарИнв2P06, None, 3.9, 95.22, 05.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1002C2/, РЖД 1Р-12R, None, 42.4, 99.96, 26.01.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070L0/, ЯТЭК 1P-3, None, 4.2, 101.15, 09.10.26, 16.04.25, 0
+https://fin-plan.org/lk/obligations/RU000A105XF4/, ГЛОРАКС1Р1, None, 16.9, 97.81, 11.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104ZC9/, КАМАЗ БП10, AA-, 0.9, 98.05, 18.07.25, 24.07.24, 13
+https://fin-plan.org/lk/obligations/RU000A0JUV08/, ГПБ БО-10, AA+, 26.4, 96.20, 26.09.24, -, 15
+https://fin-plan.org/lk/obligations/RU000A105WP5/, ВымпелК1Р7, None, 17.0, 86.65, 12.02.29, 12.02.29, 0
+https://fin-plan.org/lk/obligations/RU000A103QH9/, ЭталФинП03, None, 8.5, 90.65, 15.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105PP9/, ЕвроТранс1, None, 0.4, 99.42, 11.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100D89/, Беларусь07, None, 18.9, 92.70, 01.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106KV6/, АЛЬФАБ2Р24, None, 0.8, 94.15, 20.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103117/, МВ ФИН 1Р1, None, 28.6, 97.49, 18.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102H91/, Автодор3Р1, None, 6.8, 87.50, 09.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104WS2/, iВУШ 1P1, None, 9.6, 99.50, 25.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYEE5/, ГПБ БО-17, None, 18.5, 95.74, 31.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1062M5/, SELGOLD001, None, 14.7, 102.36, 31.03.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A102KG6/, Пионер 1P5, None, 6.1, 96.89, 17.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A100N12/, Систем1P11, None, -, 91.07, 16.07.29, 22.07.27, 0
+https://fin-plan.org/lk/obligations/RU000A1036E6/, АЛЬФАБ2Р12, None, 9.6, 97.20, 04.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106EP1/, ПР-Лиз 2P2, None, 1.0, 91.88, 06.05.32, 15.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A103943/, Аэрофл БО1, None, 8.9, 88.91, 11.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GZ5/, РКК БО-03, None, 8.1, 94.90, 29.06.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYQY7/, СистемБ1P7, None, 33.7, 88.60, 21.01.28, 30.07.25, 0
+https://fin-plan.org/lk/obligations/RU000A104XU6/, ХКФинБ1P8, None, 6.1, 98.51, 04.07.25, 10.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A104735/, Пионер 1P6, None, 14.8, 95.15, 04.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106AH6/, О'КЕЙ Б1Р5, None, 18.0, 93.70, 16.05.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A104Y15/, НоваБевБП5, None, 3.9, 93.20, 06.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103760/, ХКФБанкБ04, None, 10.7, 84.93, 01.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106P63/, ФЭСАгро1Р1, None, 28.4, 98.78, 06.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105YB1/, Медси 1P02, None, 11.1, 92.37, 25.02.38, 16.03.26, 0
+https://fin-plan.org/lk/obligations/RU000A1048A9/, Брус 2P01, None, 13.3, 96.38, 10.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1017J5/, Газпнф3P2R, None, 7.4, 79.39, 07.12.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYT40/, Роснфт2P4, None, 36.2, 94.36, 03.02.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SC8/, ТМК 1P02, None, 12.7, 99.45, 17.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106EZ0/, ВИС Ф БП04, None, 21.6, 96.40, 25.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107EP9/, СмартФ1Р02, None, 17.7, 100.56, 15.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105FM7/, О'КЕЙ Ф1Р1, None, 22.1, 93.09, 01.11.32, 14.05.26, 0
+https://fin-plan.org/lk/obligations/RU000A106A78/, СЛ 002P-01, None, 20.0, 96.41, 20.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SK1/, Боржоми1Р1, None, 31.2, 98.71, 20.02.26, 28.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A106656/, ЮГК 1P3, None, 24.2, 93.30, 23.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106MW0/, ТГК-14 1Р2, None, 29.2, 98.31, 27.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106P06/, ВСК 1P-04R, None, 56.2, 94.36, 28.07.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A101KK0/, РОСНАНО2P4, None, 5.2, 97.64, 26.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101TB0/, ВЭБ 1P-19, None, 7.0, 83.74, 10.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A102X18/, ГарИнв2P03, None, 7.8, 99.01, 26.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107795/, ЛаймЗайм04, None, 4.4, 100.00, 30.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107EE3/, СОБИЛИЗ1Р4, None, 2.1, 101.60, 03.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106631/, АПРИФП 2Р2, None, 43.4, 98.00, 22.04.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1051E5/, Ростел2P9R, None, 41.2, 92.35, 29.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SD9/, Сбер Sb42R, None, 34.0, 95.07, 02.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107D74/, ЭТС 1Р05, None, 4.5, 102.58, 02.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXME4/, ЧТПЗ 1P3, None, 8.5, 99.05, 21.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103QK3/, МэйлБ1Р1, None, 27.1, 86.56, 15.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107E08/, ИЭКХолд1Р2, None, 3.6, 102.10, 09.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SF4/, ДОМ 1P-14R, None, 41.0, 97.60, 29.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107FZ5/, АПРИФП 2Р4, None, 20.4, 104.80, 17.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105X64/, СэтлГрБ2P2, None, 15.4, 95.20, 05.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107F07/, Унител БО1, None, 17.2, 100.09, 16.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXS59/, ПочтаРБ1P3, None, 16.5, 92.89, 19.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JQRD9/, РЖД-23 обл, None, 0.9, 94.84, 16.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100JH0/, РитейлБФ01, None, 1.5, 98.35, 02.07.24, 02.07.24, 0
+https://fin-plan.org/lk/obligations/RU000A1079G1/, МаниКап1Р2, None, 15.1, 100.60, 12.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106F08/, МИКРАН БО1, None, 9.3, 94.95, 23.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102W68/, ХКФинБ1P6, None, 6.8, 98.50, 20.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105CM4/, Новотр 1Р3, None, 26.6, 95.00, 26.10.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ1J8/, ГТЛК 1P-09, None, 4.8, 94.76, 18.03.33, 02.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A102TR4/, РитйлБФ1P2, None, 13.0, 91.45, 05.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXE06/, ГТЛК 1P-03, None, 24.4, 99.95, 22.01.32, 06.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A1062J1/, РКСЭталон2, None, 5.7, 91.89, 03.04.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A101XN7/, Систем1P14, None, 1.4, 89.60, 10.07.30, 19.04.27, 0
+https://fin-plan.org/lk/obligations/RU000A106YN4/, ГрупПро1P3, None, 11.4, 99.99, 12.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105TS5/, ЕвроТранс2, None, 6.2, 99.10, 24.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106DP3/, РЕСОЛиБП22, None, 11.4, 92.60, 03.06.33, 17.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A102R73/, ОткрФКБП07, None, 28.1, 99.55, 06.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A100YE6/, ТрансКо1P1, None, 9.6, 96.00, 16.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101Z66/, БалтЛизБП3, A+, 6.4, 97.79, 26.07.24, -, 12
+https://fin-plan.org/lk/obligations/RU000A106XD7/, SELGOLD002, A+, 9.5, 102.71, 03.01.30, -, 12
+https://fin-plan.org/lk/obligations/RU000A107A93/, СНХТ БО-03, B, 11.3, 100.04, 03.11.28, -, 2
+https://fin-plan.org/lk/obligations/RU000A107EW5/, Джой 1P1, B+, 1.9, 103.64, 04.12.26, -, 3
+https://fin-plan.org/lk/obligations/RU000A106PW3/, НовТехнБ2, A-, 55.5, 93.43, 08.08.28, -, 10
+https://fin-plan.org/lk/obligations/RU000A1071R5/, Т1 001Р-01, A, 2.6, 101.11, 14.10.25, -, 11
+https://fin-plan.org/lk/obligations/RU000A0ZYNY4/, ГТЛК 1P-07, AA-, 3.2, 92.93, 31.12.32, 13.01.27, 13
+https://fin-plan.org/lk/obligations/RU000A107C91/, МСБЛиз3P02, BBB-, 7.4, 100.09, 22.11.26, -, 7
+https://fin-plan.org/lk/obligations/RU000A102234/, ТЕХЛиз 1P3, BBB-, 4.8, 93.58, 31.07.25, -, 7
+https://fin-plan.org/lk/obligations/RU000A103F27/, ЦППК 1P-03, BBB+, 1.3, 97.41, 17.07.24, -, 9
+https://fin-plan.org/lk/obligations/RU000A1051U1/, МТС-Банк02, A, 20.9, 93.30, 01.08.25, -, 11
+https://fin-plan.org/lk/obligations/RU000A1016Z3/, ПИК К 1P2, AA-, 4.5, 95.84, 11.12.24, -, 13
+https://fin-plan.org/lk/obligations/RU000A107BH2/, ИЛСБО-1-1Р, BB-, 9.4, 103.79, 19.11.26, -, 4
+https://fin-plan.org/lk/obligations/RU000A1013P1/, ВЭБ1P-18, AAA, 12.4, 85.25, 17.11.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A1041B2/, Сегежа2P1R, BBB, 18.4, 89.99, 29.10.36, 18.11.24, 8
+https://fin-plan.org/lk/obligations/RU000A103D37/, ИА ТБ1А, None, 1.2, 98.65, 23.03.34, -, 0
+https://fin-plan.org/lk/obligations/RU000A1060Y4/, ВИС Ф БП03, None, 12.0, 97.01, 31.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106SE5/, Фордевинд4, None, 12.6, 96.17, 08.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101GZ6/, УрКаПБО6P, None, 27.4, 92.08, 25.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103YP6/, СГтранс1Р1, None, 22.8, 95.50, 26.10.26, 31.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYR91/, ГТЛК 1P-08, None, 25.7, 91.98, 18.01.33, 30.07.27, 0
+https://fin-plan.org/lk/obligations/RU000A101XD8/, iMT_FREE01, None, 1.6, 92.63, 14.07.26, 17.01.25, 0
+https://fin-plan.org/lk/obligations/RU000A1071Q7/, MTRCSPR001, None, 2.2, 100.29, 14.10.26, 18.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A1078H1/, СОБИЛИЗ1Р3, None, 1.0, 99.92, 05.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106Q47/, Фордевинд3, None, 6.6, 94.11, 21.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TJ2/, ФИНСИСТ 01, None, 10.5, 94.21, 10.08.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106R79/, ЭНИКА 1Р04, None, 29.4, 98.05, 10.08.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A105KR6/, ВСК 1P-03R, None, 14.8, 92.32, 30.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103NZ8/, СовкомБОП4, None, 10.0, 95.99, 06.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103C95/, Систем1P21, None, 4.8, 86.59, 23.06.31, 02.07.26, 0
+https://fin-plan.org/lk/obligations/RU000A107217/, АРЕНЗА1Р03, None, 0.9, 99.95, 21.11.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1058M3/, БалтЛизБП6, None, 34.9, 94.55, 24.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106Y21/, НафттрнБО5, None, 14.6, 103.10, 10.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105PK0/, Ювелит 1P1, None, 9.9, 99.24, 23.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SZ2/, СИБАВТО1Р1, None, 40.0, 101.60, 28.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A104FG2/, Сегежа2P3R, None, 26.6, 99.30, 07.01.37, 29.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A105YF2/, Страна 02, None, 4.8, 98.27, 28.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A104BU2/, ГК ЕКС БО1, None, 11.4, 97.69, 19.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102VL3/, МТС 18соц., None, 21.7, 98.86, 22.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102YG7/, Сбер Sb25R, None, 20.8, 89.74, 09.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107E99/, СовкомЗО-4, None, 2 069.3, 93.50, 07.04.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A105ZW4/, РКК БО-02, None, 15.8, 100.31, 18.03.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A102VK5/, ВИС Ф БП02, None, 16.8, 99.50, 22.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106268/, АЛЬФАБ2Р22, None, 28.7, 95.41, 07.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105V82/, Автодор3Р3, None, 44.6, 93.00, 12.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105QL6/, Интерскол2, None, 6.4, 101.40, 07.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104SU6/, МТС 1P-20, None, 25.8, 98.86, 01.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105ZP8/, МТС 1P-24, None, 7.9, 95.44, 20.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVWD9/, ГТЛК БО-05, None, 1.2, 102.25, 17.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065B1/, АБЗ-1 1Р04, None, 33.9, 98.10, 21.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103DT2/, Артгн БО01, None, 3.5, 94.36, 08.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103RT2/, Экспо1П01, None, 6.7, 96.01, 24.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107D09/, РСХБ2Р10К, None, 16.9, 101.10, 09.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102DK3/, iMT-FREE02, None, 16.6, 97.61, 21.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1064G3/, ГПБ001P26P, None, 26.3, 94.38, 18.04.33, 21.10.26, 0
+https://fin-plan.org/lk/obligations/RU000A103Q08/, ХэндрснБ01, None, 5.2, 97.12, 25.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106T85/, CTRLлиз1Р1, None, 10.7, 99.69, 04.08.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1071U9/, ЭлемЛиз1P6, None, 2.3, 101.31, 02.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1043B8/, ТАЛАНФБ1P3, None, 22.4, 96.02, 19.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1023K1/, Систем1P15, None, 25.7, 94.59, 26.08.30, 05.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A100WA8/, ЛСР БО 1Р4, None, 2.2, 95.75, 27.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105C28/, ЧеркизБ1P5, None, 24.0, 93.80, 23.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1034J0/, Европлн1Р2, None, 3.5, 98.60, 17.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105PR5/, ИЭКХолд1Р1, None, 9.4, 97.20, 23.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103KG4/, Сбер SbD1R, None, -, 86.68, 28.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105FS4/, iСелкт1Р2R, None, 21.7, 95.84, 11.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100HE1/, АЗБУКАВКП1, None, 9.3, 98.02, 15.06.29, 26.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXPG2/, ГТЛК 1P-04, None, 2.0, 96.21, 06.04.32, 17.04.26, 0
+https://fin-plan.org/lk/obligations/RU000A107BD1/, ФАРМФРД БО, None, 9.1, 102.94, 19.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074Q1/, СОЛСВЕТ1Р1, None, 12.1, 102.15, 17.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107076/, Роделен2P1, None, 6.0, 100.95, 13.09.28, 12.01.26, 0
+https://fin-plan.org/lk/obligations/RU000A104CJ3/, АВТОДОМ1Р1, None, 8.7, 96.84, 25.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1078Y6/, ЭконЛиз1Р6, None, 32.9, 99.86, 19.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102RU2/, Европлн1Р1, None, 10.1, 97.99, 13.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107761/, ПушкПЗ1Р01, None, 34.0, 104.15, 07.11.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A105X80/, ВымпелК1Р8, AA-, 0.9, 80.10, 09.03.29, -, 13
+https://fin-plan.org/lk/obligations/RU000A1046N6/, АБЗ-1 1Р02, BBB+, 16.8, 98.55, 03.12.24, -, 9
+https://fin-plan.org/lk/obligations/RU000A100VQ6/, НорНикБ1P1, AAA, 23.3, 95.80, 24.09.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A106SK2/, ГарИнв2P07, BBB, 10.3, 99.96, 02.08.28, -, 8
+https://fin-plan.org/lk/obligations/RU000A106GY8/, ДрктЛиз2Р1, BB+, 6.0, 98.69, 01.07.27, -, 6
+https://fin-plan.org/lk/obligations/RU000A105JG1/, ПозТех-1Р2, AA, 13.6, 96.00, 03.12.25, -, 14
+https://fin-plan.org/lk/obligations/RU000A1075D6/, ГазТранс01, B, 45.5, 104.52, 24.10.28, -, 2
+https://fin-plan.org/lk/obligations/RU000A105V90/, ЕАБР3P-006, AAA, 44.5, 92.19, 13.02.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A102RF3/, ХКФБанкБ07, A, 13.7, 99.50, 06.02.26, 14.02.24, 11
+https://fin-plan.org/lk/obligations/RU000A106DV1/, РКС2Р3, None, 14.6, 97.77, 15.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXC24/, ТрнфБО1P5, AAA, 45.1, 99.97, 26.01.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A103372/, Систем1P20, AA-, 16.9, 86.40, 30.04.31, 11.05.26, 13
+https://fin-plan.org/lk/obligations/RU000A104WA0/, АПРИФП БП5, BB, 15.8, 99.23, 19.06.25, -, 5
+https://fin-plan.org/lk/obligations/RU000A106946/, СовкмЛ П06, A+, 17.3, 94.78, 18.05.26, -, 12
+https://fin-plan.org/lk/obligations/RU000A0ZZ984/, ГТЛК 1P-10, AA-, 19.0, 98.95, 20.05.33, 04.06.25, 13
+https://fin-plan.org/lk/obligations/RU000A105SX7/, АБЗ-1 1Р03, BBB, 31.6, 98.92, 29.01.26, -, 8
+https://fin-plan.org/lk/obligations/RU000A0JXQK2/, Роснфт1P4, AAA, 20.5, 98.36, 22.04.27, -, 17
+https://fin-plan.org/lk/obligations/RU000A107936/, РЖД 1Р-29R, AAA, 20.3, 110.00, 15.11.30, -, 17
+https://fin-plan.org/lk/obligations/RU000A105L27/, Систем1P24, AA-, 12.9, 92.02, 24.11.32, 08.12.25, 13
+https://fin-plan.org/lk/obligations/RU000A1006G4/, Мегафон1P6, AAA, 32.4, 99.49, 11.03.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A106888/, ЛСР БО 1Р8, A, 23.8, 97.00, 13.05.26, -, 11
+https://fin-plan.org/lk/obligations/RU000A106XP1/, Автодор6Р1, AA, -, 100.10, 20.09.24, -, 14
+https://fin-plan.org/lk/obligations/RU000A107DM8/, Росагрл1Р4, AA-, 15.5, 99.80, 07.12.28, -, 13
+https://fin-plan.org/lk/obligations/RU000A104XR2/, Автодор3Р2, AA, 49.6, 92.45, 01.07.27, -, 14
+https://fin-plan.org/lk/obligations/RU000A105Q89/, ГИДРОМАШ01, A, 8.2, 95.55, 25.12.25, -, 11
+https://fin-plan.org/lk/obligations/RU000A106U74/, НИКА 1Р02, B, 22.4, 97.28, 29.08.28, -, 2
+https://fin-plan.org/lk/obligations/RU000A1005T9/, ГарИнв1P05, BBB, 0.6, 99.80, 05.04.24, -, 8
+https://fin-plan.org/lk/obligations/RU000A107GT6/, СЕЛЛСерв1, BB+, 14.4, 102.20, 05.12.27, -, 6
+https://fin-plan.org/lk/obligations/RU000A105YK2/, ВымпелК1Р3, AA-, 0.2, 82.75, 18.04.27, -, 13
+https://fin-plan.org/lk/obligations/RU000A1053A9/, СэтлГрБ2P1, A, 22.6, 96.20, 13.08.25, -, 11
+https://fin-plan.org/lk/obligations/RU000A105MP6/, ДФФ 2Р-01, BBB+, 11.9, 96.94, 16.12.25, -, 9
+https://fin-plan.org/lk/obligations/RU000A100HU7/, МТС 1P-10, AAA, 5.7, 93.10, 25.06.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A1060U2/, ГлобалФ1P2, B+, -, 100.69, 08.09.26, -, 3
+https://fin-plan.org/lk/obligations/RU000A106UM4/, ДАРСДев1Р1, BBB-, 18.9, 98.54, 04.09.25, -, 7
+https://fin-plan.org/lk/obligations/RU000A105VP7/, РКК БО-01, B–, 32.3, 101.48, 17.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105849/, Фордевинд1, BB, 3.5, 101.22, 05.09.25, -, 5
+https://fin-plan.org/lk/obligations/RU000A100733/, АВТОБФ БП2, A, 24.8, 98.65, 19.03.24, -, 11
+https://fin-plan.org/lk/obligations/RU000A102UZ5/, КировЗд1Р2, BBB-, 10.2, 98.51, 12.03.26, -, 7
+https://fin-plan.org/lk/obligations/RU000A101012/, Систем1P12, AA-, 17.9, 94.10, 23.10.29, 01.11.24, 13
+https://fin-plan.org/lk/obligations/RU000A102556/, СЭЗ 1P2, BBB, 10.0, 90.78, 14.09.27, -, 8
+https://fin-plan.org/lk/obligations/RU000A103935/, реСторБ1Р1, BBB+, 8.7, 97.01, 13.06.24, -, 9
+https://fin-plan.org/lk/obligations/RU000A106FR4/, Автодор5Р1, AA, 5.7, 92.59, 25.06.26, -, 14
+https://fin-plan.org/lk/obligations/RU000A104UA4/, Сегежа2P4R, BBB, 23.0, 99.14, 11.05.37, 29.05.25, 8
+https://fin-plan.org/lk/obligations/RU000A106CA7/, РСХБ2Р16, AA, 11.3, 91.42, 03.06.26, -, 14
+https://fin-plan.org/lk/obligations/RU000A100PB0/, ЖКХРСЯ БО1, BBB, 30.1, 98.59, 28.07.26, -, 8
+https://fin-plan.org/lk/obligations/RU000A103133/, Новотр 1Р2, AA-, 1.0, 93.87, 16.04.26, -, 13
+https://fin-plan.org/lk/obligations/RU000A103G00/, СТМ 1P2, A, 42.9, 86.80, 22.07.26, -, 11
+https://fin-plan.org/lk/obligations/RU000A104WF9/, Славнеф2Р4, AA, 8.6, 95.23, 11.06.32, 25.06.25, 14
+https://fin-plan.org/lk/obligations/RU000A102V51/, НафттрнБО3, B–, 6.6, 93.20, 20.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106U90/, Пркт1111Р1, BBB, 18.3, 96.94, 03.09.26, -, 8
+https://fin-plan.org/lk/obligations/RU000A100A66/, МТС 1P-09, AAA, 1.7, 97.12, 14.10.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A106CM2/, СмартФ1Р01, BB-, 19.9, 98.29, 04.06.26, -, 4
+https://fin-plan.org/lk/obligations/RU000A103M36/, ТрансФ1P07, A-, 15.0, 96.46, 18.08.31, 29.08.24, 10
+https://fin-plan.org/lk/obligations/RU000A105518/, Европлн1Р5, AA, 15.5, 95.73, 27.08.25, -, 14
+https://fin-plan.org/lk/obligations/RU000A102TT0/, Инаркт1Р1, A, 35.9, 99.37, 06.03.24, -, 11
+https://fin-plan.org/lk/obligations/RU000A105G99/, РКСЭталон1, AAA, 5.7, 93.18, 02.04.30, -, 17
+https://fin-plan.org/lk/obligations/RU000A107G22/, КОРПСАН 01, BB–, 16.1, 100.12, 18.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106FV6/, РСХБ2Р12, AA, 6.5, 93.69, 26.06.26, -, 14
+https://fin-plan.org/lk/obligations/RU000A103UL3/, ТатнхимP01, BB+, 21.8, 100.25, 15.09.26, 30.09.24, 6
+https://fin-plan.org/lk/obligations/RU000A105VC5/, Полюс Б1P3, None, 44.7, 95.02, 11.02.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A102952/, ВИС Ф БП01, None, 2.5, 100.10, 12.10.27, 18.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A106151/, ХайТэк 1P1, None, 10.3, 96.28, 26.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1032X5/, ТЕХЛиз 1P4, None, 7.4, 87.61, 16.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106516/, ФосАгро П1, None, 24.2, 93.98, 17.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1014B9/, О'КЕЙ Б1Р3, None, 5.9, 96.91, 26.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106987/, ЛТрейд 1P8, None, 1.6, 95.25, 26.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A100Z91/, ГТЛК 1P-15, None, 7.6, 91.67, 21.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105C93/, СибСтекП03, None, 0.5, 100.12, 12.10.25, 26.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A100ZL8/, ЛСР БО 1Р5, None, 8.1, 95.45, 24.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106LS0/, ГлобалФ1P3, None, -, 93.74, 05.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1022E6/, ПР-Лиз 2P1, None, 4.3, 95.02, 10.08.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWZY6/, СистемБ1P5, None, 12.4, 99.40, 13.11.26, 21.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A107GV2/, ЛКЭвол1Р01, None, 12.4, 100.74, 22.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GB6/, ЛТрейд 1P9, None, 8.4, 93.42, 07.06.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1036X6/, ВитаЛ 1Р03, None, 14.5, 97.50, 29.05.25, 06.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A1051T3/, МТС 1P-22, None, 18.2, 97.66, 02.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1057P8/, РусГидрБП6, None, 29.1, 91.00, 15.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXFS8/, ГазпромКБ5, None, 40.5, 99.71, 03.02.27, 12.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A105WZ4/, ЛТрейд 1P7, None, 8.3, 94.85, 09.02.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A106AJ2/, АЛЬФАБ2Р23, AA+, 14.2, 93.81, 30.11.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A0ZYXV9/, Газпнф1P6R, AAA, 27.0, 99.25, 07.03.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A101NJ6/, ЧЗПСНП БП2, BB+, 24.3, 95.72, 08.05.25, -, 6
+https://fin-plan.org/lk/obligations/RU000A101137/, Газпнф3P1R, AAA, 14.3, 94.90, 05.11.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A105L01/, РСХБ2Р1, AA, 2.0, 95.33, 26.11.25, -, 14
+https://fin-plan.org/lk/obligations/RU000A1070G0/, БДеньг-2P3, BB, 7.5, 98.54, 24.03.27, -, 5
+https://fin-plan.org/lk/obligations/RU000A106JV8/, ТелХолБ2-3, A-, 3.6, 96.26, 10.07.25, -, 10
+https://fin-plan.org/lk/obligations/RU000A107FN1/, ТЕХЛиз 1P6, BBB-, 0.9, 102.80, 24.11.28, -, 7
+https://fin-plan.org/lk/obligations/KG000A3LSJ06/, Кыргыз. 02, None, 1.0, 99.99, 26.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104XW2/, СибурХ1Р01, AAA, 4.3, 94.36, 20.01.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A105TR7/, АРЕНЗА1Р01, BB+, 6.8, 99.00, 24.01.26, -, 6
+https://fin-plan.org/lk/obligations/RU000A106XT3/, АйДиКоле04, BB+, 13.1, 97.48, 09.09.26, -, 6
+https://fin-plan.org/lk/obligations/RU000A105JU2/, ВЭБ1P-34, None, 12.3, 96.88, 03.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101RZ3/, Казахст11, None, 23.8, 72.76, 11.09.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A106X30/, Техпорт02, None, 2.5, 100.99, 03.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103WQ8/, СэтлГрБ1P4, None, 0.8, 94.29, 18.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102ZH2/, ЯТЭК 1P-2, None, 21.1, 95.82, 07.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102LF6/, ПионЛизБП4, None, 16.6, 100.00, 13.12.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A102RN7/, РенКредБО6, None, 35.3, 99.38, 17.02.26, 26.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A105GE2/, ГазпромКP7, None, 16.8, 93.33, 13.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1052T1/, iКарРус1P1, None, 26.7, 98.60, 06.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105HC4/, РусГидрБП7, None, 14.6, 93.85, 21.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105K85/, Атомэнпр02, None, 11.8, 93.67, 02.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101QF7/, РитйлБФ1P1, None, 10.5, 95.53, 28.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107DD7/, ТЕХНЛГ 01, None, 5.1, 104.58, 05.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1078K5/, УльтраБО2, None, 1.0, 101.27, 31.10.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103SZ7/, Аэрфью2Р01, None, 6.8, 96.55, 26.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104B46/, ГПБ001P21P, None, 6.6, 93.71, 27.12.31, 02.07.25, 0
+https://fin-plan.org/lk/obligations/RU000A1030D1/, АЛЬФАБ2Р11, None, 18.4, 98.48, 18.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102S23/, Победа1Р1, None, 17.9, 98.90, 15.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107G63/, ДжетЛ БО-1, None, 0.6, 123.88, 06.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVWJ6/, ГТЛК БО-06, None, -, 97.14, 20.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105UZ8/, Саммит 1P1, None, 5.3, 101.30, 31.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102986/, СУЭК-Ф1P6R, None, 17.4, 97.99, 10.10.30, 23.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A101RT6/, Казахст05, None, 5.7, 87.56, 22.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105DS9/, АПРИФП 2Р1, None, 43.7, 101.89, 03.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106DK4/, Фордевинд2, None, 4.8, 95.12, 30.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105KP0/, Газпнф3P5R, None, 11.8, 93.05, 02.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106QS9/, ЗавдКЭС1Р4, None, 15.1, 92.19, 08.08.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A106FN3/, СПМК БО-02, None, 10.7, 94.77, 08.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105UU9/, Ростел2P10, None, 17.1, 94.00, 11.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GC4/, АРЕНЗА1Р02, None, 7.8, 95.28, 18.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106CB5/, СИБАВТО1Р2, None, 19.1, 93.67, 30.05.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXSF8/, ТМК БО-7, None, 16.8, 96.00, 21.05.27, 29.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A105TY3/, ВымпелК1Р6, None, 18.2, 91.70, 14.02.28, 14.02.28, 0
+https://fin-plan.org/lk/obligations/RU000A101LJ0/, ЕврХимБ1Р8, None, 21.4, 93.60, 15.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWBP5/, ПКТ 03, None, 22.1, 85.04, 18.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074F4/, МаниКап1Р1, None, -, 99.70, 08.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105YQ9/, АЛЬЯНС 1P1, None, 15.9, 95.67, 12.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030K6/, ТелХолПБО5, None, 1.6, 98.51, 15.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105CF8/, НафттрнБО4, None, 14.6, 103.57, 15.10.25, 02.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A105RF6/, ЛТрейд 1P6, None, 3.2, 95.33, 24.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103661/, Сбер Sb27R, None, 7.1, 88.90, 15.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106CJ8/, ЛаймЗайм03, None, 7.3, 96.93, 23.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103TS0/, ТЕХЛиз 1P5, None, -, 85.04, 03.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1008J4/, Систем1P10, None, 31.2, 92.30, 23.03.29, 01.10.25, 0
+https://fin-plan.org/lk/obligations/RU000A106Y70/, АЛЬФАДОН01, None, 13.3, 101.48, 21.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101S99/, КировЗд1Р1, None, 14.5, 94.85, 03.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105DL4/, НовТехнБ1, None, 28.1, 97.90, 02.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106NT4/, ПИМ БО-02, None, 32.2, 93.40, 30.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SK4/, Роделен1P4, None, 10.0, 97.81, 05.01.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A105AX5/, ПАТРИОТ 01, None, 2.6, 100.85, 14.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1076A0/, БЭЛТИ БОП6, None, 7.0, 100.10, 12.10.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A105Q63/, УралСт1Р01, None, 7.4, 93.60, 25.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101P92/, Шевченк1Р2, None, 23.9, 97.51, 15.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105BP9/, РЕАТОРГ1Р1, None, 39.5, 98.80, 21.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106YD5/, PLAZA BO01, None, 12.2, 99.85, 23.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYWY5/, МТС 1P-06, None, 28.8, 94.62, 26.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103N19/, АПРИФП 05, None, 17.1, 92.15, 02.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX5W4/, АльфаБО-18, None, 1.8, 95.16, 05.01.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A103PE8/, ПСБ 3P-07, None, 29.5, 96.74, 10.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102T97/, Аэрфью1Р01, None, 13.7, 99.41, 28.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103KA7/, МиратФ1Р1, None, 35.9, 96.63, 15.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105RU5/, МЛФТ БО-01, None, 1.5, 103.28, 08.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1079H9/, РоялКапБ10, None, 30.1, 102.20, 24.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105GV6/, ГарИнв2P05, None, 25.1, 99.16, 18.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1017H9/, Автодор2Р5, None, 6.9, 93.69, 12.12.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A1061A2/, iПМЕДДМ2Р1, None, 38.0, 95.96, 27.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106YL8/, АГТК БО-03, None, 11.3, 100.50, 24.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A102QP4/, РЖД 1Р-21R, None, 7.1, 83.92, 11.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103C53/, РЕСОЛиБП11, None, 5.6, 96.61, 20.06.31, 03.07.24, 0
+https://fin-plan.org/lk/obligations/RU000A101SF3/, Роснфт2P10, None, 7.5, 90.38, 29.05.30, 09.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A103KJ8/, Европлн1Р3, None, 36.8, 94.15, 08.08.31, 19.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A104ZU1/, Шевченк1Р4, None, 0.0, 71.09, 23.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1056T2/, ЦР БО-02, None, 6.6, 103.96, 25.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1010B7/, ТрнфБО1P13, AAA, 15.0, 88.10, 30.10.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A105M91/, СТМ 1P3, A, 12.0, 94.49, 10.12.27, -, 11
+https://fin-plan.org/lk/obligations/RU000A102B97/, ВитаЛ 1Р02, BBB+, 22.2, 95.51, 28.10.25, 27.01.25, 9
+https://fin-plan.org/lk/obligations/RU000A0ZYU05/, РЖД 1Р-05R, AAA, 32.0, 89.08, 01.02.33, 13.02.26, 17
+https://fin-plan.org/lk/obligations/RU000A105H98/, Эфферон01, BB, 22.2, 91.02, 18.11.27, -, 5
+https://fin-plan.org/lk/obligations/RU000A107209/, СибСтекП04, BB-, 2.3, 100.72, 28.09.27, -, 4
+https://fin-plan.org/lk/obligations/RU000A103G42/, Сбер Sb29R, AAA, 34.8, 88.58, 31.07.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A105BW5/, СПМК БО-01, B-, 43.4, 101.79, 23.10.25, -, 1
+https://fin-plan.org/lk/obligations/RU000A1074N8/, ПрактЛК1Р2, A, 11.6, 101.00, 14.11.26, -, 11
+https://fin-plan.org/lk/obligations/RU000A105AW7/, ЗавдКЭС1Р3, BB-, 3.3, 108.67, 13.10.26, -, 4
+https://fin-plan.org/lk/obligations/RU000A1020K7/, ПЮДМ БО-П2, None, 103.3, 96.99, 16.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1055Y4/, ПочтаР2P04, AA+, 35.0, 86.40, 25.08.32, 06.09.27, 15
+https://fin-plan.org/lk/obligations/RU000A1026R9/, СибСтекП02, BB-, 13.7, 97.97, 09.09.25, -, 4
+https://fin-plan.org/lk/obligations/RU000A106ZY8/, РСХБ2Р09К, None, 34.2, 99.84, 07.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103CD8/, Дельта1Р01, None, 3.0, 98.57, 01.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103RJ3/, ПКБ 1Р-02, None, 6.4, 96.49, 19.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100HY9/, РЖД 1Р-16R, None, 5.4, 89.61, 25.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102AB8/, ЗавдКЭС1P2, None, 16.9, 98.67, 24.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106B51/, БДеньг-2P2, None, 11.4, 96.48, 11.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A104JF6/, ПушкПЗБО1, None, 26.9, 96.95, 09.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1034M4/, ВсИнстрБО4, None, 16.9, 98.49, 20.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105UW5/, АЛЬФАБ2Р21, None, 40.2, 95.87, 17.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106ZQ4/, ФеррумБП1, None, 8.7, 99.96, 08.09.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A100DQ4/, ИА ДОМ 9P2, None, 1.0, 93.42, 05.04.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A102MB3/, Титан-3 01, None, 3.8, 93.28, 28.07.53, -, 0
+https://fin-plan.org/lk/obligations/RU000A105Q97/, Джи-гр 2Р2, None, 9.9, 99.82, 27.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107910/, Ростел2P13, None, 20.8, 100.85, 20.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXN05/, РЖД Б01P1R, None, 13.6, 95.41, 18.05.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A101FH6/, МТС 1P-14, None, 12.1, 84.95, 11.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1058U6/, КарМани 02, None, -, 105.13, 13.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102K13/, ИАДОМ Б1P4, None, 2.2, 88.87, 28.06.51, -, 0
+https://fin-plan.org/lk/obligations/RU000A1058K7/, ТелХолБ2-2, None, 9.1, 97.73, 24.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1053W3/, ГЛОРАКС 01, None, 24.2, 95.26, 18.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1037L9/, БифТек1P1, None, 13.8, 98.39, 04.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1032D7/, Маныч01, None, 28.6, 95.92, 25.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106K27/, Медси 1P03, None, 2.0, 93.20, 28.06.38, 15.10.25, 0
+https://fin-plan.org/lk/obligations/RU000A105JP2/, ИКС5Фин2P2, None, 12.9, 94.97, 25.11.27, 03.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A103WB0/, СлавЭКО1Р1, None, 1.8, 94.80, 13.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWDN6/, РУСАЛБрБ01, None, 0.0, 73.02, 07.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107AM4/, АЛЬФАБ2Р25, None, 19.2, 102.00, 26.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUMH3/, ГПБ БО-08, None, 10.9, 97.76, 23.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103828/, ЭТС 1Р04, None, 7.5, 95.28, 05.06.25, -, 0
+https://fin-plan.org/lk/obligations/XS2396900685/, PGIL-28, None, 784.4, 84.00, 14.10.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A105M59/, Роделен1P3, None, 5.3, 99.55, 19.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105492/, ЭНИКА 1Р03, None, 24.5, 97.46, 17.08.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105U00/, ГазпромКP8, None, 41.3, 94.26, 06.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103PT6/, ОткрФКБП09, None, 27.0, 95.98, 19.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JW5E3/, ПКТ 02, None, 0.0, 75.99, 06.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1032S5/, ЛИТАНА 1P1, None, 29.2, 98.41, 01.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102S80/, АЛЬФАБ2Р10, None, 25.8, 99.40, 22.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A100XC2/, Полюс Б1P1, None, 21.3, 95.34, 01.10.29, 10.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A102GJ8/, ГПБ001P19P, None, 14.7, 100.00, 11.12.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A100FE5/, ГТЛК 1P-14, None, 14.4, 92.99, 25.05.34, 08.09.26, 0
+https://fin-plan.org/lk/obligations/RU000A104Z89/, Шевченк1Р3, None, -, 83.09, 17.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104SX0/, РЖД 1Р-24R, None, 26.0, 100.40, 30.04.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A104A39/, Капитал1Р1, None, 10.7, 91.90, 11.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1050X7/, НИКА 1Р01, None, 34.1, 96.49, 29.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102LD1/, ЧеркизБ1P4, None, 0.1, 76.86, 19.12.25, 27.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A106UK8/, МигКр 03, None, 7.8, 98.90, 22.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JQ7Z2/, РЖД-19 обл, None, 3.0, 97.40, 08.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102T63/, ЛСР БО 1Р6, None, 12.1, 92.21, 24.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1067T9/, ЭконЛиз1Р4, None, 26.5, 94.12, 12.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102ZT7/, БДеньги-02, None, 8.4, 98.91, 28.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1052E3/, ДОМ 1P-11R, None, 38.9, 97.70, 06.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101S16/, Казахст13, None, 6.1, 75.36, 16.06.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A106KY0/, Техпорт01, None, 3.5, 100.15, 08.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106R12/, ЭконЛиз1Р5, None, 28.9, 97.97, 12.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105LS2/, Реиннол1P2, None, 20.2, 102.99, 08.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103JR3/, Джи-гр 2Р1, None, 9.2, 98.59, 12.08.24, 21.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A100881/, Ростел1P5R, None, 26.9, 93.47, 21.03.29, 29.09.25, 0
+https://fin-plan.org/lk/obligations/RU000A106UA9/, СМАК БП02, None, 7.5, 99.56, 17.08.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105JN7/, ГлобалФ1P1, None, 14.2, 103.43, 15.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102VR0/, ГТЛК 2P-01, None, 7.5, 95.28, 03.03.36, 19.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A100HH4/, ГПБ001P11P, None, 4.7, 97.30, 01.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NTYA7/, ВТБ С1-713, None, 0.0, 101.00, 25.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWNB0/, РосбанкБ26, None, 0.2, 88.80, 21.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1056Q8/, РоялКапБО8, None, 17.5, 99.39, 10.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104KM0/, СЕЛЛСерв01, None, 4.0, 100.40, 06.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1014S3/, Новотр 1Р1, None, 6.5, 97.24, 27.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101SC0/, ГТЛК 1P-18, None, 10.1, 81.99, 23.05.35, 07.06.27, 0
+https://fin-plan.org/lk/obligations/RU000A1013C9/, ИСпетр1P1, None, -, 21.38, 28.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1036M9/, Магнит1P05, AAA, 10.4, 98.41, 29.05.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A1003A4/, ГТЛК 1P-13, AA-, 21.0, 87.84, 20.01.34, 03.02.27, 13
+https://fin-plan.org/lk/obligations/RU000A1008D7/, РЖД 1Р-14R, AAA, 18.2, 89.30, 04.05.29, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZV86/, ИА ДОМ 6P2, AAA, 2.4, 94.67, 28.05.48, -, 17
+https://fin-plan.org/lk/obligations/RU000A103WD6/, ПИМ БО-01, BB+, 1.3, 98.49, 16.10.24, -, 6
+https://fin-plan.org/lk/obligations/RU000A107225/, АФАНСБО-01, BBB, 1.8, 101.19, 15.10.26, -, 8
+https://fin-plan.org/lk/obligations/RU000A106R53/, Автодор5Р3, AA, 22.7, 98.00, 12.08.26, -, 14
+https://fin-plan.org/lk/obligations/RU000A104UF3/, РоялКапБО7, BB+, 22.6, 98.35, 27.05.25, -, 6
+https://fin-plan.org/lk/obligations/RU000A1010M4/, РЖД 1Р-17R, AAA, 14.2, 89.99, 03.11.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A105P07/, СолЛизБО07, B+, 1.8, 97.77, 07.12.25, -, 3
+https://fin-plan.org/lk/obligations/RU000A1064X8/, ЗАСЛОН 1Р1, None, 32.5, 94.46, 16.04.26, 06.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A100QA0/, Самолет1P6, None, 23.1, 97.64, 01.08.29, 12.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A107AZ6/, Саммит 1P2, None, 12.7, 101.09, 15.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105TP1/, Магнит4P03, None, 18.7, 93.55, 03.02.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A104TG3/, ЦР БО-01, None, 8.1, 115.67, 28.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105658/, МСБЛиз2P06, None, 3.0, 99.74, 01.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104K11/, ТрансМ БО1, None, 6.1, 98.73, 27.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1053H4/, ЛТрейд 1P5, None, 5.3, 99.97, 22.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103455/, ГрупПро1P1, None, 4.3, 98.65, 08.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105SL2/, РусГидрБП9, None, 43.6, 93.71, 28.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105QZ6/, АГТК БО-01, None, 5.0, 100.01, 09.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030N0/, ФЭС-АгроБ2, None, 0.8, 99.91, 17.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104KS7/, РКС2Р2, None, 25.5, 98.75, 18.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106RB3/, АСВ 1Р01, None, 30.7, 97.37, 14.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103S30/, ДрктЛиз1Р7, None, 7.0, 93.44, 23.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105054/, ММЦБ П01-2, None, 66.7, 97.00, 26.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1049M2/, ИнкабБО01, None, 9.6, 98.28, 25.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106HF5/, ЭЛРЕШ 1Р1, None, 4.7, 95.50, 06.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106D18/, МСБЛиз3P01, None, 4.8, 95.20, 28.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106JC8/, РоялКапБО9, None, 4.9, 95.99, 08.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1015E0/, НоваБевБП3, None, 5.4, 95.50, 03.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1028H6/, СНХТ БО-01, None, 4.6, 99.80, 27.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105EP3/, ГрупПро1P2, None, 7.4, 98.61, 25.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103DA2/, МигКр 01К, None, 1.9, 98.89, 26.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104W33/, ПочтаР2P03, None, 9.5, 87.68, 08.06.32, 16.06.28, 0
+https://fin-plan.org/lk/obligations/RU000A102H83/, РенКредБО4, None, 12.0, 93.19, 15.12.25, 22.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A104XE0/, ЛТрейд 1P4, None, 10.7, 99.75, 09.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070A3/, ОхтаГрБП03, None, 5.6, 100.30, 07.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1029F8/, ЛТрейд 1P2, None, 3.8, 98.13, 01.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1007Z2/, РЖД 1Р-13R, None, 29.7, 89.70, 19.03.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A105Y14/, КЛВЗ 1Р01, None, 15.2, 98.74, 10.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SV8/, Систем1P18, None, 20.9, 99.34, 17.02.31, 28.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A105LC6/, Ростел1P6R, None, 10.9, 93.80, 05.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102K39/, РЕСОЛизБП8, None, 14.6, 100.75, 09.12.30, 21.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A101UD4/, ЭлщитСтБП2, None, 10.0, 96.03, 23.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106C92/, Автодор4Р4, None, 13.4, 92.13, 30.05.28, 05.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A101PC6/, АЛРОСА Б07, None, 10.4, 92.39, 10.05.30, 20.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A1075R6/, РегПрод1Р4, None, 10.9, 104.85, 17.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105NE8/, ИКС5Фин2P3, None, 7.6, 95.08, 21.03.25, 21.03.25, 0
+https://fin-plan.org/lk/obligations/RU000A0JVA10/, ГТЛК БО-04, None, 17.4, 100.18, 06.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1050H0/, ЕАБР П3-01, None, 44.6, 92.30, 29.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZZ17/, НКНХ 1Р-01, None, 10.4, 93.12, 07.12.28, 16.12.25, 0
+https://fin-plan.org/lk/obligations/RU000A0UD6R1/, ВТБ С1-482, None, -, 100.00, 03.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A104WJ1/, МТС 1P-21, None, 7.4, 93.10, 22.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103DY2/, БЭЛТИ БОП4, None, 6.6, 93.59, 13.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103C04/, КруизБО-01, None, 1.1, 94.09, 11.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZCH9/, ИА ДОМ 5P2, None, 3.7, 87.99, 28.04.43, -, 0
+https://fin-plan.org/lk/obligations/RU000A101QN1/, ГазпромКP4, None, 8.9, 82.40, 25.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A103U69/, МоторТ1Р03, None, 6.4, 92.10, 29.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106KT0/, МигКр 02, None, 2.8, 95.23, 03.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065H8/, Кузина1P02, None, 0.9, 97.36, 04.04.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101RV2/, Казахст07, None, 22.3, 80.40, 15.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYDD9/, ТрнфБО1P8, None, 22.1, 94.75, 09.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106EV9/, КИФА 1P1, None, 11.1, 96.07, 22.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1034X1/, ЛТрейд 1P3, None, 3.3, 90.41, 30.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106VN0/, ТРДБ Б0-01, None, 5.9, 101.02, 27.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106X89/, РегПрод1Р3, None, 2.5, 101.50, 13.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102GC3/, БЭЛТИ БОП3, None, 5.3, 94.46, 14.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SX4/, Систем1P19, None, 11.3, 91.93, 17.02.31, 27.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZZ09/, ИА ДОМ 8P2, None, 1.2, 93.01, 28.12.44, -, 0
+https://fin-plan.org/lk/obligations/RU000A101FG8/, Ростел2P2R, None, 29.0, 84.71, 10.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105H23/, ИАДОМ 1P25, None, 4.7, 90.16, 28.10.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A103DS4/, СибурХ Б03, None, 2.7, 92.29, 01.07.31, 11.07.25, 0
+https://fin-plan.org/lk/obligations/RU000A102TA0/, Росагрл1Р2, None, 31.4, 88.50, 25.02.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105427/, БЭЛТИ БОП5, None, 2.6, 96.18, 03.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXZB2/, РЖД Б01P4R, None, 37.3, 93.28, 29.07.32, 12.08.25, 0
+https://fin-plan.org/lk/obligations/RU000A106YH6/, ГПБ003P01P, None, 38.5, 97.31, 27.09.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A100UG9/, ХКФБанкБ06, None, 9.7, 96.42, 13.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101GJ0/, Газпнф3P3R, None, 10.2, 93.28, 20.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105CL6/, СОБИЛИЗ1Р1, None, 7.9, 99.19, 16.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106ZZ5/, ФабрФавБО1, None, 7.7, 102.50, 19.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101PG7/, АЛРОСА Б03, None, 10.4, 95.19, 10.05.30, 20.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A103EZ7/, Ростел2P6R, None, 0.6, 89.01, 17.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1063Y8/, АквилонЛP2, None, 4.4, 96.26, 09.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1008W7/, СеверстБ06, None, 26.3, 98.77, 27.03.29, 04.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A1033X3/, ТрансМ БП2, None, 5.5, 99.50, 03.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103RL9/, iПетрИнжP1, None, 8.3, 96.06, 18.09.26, 25.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZBV2/, ЕвропланБ8, None, 7.7, 93.70, 20.06.28, 27.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A104WZ7/, ЭлАп БО-01, None, 11.0, 99.40, 25.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1066A1/, УралСт1Р02, None, 25.3, 93.51, 24.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106PY9/, Неолизинг1, None, 7.5, 100.11, 24.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101350/, ГПБ001P14P, AA+, 11.5, 96.37, 22.11.24, -, 15
+https://fin-plan.org/lk/obligations/RU000A104VA2/, РедСофт2P3, BB+, 24.5, 106.00, 04.12.24, -, 6
+https://fin-plan.org/lk/obligations/RU000A1038M5/, ГТЛК 1P-20, AA-, 8.6, 97.36, 28.05.36, 17.06.24, 13
+https://fin-plan.org/lk/obligations/RU000A104C78/, АРЕНЗАПРО1, BB+, 4.5, 99.00, 23.12.24, -, 6
+https://fin-plan.org/lk/obligations/RU000A106AK0/, СОБИЛИЗ1Р2, BB, 9.3, 96.90, 14.05.26, -, 5
+https://fin-plan.org/lk/obligations/RU000A106SL0/, ИСТРСЫР 02, B, 10.3, 100.00, 13.08.26, -, 2
+https://fin-plan.org/lk/obligations/RU000A1005N2/, СолЛизБО04, B+, 17.9, 99.98, 04.03.24, -, 3
+https://fin-plan.org/lk/obligations/RU000A1032J4/, Солтон Б1, None, 2.5, 99.35, 14.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065S5/, Мегафон2P3, AAA, 21.7, 95.61, 23.04.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A1005L6/, Система1P9, AA-, 44.9, 93.33, 21.02.29, 02.03.26, 13
+https://fin-plan.org/lk/obligations/RU000A100W60/, ЕвропланБ3, AA, 31.8, 96.59, 20.09.29, 01.10.24, 14
+https://fin-plan.org/lk/obligations/RU000A104W17/, ПочтаР2P02, AA+, 9.5, 91.55, 08.06.32, 19.06.26, 15
+https://fin-plan.org/lk/obligations/RU000A106DJ6/, МЛФТ БО-02, B, 4.6, 99.50, 25.05.27, -, 2
+https://fin-plan.org/lk/obligations/RU000A101RW0/, Казахст08, None, 5.9, 82.96, 19.06.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A103G83/, ТДСинтБО-1, None, -, 17.97, 23.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWK74/, ОДК 01, None, 15.3, 99.45, 10.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106JZ9/, БСК 1Р-03, None, 2.9, 94.99, 10.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101UR4/, БСК 1Р-02, None, 4.9, 92.75, 24.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1043Z7/, БинФарм1P1, None, 23.4, 100.10, 05.11.36, 25.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A106UL6/, ЭлАп БО-02, None, 19.7, 100.10, 03.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVUK8/, СистемБ1P1, None, 31.9, 96.31, 30.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUAH8/, РЖД-30 обл, None, 12.8, 94.73, 07.11.28, 15.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A106V57/, РУСАЛ 1Р4, None, 535.2, 100.50, 05.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103AT8/, Атомэнпр01, None, 6.4, 89.74, 19.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXPN8/, Ростел1P2R, None, 34.7, 99.96, 14.04.27, 21.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A104L36/, ТойотаБ1P5, None, 44.9, 96.40, 27.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYG52/, Ростел1P3R, None, 17.4, 93.58, 09.11.27, 14.11.25, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYJ91/, ФСК РС Б4, None, 11.8, 95.37, 23.10.52, -, 0
+https://fin-plan.org/lk/obligations/RU000A101PB8/, АЛРОСА Б06, None, 10.4, 94.49, 10.05.30, 20.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A106J04/, УрожайБО03, None, 5.7, 103.25, 07.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105WC3/, ВымпелК1Р1, None, 0.3, 92.60, 18.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYJT2/, ДОМРФИА 2P, None, 2.0, 97.93, 28.04.46, -, 0
+https://fin-plan.org/lk/obligations/RU000A106AU9/, УльтраБО1, None, 11.8, 97.70, 09.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101228/, МОЭК БО1P3, None, 18.6, 96.50, 07.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100VX2/, МБЭС 1P-01, None, 39.9, 99.31, 26.09.29, 06.10.25, 0
+https://fin-plan.org/lk/obligations/RU000A104693/, Систем1P23, None, 14.2, 91.59, 21.11.31, 04.03.26, 0
+https://fin-plan.org/lk/obligations/RU000A1021G3/, РВК-Ин1Р01, None, 31.3, 94.99, 06.08.30, 16.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A100T81/, ЮниМетр01, None, 2.0, 90.42, 03.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103X74/, ФабрФав1P1, None, 2.1, 98.94, 10.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103604/, ЭНИКА 1Р02, None, 12.7, 95.29, 26.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103VD8/, МСБЛиз2P05, None, 6.2, 97.02, 18.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYUY9/, ГазпромКБ3, None, 30.0, 91.60, 15.02.28, 21.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A1020W2/, СветофорП2, None, 17.0, 98.00, 07.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102QX8/, ЛайфСтр П1, None, 20.8, 99.66, 06.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106CN0/, ДОМ 1P-16R, None, 11.4, 94.99, 05.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYEB1/, ТрансФ1P04, None, 26.0, 88.49, 14.10.27, 21.04.26, 0
+https://fin-plan.org/lk/obligations/RU000A100NS9/, РЕСОЛиБП05, None, 33.5, 91.53, 28.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105NK5/, МОЭК БО1P5, None, 8.2, 92.50, 14.12.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYLC4/, Газпнф1P4R, None, 8.2, 95.53, 12.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104CE4/, РоялКапБО6, None, 12.2, 100.60, 24.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYLG5/, Роснфт2P3, None, 9.9, 93.44, 09.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070P1/, ЧистПлан01, None, 5.8, 101.20, 15.09.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A101RJ7/, МБЭС 1P-02, None, 7.1, 96.20, 03.06.30, 14.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A103H25/, ХимТэк 1Р1, None, 26.0, 96.68, 31.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JSGV0/, РЖД-32 обл, None, 4.6, 95.10, 25.06.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A106C50/, СЕЛЛСерв02, None, 8.2, 98.76, 21.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102VY6/, АТОМ БП01, None, 28.9, 89.53, 18.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101ZH4/, ПочтаР1P10, None, 28.1, 95.44, 23.07.30, 02.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXN21/, СистемБ1P6, None, 33.1, 92.93, 26.03.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106RJ6/, Озон 1Р02, None, 22.4, 99.99, 17.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103N84/, РСХБ 2Р14, None, 29.3, 99.10, 03.09.26, 12.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JWC82/, РЖД БО-07, None, 24.8, 89.91, 25.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1004K1/, ЕвропланБ5, None, 32.1, 92.60, 14.02.29, 25.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A105HJ9/, АЛЬФАБ2Р18, None, 13.7, 96.80, 29.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104362/, ВСК 1P-02R, None, 16.2, 90.60, 17.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A100VS2/, Атомстр 01, None, 30.7, 96.55, 24.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1064Y6/, СУЭК-Ф1P7R, None, 1 060.4, 94.20, 15.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106CR1/, РедСофт2P4, None, 17.3, 100.48, 05.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A104107/, АквилонЛP1, None, 25.1, 98.51, 12.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JW1P8/, ГТЛК БО-07, None, 10.2, 96.18, 16.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103N76/, ИКС5Фин2P1, None, 28.7, 97.24, 20.08.36, 09.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A106CU5/, ТрансмхПБ7, None, 12.6, 92.98, 05.06.26, 05.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A103GX7/, РСХБ 2Р10, None, 35.8, 96.98, 01.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1026H0/, ГИДРОМАШБ3, None, 39.4, 97.72, 20.09.30, 02.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A101FY1/, РСетиМР1P2, None, 26.5, 92.23, 14.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100L63/, НоваБевБП2, None, 1.6, 98.18, 10.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101CL5/, ФСК РС1Р4, None, 16.3, 77.28, 11.01.35, 22.01.30, 0
+https://fin-plan.org/lk/obligations/RU000A105YA3/, Медси 1P01, None, 10.5, 94.89, 25.02.38, 17.03.25, 0
+https://fin-plan.org/lk/obligations/RU000A1009Z8/, О'КЕЙ Б1Р2, None, 2.7, 94.66, 06.04.29, 16.04.25, 0
+https://fin-plan.org/lk/obligations/RU000A101UQ6/, ИКС5ФинP12, None, 6.6, 95.69, 12.06.35, 27.12.24, 0
+https://fin-plan.org/lk/obligations/RU000A102RT4/, ПСБ 3P-04, None, 27.9, 99.47, 14.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102WL1/, Экспоб Б03, None, 4.7, 99.29, 03.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A100TB2/, ПНППК 1P01, None, 17.1, 97.32, 28.08.29, 05.09.25, 0
+https://fin-plan.org/lk/obligations/RU000A106D59/, МБЭС 2P-01, None, 11.5, 93.50, 02.06.33, 17.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A103RY2/, ИнтЛиз1Р02, None, 3.7, 97.82, 24.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102BK7/, О'КЕЙ Б1Р4, None, 21.7, 84.87, 25.10.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A105TK2/, РСХБ2Р18, None, 18.1, 95.91, 06.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103WC8/, ПЮДМ БО-П3, None, 5.0, 99.22, 04.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103NU9/, Автодор4Р1, None, 28.8, 88.50, 08.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1038F9/, ПСБ 3P-05, None, 9.4, 97.50, 07.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SM7/, СДЭКГлБП01, None, 2.9, 92.69, 24.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1037C8/, УрожайБО02, None, 15.1, 99.46, 04.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065R7/, ИАДОМ 1P33, None, 5.1, 87.83, 28.03.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A1040V2/, ОхтаГрБП02, None, 23.6, 97.40, 12.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A100DZ5/, СовкомБОП1, None, 22.6, 99.55, 17.05.29, 28.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXQ44/, РЖД Б01P2R, None, 22.1, 90.55, 02.04.37, 21.04.26, 0
+https://fin-plan.org/lk/obligations/RU000A102028/, ЭНИКА 1Р01, None, 28.9, 97.00, 31.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ5J9/, ПочтаРБ1P5, None, 22.8, 95.93, 24.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A103414/, РедСофт2P2, None, 20.2, 99.23, 16.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065Y3/, АГТК БО-02, None, 36.2, 99.24, 22.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105MW2/, РусГидрБП8, None, 7.8, 96.97, 17.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105Y30/, ИнтЛиз1Р05, None, 13.5, 96.25, 10.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXGV0/, ПЕРЕСВ С01, None, -, 9.15, 14.02.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A104A05/, Интерскол1, None, 14.4, 99.51, 10.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030U5/, ЭконЛиз1Р3, None, 1.3, 99.36, 18.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103G91/, iПМЕДДМ1Р2, None, 46.1, 97.34, 26.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103B05/, Татнхим 02, None, 12.7, 98.79, 08.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JTU85/, РЖД-28 обл, None, 22.0, 98.65, 21.03.28, 29.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A102D46/, ИА ДОМ18P2, None, 3.9, 81.85, 28.02.51, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYHW0/, ЛевенгукБ1, None, 20.0, 99.18, 22.11.27, 29.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JWK41/, ГазпрнефБ3, None, 11.3, 98.02, 03.05.46, 03.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JUJG1/, Росбн14ИП, None, 0.4, 99.60, 27.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102JB9/, ИАДОМ Б1P2, None, 4.2, 82.24, 28.11.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYBM4/, АльфаБО-21, None, 38.3, 100.48, 13.10.32, 13.10.26, 0
+https://fin-plan.org/lk/obligations/RU000A1038D4/, ТрансмхПБ6, None, 9.9, 88.72, 05.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103F68/, РЕСОЛиБП19, None, 3.2, 98.49, 06.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103NE3/, РегПрод1Р2, None, 14.5, 92.13, 03.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102BF7/, Продкорп01, None, 29.1, 91.27, 26.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1062L7/, Росбанк3P1, None, 28.9, 94.29, 09.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101GD3/, ГТЛК 1P-16, None, 7.1, 87.62, 17.02.28, 17.02.28, 0
+https://fin-plan.org/lk/obligations/RU000A101JD7/, ИА ДОМ 5P1, None, 5.1, 83.85, 28.04.45, -, 0
+https://fin-plan.org/lk/obligations/RU000A106J61/, ПрактЛК1Р1, None, 3.9, 93.03, 07.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A100Q35/, ПР-Лиз 1P3, None, 0.9, 97.45, 07.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV219/, РоснфтБО9, None, 13.7, 96.85, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101NG2/, МТС 1P-15, None, 13.4, 87.99, 05.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A100LE3/, ЛамбумБП01, None, -, 99.26, 20.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106XJ4/, АЛЬЯНС 1P2, None, 14.5, 98.10, 17.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1004A2/, НПК ПБО-02, None, 9.5, 99.83, 15.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101DB4/, РуСол клБ, None, 21.2, 94.12, 15.02.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A103QL1/, Росагрл1Р3, None, 28.7, 88.28, 16.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102200/, ВитаЛ 1Р01, None, 17.3, 96.92, 19.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWGD0/, БашнфтБО8, None, 24.5, 98.55, 29.04.26, 07.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A102G50/, ВСК 1P-01R, None, 8.4, 88.20, 03.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1031U3/, ВЭБ1P-26, None, 20.1, 87.98, 18.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065K2/, ДОМ 1P-15R, None, 21.8, 95.41, 22.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100TT4/, БЭЛТИ БОП2, None, 2.2, 99.01, 21.08.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104925/, РСХБ2Р11, None, 9.3, 95.61, 12.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102KP7/, СМАК БП01, None, 21.4, 99.40, 02.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZNW5/, ИА ДОМ 4P2, None, 0.9, 90.65, 28.09.47, -, 0
+https://fin-plan.org/lk/obligations/RU000A101UL7/, ГЕНЕТИКБ01, None, 9.2, 99.75, 23.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101XS6/, МОЭК БО1P4, None, 1.4, 96.11, 15.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYYE3/, Ростел1P4R, None, 26.6, 99.04, 03.03.28, 13.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A105FU0/, ИнтЛиз1Р04, None, 23.4, 97.75, 11.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101EF3/, МЕТАЛИНБ04, None, 29.8, 88.05, 30.01.30, 09.02.26, 0
+https://fin-plan.org/lk/obligations/RU000A102FS1/, Систем1P16, None, 13.8, 90.20, 25.11.30, 03.06.27, 0
+https://fin-plan.org/lk/obligations/RU000A101GR3/, ОткрФКБП6, None, 34.0, 99.45, 25.02.25, 01.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A105UC7/, Титан-5 А, None, 5.6, 95.71, 26.06.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYWU3/, Система1P8, None, 35.8, 96.25, 23.02.28, 02.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A103S14/, Европлн1Р4, None, 3.3, 96.59, 25.03.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYH02/, АвАгроБ1P2, None, 23.8, 99.64, 16.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYU21/, АЛЬФА БО40, None, 24.9, 99.15, 04.03.33, 28.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A1068S9/, ЛайфСтр П2, None, 24.8, 93.36, 11.05.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWN63/, МОСТРЕСТ 7, None, -, 67.85, 07.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105666/, Сбер Sb40R, None, 16.3, 101.87, 15.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101MB5/, СовкомБОП2, None, 32.9, 99.75, 17.04.30, 29.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A103WZ9/, NexTouchB1, None, 28.4, 98.80, 22.10.24, 05.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A1073V3/, ВТБ С1-795, None, 0.0, 83.50, 27.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GD2/, РусГидБП11, None, 5.2, 96.19, 31.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JS4Z7/, ВЭБ.РФ 21, None, 37.1, 95.90, 17.02.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXP45/, ГПБ БО-16, None, 16.0, 98.03, 18.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105GW4/, ГПБ001P22P, None, 14.7, 94.17, 24.11.32, 28.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A1031K4/, ИАДОМ Б1P8, None, 9.3, 83.85, 28.04.51, -, 0
+https://fin-plan.org/lk/obligations/RU000A100CG7/, ОАЭ  БО-П3, None, -, 19.33, 22.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102QQ2/, СовкмЛ П04, None, 3.3, 99.68, 05.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWST1/, ГТЛК БО-08, None, 31.3, 93.40, 01.09.26, 07.03.25, 0
+https://fin-plan.org/lk/obligations/RU000A0JWV89/, Акрон Б1P1, None, 9.5, 80.00, 24.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105PH6/, Россети1Р7, None, 6.5, 93.50, 08.12.37, 27.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A101R09/, Росагрл1Р1, None, 10.9, 91.57, 28.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1061F1/, РСХБ2Р7, None, 3.0, 95.54, 18.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A100DG5/, ЕвропланБ6, None, 10.5, 96.27, 15.05.29, 22.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXR84/, РЖД Б01P3R, None, 17.0, 93.62, 23.04.37, 14.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A0JW0S4/, ПКТ 01, None, 5.6, 85.33, 09.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103QQ0/, НКНХ 1Р-02, AAA, 27.9, 88.19, 13.09.28, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYWB3/, АЛЬФА БО39, AA+, 28.7, 95.20, 17.03.33, 11.09.24, 15
+https://fin-plan.org/lk/obligations/RU000A107EA1/, ЕАБР П3-09, AAA, 15.4, 99.56, 13.12.28, -, 17
+https://fin-plan.org/lk/obligations/RU000A100YQ0/, Роснфт2P9, AAA, 0.8, 98.42, 11.10.29, 23.04.24, 17
+https://fin-plan.org/lk/obligations/RU000A101S08/, Казахст12, None, 6.1, 76.79, 16.06.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A1001T8/, ММЦБ П01-1, BB+, 12.1, 97.45, 12.01.29, -, 6
+https://fin-plan.org/lk/obligations/RU000A101PF9/, АЛРОСА Б04, AAA, 10.4, 96.00, 10.05.30, 20.05.25, 17
+https://fin-plan.org/lk/obligations/RU000A100YY4/, ИА ДОМ11P2, A-, 5.0, 86.65, 28.01.50, -, 10
+https://fin-plan.org/lk/obligations/RU000A101541/, Ростел2P1R, AA+, 10.0, 91.25, 27.11.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A100DC4/, МСБЛиз2Р02, BBB-, 0.6, 100.00, 30.04.24, -, 7
+https://fin-plan.org/lk/obligations/RU000A1031Y5/, ВЭБ1P-28, AAA, 17.9, 89.89, 29.04.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A101WR0/, ОГК-2 2Р01, None, 3.3, 96.41, 08.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A100Q50/, Самолет1P5, None, 32.3, 101.65, 31.07.29, 08.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXQ51/, АВТОБФ БП1, None, 25.8, 99.23, 19.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102QY6/, ТФН 01, None, 6.3, 99.84, 06.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JRJL7/, ЗСД 02, None, 17.7, 117.89, 13.05.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A102VW0/, ЭлемЛиз1P3, None, 1.0, 99.01, 19.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVWB3/, РСХБ БО9, None, 0.7, 98.87, 17.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV375/, ГТЛК БО-03, None, 11.7, 97.58, 10.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105VR3/, БанкДОМ1P1, None, 40.7, 96.50, 18.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104AM1/, ИАДОМ 1P17, None, 3.2, 83.51, 28.11.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A104CL9/, РЕСОЛиБП21, None, 1.1, 98.63, 13.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JT6B2/, ВЭБ.РФ 19, None, 22.3, 98.47, 23.09.32, 08.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYDH0/, ФСК РС Б3, None, 2.2, 95.96, 06.09.52, 18.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A104B04/, Петснаб1Р1, None, 2.9, 97.05, 26.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103NJ2/, Реиннол1P1, None, 9.5, 97.44, 05.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1060X6/, Озон 1Р01, None, 9.3, 100.43, 25.03.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A101UW4/, Соц.разв02, None, 3.6, 103.95, 08.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX3M0/, ДОМРФИА 1P, None, -, 95.07, 28.12.39, -, 0
+https://fin-plan.org/lk/obligations/RU000A101DF5/, РСетиЛЭБО4, None, 40.8, 100.68, 29.01.25, 29.01.25, 0
+https://fin-plan.org/lk/obligations/RU000A0JV1X3/, РоснфтБО3, None, 13.7, 96.59, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107GM1/, ИАДОМ 1P41, None, 6.0, 88.00, 28.09.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A102SN5/, МСБЛиз2P04, None, 0.1, 99.91, 10.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1047S3/, ПКБ 1Р-03, None, 12.1, 98.07, 05.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105M83/, ВЭБ1P-35, None, 10.2, 98.53, 11.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1024W4/, ЧеркизБ1P3, None, 6.5, 99.28, 15.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102DB2/, ГПБ001P18P, None, 10.3, 97.34, 20.11.30, 23.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A1007H0/, Славнеф1Р2, None, 7.9, 94.99, 15.03.29, 24.03.26, 0
+https://fin-plan.org/lk/obligations/RU000A101T64/, Славнеф1Р1, None, 6.9, 90.00, 04.06.30, 16.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A1025H2/, ВБРР 1P-05, None, 7.7, 99.29, 18.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXRD5/, ПочтаРБ1P2, None, 13.3, 97.71, 11.05.27, 17.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JU0N7/, ОткрФКББ02, None, 0.0, 78.01, 24.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVW71/, РЖД БО-02, None, 34.9, 102.59, 16.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYJR6/, Совком БО5, None, 19.6, 103.59, 25.11.27, 04.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JVUB7/, ПропфинБО1, None, 18.9, 103.69, 27.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1035Y6/, ОткрФКБП08, None, 10.2, 98.19, 04.06.26, 11.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JWCM0/, ТМК БО-5, None, 29.4, 97.23, 01.04.26, 08.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JWGV2/, ПочтаРосБ2, None, 23.3, 97.14, 07.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105GU8/, Автодор4Р2, None, 16.1, 96.78, 16.11.27, 22.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JWTL6/, ПочтаРосБ3, None, 42.7, 97.94, 10.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWTN2/, Ростел1P1R, None, 26.0, 95.77, 10.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102US0/, ТАЛАНФБ1P2, None, 3.5, 99.37, 13.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1056S4/, ФСК РС Б5, None, 7.2, 96.97, 10.08.57, 25.09.26, 0
+https://fin-plan.org/lk/obligations/RU000A104CF1/, СолЛиз01, None, 7.5, 99.00, 22.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105AS5/, АвАгроБ1P3, None, 2.4, 98.67, 04.10.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JSQ58/, ФСК РС-22, None, 45.1, 97.67, 21.07.27, 31.07.24, 0
+https://fin-plan.org/lk/obligations/RU000A101PD4/, АЛРОСА Б05, None, 10.4, 96.00, 10.05.30, 20.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A105HN1/, АФБАНК1Р10, None, 15.4, 93.49, 01.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUU90/, АльфаБО-13, None, 33.4, 101.78, 30.08.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWHU2/, РЖД БО-17, None, 17.8, 102.21, 26.04.41, 14.05.31, 0
+https://fin-plan.org/lk/obligations/RU000A0JWN89/, МОСТРЕСТ 8, None, 0.1, 67.90, 29.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1018C8/, ТрансмхПБ4, None, 6.7, 94.20, 16.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYUW3/, ГазпромКБ2, None, 30.0, 94.18, 15.02.28, 21.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A1018M7/, СОПФ ФПФ 1, None, 1.3, 87.64, 25.12.26, 25.12.26, 0
+https://fin-plan.org/lk/obligations/RU000A105WK6/, ВымпелК1Р4, None, 0.2, 94.15, 16.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A103N43/, ИАДОМ Б1P9, None, 7.2, 86.13, 28.08.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV3Q3/, ВТБ БО-30, None, 12.5, 101.56, 13.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101SD8/, ГТЛК 1P-19, None, 10.3, 80.03, 23.05.35, 05.06.28, 0
+https://fin-plan.org/lk/obligations/RU000A0JWYQ5/, СистемБ1P4, None, 29.6, 99.63, 30.10.26, 07.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ9R4/, РЖД 1Р-07R, None, 9.2, 97.50, 26.05.33, 11.06.24, 0
+https://fin-plan.org/lk/obligations/RU000A100Q92/, ЮАИЗ 1-002, None, 21.3, 97.44, 13.08.24, 13.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A101DE8/, РСетиЛЭБО3, None, 40.8, 97.48, 29.01.25, 29.01.25, 0
+https://fin-plan.org/lk/obligations/RU000A100KY3/, Роснфт2P8, None, 3.1, 97.05, 02.07.29, 11.07.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXTY7/, ЧТПЗ 1P4, None, 11.7, 94.89, 08.06.27, 15.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A0JVUP7/, ВымпелКБО3, None, 29.6, 94.09, 03.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ5H3/, ПочтаРБ1P4, None, 22.8, 92.00, 24.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JS4K9/, ЗСД 04, None, 42.3, 112.00, 06.02.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A106VQ3/, АЛЬФАБ1Р5, None, 0.0, 75.00, 07.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYU54/, Сферфин1P1, None, 34.9, 99.91, 02.02.33, 19.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYC31/, АвАгроБ1P1, None, 8.1, 98.25, 23.09.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A100VG7/, СУЭК-Ф1P3R, None, 6.7, 97.49, 13.09.29, 26.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A103125/, ИАДОМ Б1P7, AAA, 2.3, 86.49, 28.06.49, -, 17
+https://fin-plan.org/lk/obligations/RU000A105B03/, ИнфрОблP3, AAA, 18.4, 95.58, 15.11.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A100ZB9/, ИА ДОМ10P2, AAA, -, 89.23, 28.09.49, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZ4P9/, РЖД 1Р-06R, AAA, 25.4, 95.43, 04.04.33, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYUV5/, ГазпромКБ1, AAA, 30.0, 93.21, 15.02.28, 21.02.25, 17
+https://fin-plan.org/lk/obligations/RU000A105NB4/, ТГК-1БО1P1, AA+, 8.1, 93.32, 16.12.27, -, 15
+https://fin-plan.org/lk/obligations/RU000A0ZYLK7/, ВЦЗ 1P1R, None, 0.8, 88.79, 10.12.27, 20.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A1006B5/, МясничБОП3, None, -, 12.65, 17.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWYJ0/, Самолет 01, A+, 38.8, 106.32, 30.10.26, 07.02.24, 12
+https://fin-plan.org/lk/obligations/RU000A0JUW31/, РСХБ БО13, AA, 7.2, 101.50, 27.09.24, -, 14
+https://fin-plan.org/lk/obligations/RU000A1009L8/, РЖД 1Р-15R, AAA, 2.9, 105.08, 07.04.27, -, 17
+https://fin-plan.org/lk/obligations/RU000A1055Q0/, ДОМ 1P-12R, AAA, 34.0, 101.00, 01.09.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A106JX4/, ЕАБР П3-08, AAA, 4.7, 100.99, 07.07.28, -, 17
+https://fin-plan.org/lk/obligations/RU000A101DA6/, РуСол клА, A+, 14.8, 95.59, 15.02.31, -, 12
+https://fin-plan.org/lk/obligations/RU000A0JUAG0/, РСГ-ФинБ01, BBB+, 29.3, 99.95, 11.11.25, 16.05.24, 9
+https://fin-plan.org/lk/obligations/RU000A104YR0/, МОСМСП2 03, BBB, 7.1, 101.72, 26.05.33, -, 8
+https://fin-plan.org/lk/obligations/RU000A0JXK99/, ТрансФ1P02, A-, 34.2, 99.22, 22.02.27, 29.02.24, 10
+https://fin-plan.org/lk/obligations/RU000A0JXRV7/, АльфаБО-20, AA+, 15.0, 98.10, 11.05.32, -, 15
+https://fin-plan.org/lk/obligations/RU000A0JX2F6/, РосбанкБ11, AAA, 7.7, 98.41, 20.12.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JX1S1/, РЖД-41 обл, None, 11.2, 96.47, 27.11.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUQ39/, ГПБ БО-09, None, 4.0, 96.40, 27.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV9D8/, ВЭБлизБ06, None, 33.2, 99.92, 18.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWVL2/, ЕвропланБ7, None, 26.8, 96.20, 29.09.26, 04.10.24, 0
+https://fin-plan.org/lk/obligations/RU000A100ET6/, ДОМ 1P-6R, None, 12.6, 96.08, 12.05.39, 03.12.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYX69/, ФПК 1P-03, None, 28.6, 95.71, 23.02.28, 02.09.24, 0
+https://fin-plan.org/lk/obligations/RU000A100ZD5/, РосcетУрБ4, None, 21.5, 95.29, 17.10.29, 27.10.25, 0
+https://fin-plan.org/lk/obligations/RU000A103PC2/, АВТОБФ БП3, None, 36.2, 93.83, 08.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1037E4/, СИЛ 1P03, None, 3.0, 96.75, 17.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103YK7/, ИАДОМ 1P12, None, 5.3, 79.75, 28.08.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYL89/, ДОМРФИА 04, None, -, 98.05, 28.04.42, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVM32/, ПЕРЕСВЕТБ3, None, 34.4, 25.01, 21.06.35, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVUS1/, РЕСОЛизБ03, None, 32.6, 107.79, 03.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYLX0/, ДОМРФИА 03, None, -, 96.67, 28.10.37, -, 0
+https://fin-plan.org/lk/obligations/RU000A104TD0/, Ростел2P7R, None, 23.5, 103.55, 08.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX2R1/, ДОМ.РФ Б-5, None, 11.5, 102.23, 22.12.49, 19.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A105UB9/, ВЭБ1P-К418, None, 83.2, 102.14, 13.02.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NX2N4/, ВТБ С1-733, None, 0.0, 101.00, 19.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1064L3/, ЕАБР П3-07, None, 40.4, 100.99, 20.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A101780/, РСЭКСМБ2Р1, None, 14.9, 100.00, 06.12.29, 17.06.26, 0
+https://fin-plan.org/lk/obligations/RU000A106K35/, АВТОБФ БП4, None, 24.7, 99.31, 18.07.28, 25.07.25, 0
+https://fin-plan.org/lk/obligations/RU000A106144/, БалтЛизБП7, None, 35.0, 98.11, 26.03.26, 26.03.26, 0
+https://fin-plan.org/lk/obligations/RU000A1018T2/, ИА ДОМ13P2, None, -, 90.73, 07.05.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A101MG4/, РоссетБ1Р2, None, 15.7, 96.69, 24.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JS934/, ЕАБР11, None, 46.3, 96.00, 24.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYV04/, ГазпромКБ4, None, 30.0, 93.50, 15.02.28, 21.02.25, 0
+https://fin-plan.org/lk/obligations/RU000A105559/, ФСК РС1Р6, None, 12.9, 90.38, 18.08.32, 31.08.26, 0
+https://fin-plan.org/lk/obligations/RU000A102HU3/, iУОМЗ Б-П2, None, 0.1, 82.95, 04.12.30, 17.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A102L53/, ИАДОМ Б1P6, None, -, 86.45, 28.05.51, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUW23/, Росбн15ИП, None, 0.7, 99.60, 10.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104B79/, ИАДОМ 1P16, None, 3.5, 87.72, 28.11.31, -, 0
+https://fin-plan.org/lk/obligations/KG000A3LSC78/, Кыргыз. 01, None, 1.2, 102.00, 25.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JQ5C5/, НПФ 01, None, 736.0, 06.05.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JRJB8/, ЗСД 01, None, 17.7, 109.82, 13.05.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JS4J1/, ЗСД 03, None, 42.3, 06.02.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JS4L7/, ЗСД 05, None, 42.3, 116.00, 06.02.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JT7T2/, ФСК РС-21, None, 20.9, 06.10.27, 17.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JTW83/, ДОМ.РФ25об, None, 7.4, 01.10.26, 03.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JTZF1/, ДОМ.РФ26об, None, 32.1, 01.11.29, 05.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JUKX4/, ДОМ.РФ30об, None, 15.0, 101.60, 01.03.33, 05.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JUL67/, РосбнБСО12, None, 0.1, 30.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUL91/, РосбнБСО13, None, 0.1, 30.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JULA0/, РосбнБСО14, None, 0.1, 30.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JULC6/, РосбнБСО15, None, 0.0, 30.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUPW5/, ЗенитБО-13, None, 0.1, 100.24, 13.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUQ96/, ТрансФБО29, None, 8.2, 17.06.24, 25.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A0JUR04/, ТрансФБО30, None, 4.0, 05.07.24, 09.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JUT85/, ПЕРЕСВЕТБ2, None, 33.8, 38.38, 04.08.34, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUV81/, Росбн13ИП, None, 21.4, 01.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUW72/, РСХБ БО14, None, 6.3, 99.40, 30.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JUZZ7/, ТрансФБО37, None, 18.2, 100.13, 11.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV0U1/, АльфаБО-15, None, 15.0, 102.22, 13.11.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV1W5/, РоснфтБО2, None, 13.7, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV1Y1/, РоснфтБО4, None, 13.7, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV201/, РоснфтБО8, None, 13.7, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV227/, РоснфтБО14, None, 13.7, 100.00, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV235/, РоснфтБО10, None, 13.7, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV243/, РоснфтБО11, None, 13.7, 100.00, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV250/, РоснфтБО12, None, 13.7, 100.00, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV268/, РоснфтБО13, None, 13.7, 100.01, 28.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV3R1/, РСХБ БО15, None, 9.0, 98.39, 13.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV4R9/, ДОМ.РФ31об, None, 40.0, 01.02.34, 05.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JV755/, АИЖК14-2А3, None, 2.5, 13.06.47, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV805/, РСХБ БО8, None, 18.9, 29.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV8D0/, ВЭБлизБ04, None, 0.5, 93.80, 31.01.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV8G3/, ВЭБлизБ05, None, 0.5, 85.21, 04.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV987/, РСХБ БО17, AA, 17.8, 13.02.25, -, 14
+https://fin-plan.org/lk/obligations/RU000A0JV9H9/, ВЭБлизБ07, None, 32.7, 94.10, 20.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JV9Q0/, ТрансФБО31, A-, 33.8, 26.02.25, 06.03.24, 10
+https://fin-plan.org/lk/obligations/RU000A0JVA77/, Солид БО-2, BB-, 35.4, 97.17, 07.03.25, -, 4
+https://fin-plan.org/lk/obligations/RU000A0JVBX1/, ЗенитБО-09, A-, 0.3, 101.23, 27.03.25, -, 10
+https://fin-plan.org/lk/obligations/RU000A0JVD25/, РусГидро09, AAA, 0.0, 85.73, 15.04.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVE65/, Финанс-М 1, None, 0.1, 61.03, 12.06.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JVEQ9/, БашнфтБО3, AAA, 32.0, 09.05.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVFC6/, РостелБО-1, AA+, 12.7, 95.95, 16.05.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A0JVFD4/, БашнфтБО4, AAA, 27.6, 19.05.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVHH1/, ТрансФБО39, A-, 11.0, 92.32, 04.06.25, -, 10
+https://fin-plan.org/lk/obligations/RU000A0JVLM3/, РСетиЛЭБО5, AAA, 4.9, 09.07.25, 15.01.24, 17
+https://fin-plan.org/lk/obligations/RU000A0JVNB2/, РосбанкБ25, AAA, 4.9, 28.07.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVP39/, КАМАЗ 12, AA-, 55.1, 18.07.30, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JVPS1/, ТрансФБО40, A-, 41.9, 11.08.25, -, 10
+https://fin-plan.org/lk/obligations/RU000A0JVRL2/, ПЕРЕСВ БП1, BBB-, 32.5, 15.08.35, -, 7
+https://fin-plan.org/lk/obligations/RU000A0JVS36/, ТрансФБО41, A-, 32.1, 03.09.25, 14.03.24, 10
+https://fin-plan.org/lk/obligations/RU000A0JVUN2/, ВымпелКБО2, AA-, 29.6, 03.10.25, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JVUY9/, РосбанкБО8, AAA, 2.6, 20.10.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVVL4/, ПЕРЕСВ БП2, BBB-, 34.4, 30.99, 28.09.35, -, 7
+https://fin-plan.org/lk/obligations/RU000A0JVWA5/, РосбанкБ19, AAA, 2.3, 30.10.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JVXS5/, РЕСОЛизБ04, A+, 31.1, 114.00, 30.10.25, -, 12
+https://fin-plan.org/lk/obligations/RU000A0JVXZ0/, СистемБ1P2, AA-, 16.4, 31.10.25, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JVYG8/, РОСЭКСИМБ1, AA, 17.6, 100.65, 11.11.25, 17.05.24, 14
+https://fin-plan.org/lk/obligations/RU000A0JVZB6/, ДелоПортс1, AA-, 0.0, 99.00, 14.11.25, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JVZK7/, РСКуб1P01, None, 16.9, 21.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JW126/, КАМАЗ БО13, AA-, 11.1, 05.12.30, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JW3A6/, ВертолетБ1, None, 1.3, 15.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JW6P7/, ВЭБ ПБО1Р1, AAA, 106.8, 17.02.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JWB59/, Держава 03, BBB-, 53.0, 122.01, 29.02.36, -, 7
+https://fin-plan.org/lk/obligations/RU000A0JWD57/, РЖД БО-05, AAA, 27.5, 03.04.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JWDB1/, ОДК 03, A+, 12.0, 26.06.24, -, 12
+https://fin-plan.org/lk/obligations/RU000A0JWF30/, ИАМлтор1А4, None, 0.3, 17.11.45, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JWGS8/, РосбанкБ20, AAA, 1.8, 76.45, 18.05.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JWH87/, БашнфтБО2, AAA, 30.3, 12.05.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JWJX2/, РСетиМРБ5, AAA, 12.7, 26.05.26, 30.05.24, 17
+https://fin-plan.org/lk/obligations/RU000A0JWLU4/, РЖД-42 обл, AAA, 9.0, 22.05.46, 18.06.26, 17
+https://fin-plan.org/lk/obligations/RU000A0JWM15/, ПЕРЕСВ БП5, BBB-, 33.5, 25.00, 04.06.36, -, 7
+https://fin-plan.org/lk/obligations/RU000A0JWRV9/, МТС БО-02, AAA, 25.7, 87.62, 15.08.31, 26.02.26, 17
+https://fin-plan.org/lk/obligations/RU000A0JWU23/, ТКК кл.Б, A+, 33.9, 20.09.46, -, 12
+https://fin-plan.org/lk/obligations/RU000A0JWU31/, ТКК кл. А1, AA-, 33.3, 23.09.33, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JWUB5/, РосбнБО12, AAA, 3.2, 76.99, 29.09.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JWVT5/, РЕСОЛизБ05, A+, 24.3, 97.57, 02.10.26, -, 12
+https://fin-plan.org/lk/obligations/RU000A0JWWM8/, ТрансФ1P01, A-, 23.5, 129.00, 09.10.26, 17.04.24, 10
+https://fin-plan.org/lk/obligations/RU000A0JWX04/, БашнфтБО9, AAA, 0.0, 15.10.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JX090/, ФСК РС Б2, AAA, 14.4, 17.10.51, 23.11.27, 17
+https://fin-plan.org/lk/obligations/RU000A0JX132/, Роснфт1P1, AAA, 10.4, 101.01, 25.11.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A0JX199/, ГТЛК 1P-02, AA-, 7.3, 98.79, 24.11.31, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JX1C5/, КАМАЗ БО14, AA-, 13.3, 24.11.31, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JX2B5/, КАМАЗ БО15, AA-, 10.8, 02.12.31, -, 13
+https://fin-plan.org/lk/obligations/RU000A0JX2D1/, РосбанкБ12, None, 7.7, 99.90, 20.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX2L4/, КРАУС Б1P1, None, 10.7, 10.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX2P5/, БашнфБ1P1R, None, 10.2, 12.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX2Q3/, БашнфтБО10, None, 10.2, 10.12.26, 17.12.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JX355/, Роснфт1P2, None, 7.3, 97.96, 11.12.26, 20.12.23, 0
+https://fin-plan.org/lk/obligations/RU000A0JX413/, Роснфт1P3, None, 8.3, 17.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JX9X4/, БашнфБ1P3R, None, -, 22.01.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXFY6/, ГазпромКБ6, None, 40.5, 101.00, 03.02.27, 12.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXJK7/, РЖД БО-11, None, 37.7, 04.02.32, 15.02.27, 0
+https://fin-plan.org/lk/obligations/RU000A0JXLU2/, Локосерв 1, None, 2.9, 20.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXMP0/, ПочтаРосБ4, None, 21.2, 99.50, 22.03.27, 28.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXPK4/, ТранснфБО7, None, 23.0, 14.04.27, 19.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A0JXR68/, Роснфт1P5, None, 17.4, 08.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXRM6/, ДОМРФИА 01, None, -, 28.09.49, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXSS1/, Акрон Б1P2, None, 7.5, 85.59, 25.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXVB1/, ТрансФ1P03, None, 6.0, 28.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0JXYL4/, Газпнф1P2R, None, 39.3, 30.07.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NNHL2/, ВТБ С1-252, None, -, 15.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NR755/, ВТБ С1-563, None, -, 98.52, 22.01.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NRCD1/, ВТБ С1-627, None, 0.0, 98.00, 24.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NTYB5/, ВТБ С1-714, None, 0.0, 15.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NX415/, ВЭБ1P-К440, None, 32.2, 31.10.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NX423/, ВЭБ1P-К441, None, 12.3, 20.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A0NX4D1/, ВЭБ1P-К453, None, 4.6, 01.02.24, 01.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0UD6J8/, ВТБ С1-475, None, -, 93.99, 07.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A0UD6S9/, ВТБ С1-483, None, -, 91.99, 26.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYBA9/, ТКК кл. А2, None, 22.4, 31.12.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYF20/, ДОМ.РФ Б-6, None, 17.9, 07.11.50, 07.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYF38/, ДОМ.РФ Б-7, None, 32.1, 103.00, 07.11.50, 02.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYFM5/, ДОМ.РФ Б-8, None, 16.8, 100.00, 13.11.50, 08.02.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYFN3/, ДОМ.РФ Б10, None, 25.8, 13.11.50, 07.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYFS2/, ТрансФ1P05, None, 19.5, 99.00, 03.11.27, 11.11.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYGG5/, ТКК кл. А4, AA-, 7.3, 31.12.33, -, 13
+https://fin-plan.org/lk/obligations/RU000A0ZYJH7/, Роснфт2P1, AAA, 10.4, 99.50, 24.11.27, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYJJ3/, Роснфт2P2, AAA, 10.4, 100.01, 24.11.27, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYLQ4/, Газпнф1P5R, AAA, 7.4, 97.95, 16.12.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYLU6/, ДОМ.РФ1P1R, AAA, 8.0, 99.10, 13.12.27, 21.03.24, 17
+https://fin-plan.org/lk/obligations/RU000A0ZYM54/, ЦППК П1Б1, BBB+, 6.8, 15.12.27, -, 9
+https://fin-plan.org/lk/obligations/RU000A0ZYMM1/, ВертолетБ4, None, 7.7, 16.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYMN9/, ВертолетБ3, None, 7.7, 16.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYQU5/, ДОМ.РФ1P2R, AAA, 42.4, 95.90, 21.01.28, 29.01.25, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZ1N0/, ДОМ 1P-3R, AAA, 28.2, 99.50, 24.03.28, 02.10.24, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZ7C0/, ДОМ 1P-4R, AAA, 17.3, 100.32, 10.05.28, 17.06.24, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZDB0/, ЕАБР 1Р-01, None, 1.4, 98.56, 11.07.28, 17.01.25, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZER4/, ГазпромБО7, AAA, -, 12.07.33, 29.07.25, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZES2/, ГазпромБ22, AAA, -, 92.90, 23.06.48, 29.07.25, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZET0/, ГазпромБ23, AAA, -, 92.49, 23.06.48, 29.07.25, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZNL8/, Сферфин1P2, None, 22.0, 100.00, 05.05.33, 21.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZS73/, Сферфин1P3, None, 22.0, 100.00, 05.05.33, 21.05.24, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZTK7/, ТКХ БО-П02, A, 19.3, 02.11.28, 15.05.24, 11
+https://fin-plan.org/lk/obligations/RU000A0ZZV11/, ГТЛК 1P-12, AA-, 16.5, 87.29, 04.11.33, 18.11.26, 13
+https://fin-plan.org/lk/obligations/RU000A0ZZVE6/, RUS-25 EUR, None, 37 176.8, 99.20, 04.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZVQ0/, РСХБ БО-7Р, AA, 17.6, 22.11.38, -, 14
+https://fin-plan.org/lk/obligations/RU000A0ZZXD4/, ИНГРАД1P2, BBB+, 23.7, 28.11.28, 22.12.23, 9
+https://fin-plan.org/lk/obligations/RU000A0ZZXS2/, СберБ Б50R, AAA, 11.1, 07.03.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZZ58/, ИА ДОМ 7P2, AAA, -, 91.70, 28.06.48, -, 17
+https://fin-plan.org/lk/obligations/RU000A0ZZZY5/, РОССИУМ1P2, BBB, 15.4, 13.12.28, 25.12.23, 8
+https://fin-plan.org/lk/obligations/RU000A1001L5/, ЮАИЗ 1-001, None, -, 100.07, 22.01.24, 22.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A1001V4/, ВЭБ 1P-13, None, -, 19.01.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1003R8/, ГПБ 1P-06P, AA+, 39.9, 14.02.24, -, 15
+https://fin-plan.org/lk/obligations/RU000A1003W8/, ВЭБ 1P-14, AAA, 40.1, 09.02.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A1004L9/, ПравоурмБ1, None, 29.9, 31.03.28, 03.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A1004W6/, ДОМ 1P-5R, AAA, 34.3, 99.70, 16.02.29, 28.02.24, 17
+https://fin-plan.org/lk/obligations/RU000A1005H4/, МОЭК БО1P1, AAA, 32.8, 97.84, 26.02.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A100691/, ВБРР 1P-03, AA, 10.5, 08.03.24, -, 14
+https://fin-plan.org/lk/obligations/RU000A1006H2/, Мегафон2P1, AAA, 32.4, 11.03.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A100790/, ТРИНФ Х Б1, None, 34.0, 99.09, 20.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1007Q1/, АВНГРДБ1P2, BB+, 0.0, 100.00, 28.02.29, -, 6
+https://fin-plan.org/lk/obligations/RU000A1008L0/, СеверстБ07, AA.esg, 27.3, 23.03.29, 31.03.26, 0
+https://fin-plan.org/lk/obligations/RU000A1008Q9/, Роснфт2P7, AAA, 5.7, 23.03.29, 03.04.24, 17
+https://fin-plan.org/lk/obligations/RU000A1008Y3/, ПочтаРБ1P7, AA+, 28.9, 94.00, 27.03.29, -, 15
+https://fin-plan.org/lk/obligations/RU000A1009A1/, Мегафон2P2, AAA, 25.6, 06.04.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A100AN7/, МОЭК БО1P2, AAA, 24.7, 97.38, 16.04.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A100B73/, МЕТАЛИНБ09, AAA, 22.1, 16.04.29, 23.04.26, 17
+https://fin-plan.org/lk/obligations/RU000A100EV2/, iУОМЗ Б-П1, A-, 1.5, 96.08, 24.05.29, 04.06.24, 10
+https://fin-plan.org/lk/obligations/RU000A100JB3/, ГПБ001P12P, AA+, 3.8, 05.01.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A100L55/, МТС 1P-11, AAA, 2.6, 08.07.26, -, 17
+https://fin-plan.org/lk/obligations/RU000A100PS4/, РСГ-ФинБ09, BBB+, 54.3, 102.01, 08.08.24, 13.02.24, 9
+https://fin-plan.org/lk/obligations/RU000A100SZ3/, ПочтаРБ1P6, AA+, 35.5, 91.30, 23.08.29, -, 15
+https://fin-plan.org/lk/obligations/RU000A100UT2/, ПочтаРБ1P8, AA+, 32.5, 94.43, 11.09.29, -, 15
+https://fin-plan.org/lk/obligations/RU000A100YF3/, МЕТАЛИНБ03, AAA, 18.8, 91.03, 10.10.29, 21.04.25, 17
+https://fin-plan.org/lk/obligations/RU000A100ZF0/, РосcетУрБ3, AA+, 21.5, 99.98, 17.10.29, 27.10.25, 15
+https://fin-plan.org/lk/obligations/RU000A1012B3/, ФПК 1P-07, AA+, 13.2, 89.65, 05.11.29, 13.11.25, 15
+https://fin-plan.org/lk/obligations/RU000A1013U1/, Славнеф1Р3, AA, 14.0, 98.08, 15.11.29, 25.11.25, 14
+https://fin-plan.org/lk/obligations/RU000A1014J2/, ВТБ Т2-3, AAA, 126 575.3, 81.00, 21.05.30, -, 17
+https://fin-plan.org/lk/obligations/RU000A101590/, ДОМ 1P-7R, AAA, 12.0, 100.11, 11.11.39, 05.06.24, 17
+https://fin-plan.org/lk/obligations/RU000A1016B4/, ИА ДОМ12P2, AAA, -, 28.07.49, -, 17
+https://fin-plan.org/lk/obligations/RU000A1019A0/, ИА ДОМ 4P1, None, 2.5, 28.05.40, -, 0
+https://fin-plan.org/lk/obligations/RU000A101C89/, Сбер Sb15R, AAA, -, 99.94, 22.01.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A101CJ9/, СФО СБ 01, None, -, 92.20, 09.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101D96/, РуСол клВ, None, 27.4, 15.02.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A101EQ0/, ГПБ Т2-02Е, None, 309 611.5, 24.05.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A101H92/, Промсвб-15, None, 36 986.3, 27.03.40, -, 0
+https://fin-plan.org/lk/obligations/RU000A101J33/, Промсвб-16, None, 28 767.1, 29.09.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A101L96/, ЕврХимБ1Р7, None, 23.1, 10.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101LS1/, РЖД 1Р-19R, None, 19.7, 15.04.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101LX1/, ФСК РС1Р5, None, 15.9, 91.01, 11.04.35, 28.04.25, 0
+https://fin-plan.org/lk/obligations/RU000A101NH0/, МТС 1P-16, None, 13.4, 06.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101NQ1/, ВБРР 1P-04, None, 17.5, 93.57, 09.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101PK9/, ЕАБР 1P-07, None, 9.7, 97.99, 23.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A101R90/, МЕТАЛИНБ10, None, 8.3, 88.40, 23.05.30, 03.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A101T56/, РСЭКСМБ2Р2, None, 11.1, 93.98, 04.06.30, 16.06.25, 0
+https://fin-plan.org/lk/obligations/RU000A101TD6/, ИА ДОМ15P2, None, 2.8, 83.70, 28.05.49, -, 0
+https://fin-plan.org/lk/obligations/RU000A101U95/, ИА ДОМ14P2, None, 3.4, 28.05.47, -, 0
+https://fin-plan.org/lk/obligations/RU000A101UE2/, РСЭКСМБ2Р3, None, 5.1, 80.09, 17.06.30, 24.06.27, 0
+https://fin-plan.org/lk/obligations/RU000A101UU8/, Соц.разв01, None, 2.2, 08.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A101WE8/, ВЭБ1P-20, None, 12.1, 11.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A101X01/, ИА ДОМ16P2, None, -, 28.07.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A101ZU7/, ИА Абс5 01, None, 2.1, 12.12.52, -, 0
+https://fin-plan.org/lk/obligations/RU000A102879/, ВТБСУБТ2-1, None, 214 465.8, 65.00, 02.04.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A1028G8/, Ростел2P5R, None, 17.8, 08.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1028T1/, ФСК РС1Р2, None, 1.1, 02.10.35, 15.10.27, 0
+https://fin-plan.org/lk/obligations/RU000A1029A9/, Росморп1Р1, None, 7.8, 93.79, 15.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102AP8/, ИА ДОМ17P2, None, 3.4, 28.11.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A102CK5/, RUS-27 EUR, None, 18 704.3, 86.00, 20.11.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A102CL3/, RUS-32 EUR, None, 30 757.5, 73.50, 20.11.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A102E52/, ПочтаРБ1P9, None, 11.0, 13.11.30, 22.11.27, 0
+https://fin-plan.org/lk/obligations/RU000A102EE4/, Роснфт3P02, None, 11.5, 100.00, 14.11.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A102EF1/, Роснфт3P01, None, 11.5, 99.50, 14.11.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A102FQ5/, Сбер Sb20R, None, 16.2, 13.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102GD1/, ИАДОМ Б1P3, None, 1.6, 84.15, 28.12.49, -, 0
+https://fin-plan.org/lk/obligations/RU000A102GV3/, ИАДОМ Б1P1, None, 7.0, 28.10.45, -, 0
+https://fin-plan.org/lk/obligations/RU000A102HA5/, МСПБанкС01, None, 95 479.5, 03.12.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A102HC1/, Сбер2СУБ2R, None, 239 726.0, 81.00, 11.03.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A102L87/, ИАДОМ Б1P5, None, 2.0, 92.68, 28.03.51, -, 0
+https://fin-plan.org/lk/obligations/RU000A102LU5/, ГПБ001P20P, None, 4.4, 28.12.30, 31.12.25, 0
+https://fin-plan.org/lk/obligations/RU000A102M29/, ПрГрад Б01, None, 36.4, 27.05.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102MC1/, Титан-3 02, None, -, 28.07.53, -, 0
+https://fin-plan.org/lk/obligations/RU000A102ME7/, Титан-3 03, None, -, 28.07.53, -, 0
+https://fin-plan.org/lk/obligations/RU000A102R40/, РЖД 1Р-22R, None, 2.6, 05.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A102RR8/, Сбер Sb23R, None, 17.6, 08.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A102T30/, Ф-Капитал1, None, 0.0, 08.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A102TJ1/, ТМК 1P03, None, 10.5, 28.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A102TK9/, ЮниСКап02К, None, 9.6, 80.71, 21.01.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A102YH5/, Сбер Sb26R, None, 20.8, 09.04.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1030F6/, Райфб БР02, None, -, 22.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1031S7/, ВЭБ1P-24, None, 20.1, 18.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1031T5/, ВЭБ1P-25, None, 20.1, 18.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1031Z2/, ВЭБ1P-29, None, 17.5, 90.49, 01.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1034K8/, RUS-36 EUR, None, 167 841.3, 74.00, 27.05.36, -, 0
+https://fin-plan.org/lk/obligations/RU000A1035H1/, РЕСОЛизБП1, None, 12.3, 100.00, 19.05.31, 29.05.25, 0
+https://fin-plan.org/lk/obligations/RU000A1036S6/, ФСК РС1Р3, None, 9.7, 21.05.36, 05.06.28, 0
+https://fin-plan.org/lk/obligations/RU000A1037F1/, АЛЬФАБ2Р13, None, 8.6, 10.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1038U8/, Сбер Sb28R, None, 7.1, 15.06.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1039F7/, РЕСОЛиБП14, None, 3.7, 102.00, 02.06.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103D45/, ИА ТБ1Б, None, -, 23.03.34, -, 0
+https://fin-plan.org/lk/obligations/RU000A103EC6/, ГПБ-КИ-03, None, -, 29.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A103EN3/, РЖД 1Р-23R, None, 1.5, 10.07.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A103FC3/, Роснфт2P11, None, 22.2, 11.07.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A103G59/, Сбер Sb30R, None, 34.8, 31.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103GW9/, МКБ 1P4, None, 39.7, 31.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A103H66/, Сбер Sb34R, None, 34.8, 31.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103P33/, Систем1P22, None, 9.4, 01.09.31, 10.12.26, 0
+https://fin-plan.org/lk/obligations/RU000A103PD0/, Славнеф2Р1, None, 8.7, 02.09.31, 08.09.28, 0
+https://fin-plan.org/lk/obligations/RU000A103PG3/, Славнеф2Р2, None, 8.7, 02.09.31, 08.09.28, 0
+https://fin-plan.org/lk/obligations/RU000A103Q24/, Сбер2СУБ3R, None, 137 397.3, 14.11.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A103W42/, ИАДОМ 1P10, None, 11.6, 28.07.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A103WM7/, ТрансФ1P08, None, 40.3, 09.10.31, 23.04.24, 0
+https://fin-plan.org/lk/obligations/RU000A103XD4/, СФО МО 01, None, -, 15.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A103YG5/, ИАДОМ 1P11, None, 11.3, 83.01, 28.10.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A103YV4/, Сбер Sb36R, None, 13.8, 27.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1040J7/, Сбер Sb38R, None, 17.6, 07.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1040R0/, ХКФинБ1P7, None, 20.1, 98.42, 11.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1040Y6/, Сбер Sb39R, None, 16.2, 13.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104388/, СовкмЛ П05, None, 16.0, 19.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1043G7/, Сегежа2P2R, None, 16.5, 04.11.36, -, 0
+https://fin-plan.org/lk/obligations/RU000A1043J1/, Славнеф2Р3, None, 15.3, 11.11.31, 21.11.25, 0
+https://fin-plan.org/lk/obligations/RU000A104511/, ИАДОМ 1P14, None, -, 91.99, 28.11.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A104B61/, ЛКМБ-РТ1P1, None, 11.0, 101.48, 19.12.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104BY4/, БизНед 1Р2, None, 9.2, 18.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A104C45/, ИАДОМ 1P15, None, 3.9, 28.09.31, -, 0
+https://fin-plan.org/lk/obligations/RU000A104G90/, БКСБ1Р-02, None, 0.2, 28.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104HY1/, АЛЬФАБ2Р17, None, 45.8, 10.02.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104JB5/, БКСБ1Р-03, None, 0.1, 15.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104NF8/, БКСБ1Р-05, None, 0.1, 16.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104SY8/, РЖД 1Р-25R, AAA, 26.0, 30.04.27, -, 17
+https://fin-plan.org/lk/obligations/RU000A104T04/, МТС 1P-19, AAA, 24.0, 07.05.25, -, 17
+https://fin-plan.org/lk/obligations/RU000A104TQ2/, ЕАБР 1P-08, AAA, 17.0, 102.03, 27.11.24, -, 17
+https://fin-plan.org/lk/obligations/RU000A104VD6/, СФО СФ 01, None, 0.8, 13.07.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A104W58/, ИнтЛиз1Р03, A-, 5.7, 100.21, 19.06.24, -, 10
+https://fin-plan.org/lk/obligations/RU000A104Y98/, БалтЛизБП5, A+, -, 01.07.32, 16.07.24, 12
+https://fin-plan.org/lk/obligations/RU000A104YB4/, ГПБ-КИ-05, AA+, 0.1, 02.02.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A104YC2/, ГПБ-КИ-06, AA+, 0.1, 27.02.25, 27.02.25, 15
+https://fin-plan.org/lk/obligations/RU000A104YD0/, ГПБ-КИ-07, AA+, 0.1, 30.03.25, -, 15
+https://fin-plan.org/lk/obligations/RU000A104YE8/, ГПБ-КИ-08, AA+, 0.1, 25.04.25, 25.04.25, 15
+https://fin-plan.org/lk/obligations/RU000A104YF5/, ГПБ-КИ-09, None, 0.1, 29.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A104YG3/, ГПБ-КИ-10, None, 0.1, 30.07.25, 30.07.25, 0
+https://fin-plan.org/lk/obligations/RU000A104YH1/, ГПБ-КИ-11, None, 0.1, 23.08.24, 23.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A104YJ7/, ГПБ-КИ-12, None, 0.1, 26.12.24, 26.12.24, 0
+https://fin-plan.org/lk/obligations/RU000A104YK5/, ГПБ-КИ-13, None, 0.1, 96.87, 14.08.24, 14.08.24, 0
+https://fin-plan.org/lk/obligations/RU000A104YL3/, ГПБ-КИ-14, None, 0.1, 28.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A104Z63/, ВЭБ1P-32, None, 0.8, 14.01.28, 14.01.28, 0
+https://fin-plan.org/lk/obligations/RU000A1052Z8/, БКСБ1Р-06, None, 0.0, 06.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105302/, БКСБ1Р-07, None, 0.0, 06.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105344/, ИАДОМ 1P20, None, -, 88.99, 28.06.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A1053T9/, iПМЕДДМ1Р3, None, 49.8, 14.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1054U5/, БКСБ1Р-08, None, 0.0, 22.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105591/, НКК 13, None, 6.3, 31.08.52, -, 0
+https://fin-plan.org/lk/obligations/RU000A1055U2/, Сегежа2P6R, None, 14.1, 02.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105898/, ИАДОМ 1P21, None, 15.5, 100.15, 28.07.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105971/, РСХБ2Р04, None, 0.0, 125.00, 06.10.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1059T6/, БКСБ1Р-09, None, 0.0, 01.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105AD7/, Сегежа2P7R, None, 3.6, 10.04.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105AV9/, ИАДОМ 1P23, None, 4.5, 86.20, 28.09.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105BZ8/, Альта, None, 7.1, 16.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105CB7/, ИАДОМ 1P24, None, 4.5, 28.09.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105DN0/, ФСК РС БО6, None, 20.2, 25.09.57, 05.11.27, 0
+https://fin-plan.org/lk/obligations/RU000A105DR1/, ФСК РС БО7, None, 20.2, 25.09.57, 11.05.27, 0
+https://fin-plan.org/lk/obligations/RU000A105ER9/, БКСБ1Р-10, None, 0.1, 14.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A105G81/, ДОМ 1P-13R, None, 17.1, 101.35, 14.05.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105KW6/, ЕАБР П3-05, None, 12.5, 92.61, 03.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105LN3/, ИАДОМ 1P27, None, 4.1, 84.59, 28.11.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105LY0/, ИнфрОблP4, None, 18.5, 15.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105M67/, ЧеркизБ1P6, None, 12.1, 09.12.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A105NP4/, ИАДОМ 1P30, None, 18.5, 101.15, 28.10.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105NY6/, ИАДОМ 1P31, None, -, 90.97, 28.09.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105P72/, ИАДОМ 1P28, None, 4.3, 85.63, 28.09.32, -, 0
+https://fin-plan.org/lk/obligations/RU000A105Q71/, ДелПорт1P3, None, 33.5, 01.04.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A105UD5/, Титан-5 Б, None, 8.1, 26.06.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A105UE3/, Титан-5 В, None, -, 26.06.50, -, 0
+https://fin-plan.org/lk/obligations/RU000A105V74/, ЭлемЛиз1P4, None, 2.0, 100.50, 31.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A105W81/, ВымпелК1Р5, None, 16.1, 89.57, 15.02.27, 15.02.27, 0
+https://fin-plan.org/lk/obligations/RU000A105WM2/, СейфФин1P1, None, 16.7, 99.97, 27.02.25, 05.03.24, 0
+https://fin-plan.org/lk/obligations/RU000A105XG2/, ДОМСУБТ2-1, None, 484 383.6, 96.50, 26.08.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A105YV9/, ВымпелК1Р9, None, 8.1, 20.03.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065A3/, Россет1Р10, None, 27.5, 16.04.30, -, 0
+https://fin-plan.org/lk/obligations/RU000A1065C9/, Россети1Р9, None, 25.7, 18.04.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1068T7/, ИнфрОблP5, None, 18.0, 93.50, 15.05.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106912/, ЕврХимБ1Р9, None, 1 754.6, 13.03.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A106995/, ВТБ С1-510, None, -, 99.00, 16.06.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1069F4/, ВТБ С1-516, None, -, 100.00, 25.06.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A1069H0/, ВТБ С1-518, None, 0.0, 101.00, 26.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1069J6/, ВТБ С1-519, None, 0.0, 79.00, 10.09.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1069Y5/, ПенсХол01, None, -, 25.05.43, -, 0
+https://fin-plan.org/lk/obligations/RU000A106BQ5/, МТС 1P-25, None, 12.1, 01.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106E33/, АЛЬФАБ1Р04, None, 0.0, 30.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GH3/, РЕСОЛизБП9, None, 6.1, 21.06.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A106GX0/, СФО БКС 05, None, -, 15.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106HE8/, ИАДОМ 1P36, None, -, 100.99, 28.06.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A106J20/, Автодор5Р2, None, 3.6, 08.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106K19/, ТелХолБ2-4, None, 3.3, 11.07.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A106KW4/, ЭлемЛиз1P5, None, 1.4, 04.07.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106RZ2/, СФО БКС 07, None, -, 14.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106S03/, СФО БКС 06, None, -, 30.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106S11/, СФО БКС 08, None, -, 17.09.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A106T93/, Ростел2P11, None, 16.3, 27.08.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TN4/, ВымпелК2Р1, None, 0.3, 18.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TQ7/, ВымпелК2Р3, None, 0.2, 18.04.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TR5/, ВымпелК3Р3, None, 17.0, 91.84, 12.02.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TS3/, ВымпелК3Р2, None, 18.2, 14.02.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A106TV7/, ВымпелК3Р4, None, 0.9, 09.03.29, -, 0
+https://fin-plan.org/lk/obligations/RU000A106VS9/, АЛЬФАБ1Р6, None, 0.0, 30.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106XM8/, Автодор5Р4, None, 46.8, 18.09.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A106YR5/, ИАДОМ 1P37, None, -, 114.99, 23.09.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A106ZK7/, ГПБ-Т2-05Р, None, 69 863.0, 28.10.78, -, 0
+https://fin-plan.org/lk/obligations/RU000A106ZM3/, СФО ОФ 01, None, 17.0, 14.11.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A107001/, МаэстроБ1, None, 39.9, 08.10.28, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070U1/, СФО БКС 09, None, -, 04.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070V9/, СФО БКС 10, None, -, 27.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1070W7/, СФО БКС 11, None, -, 04.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1071Z8/, АйДиКоле05, None, 2.2, 99.50, 03.10.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1072W3/, ВТБ С1-782, None, 0.0, 86.10, 11.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107407/, ВТБ С1-800, None, 0.0, 90.00, 18.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074A5/, ИАДОМ 1P38, None, 5.2, 28.09.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074J6/, СФО БКС 14, None, -, 10.12.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074L2/, СФО БКС 12, None, -, 15.01.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1074T5/, АЛЬФАБ1Р9, None, 0.0, 29.11.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A1076P8/, Автодор6Р3, None, 29.5, 101.43, 08.11.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A1077Y8/, Ростел2P12, None, 24.2, 107.57, 13.11.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107A69/, АЛЬФАБ ЗО2, None, 3 663.3, 90.50, 04.08.25, -, 0
+https://fin-plan.org/lk/obligations/RU000A107AS1/, ГПБ004Р01, None, 0.0, 85.00, 27.12.26, -, 0
+https://fin-plan.org/lk/obligations/RU000A107BC3/, ВЭБ2P-К469, None, -, 19.01.24, 19.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A107CD9/, БалтЛизБП9, None, 11.3, 11.12.26, 11.12.26, 0
+https://fin-plan.org/lk/obligations/RU000A107D17/, Россет1Р12, None, 3.9, 25.05.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A107EQ7/, ИАДОМ 1P42, None, -, 28.09.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A107GL3/, ИАДОМ 1P40, None, 6.9, 28.11.33, -, 0
+https://fin-plan.org/lk/obligations/RU000A107JN3/, ТМК ЗО2027, None, 1 694.3, 12.02.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A107JV6/, АЛЬФАБ1Р11, None, 2.1, 16.01.27, -, 0
+https://fin-plan.org/lk/obligations/RU000A107JY0/, ЧТПЗЗО2024, None, 1 363.6, 19.09.24, -, 0
+https://fin-plan.org/lk/obligations/RU000A107KY8/, ВЭБ2P-К470, None, 2.1, 31.01.24, 31.01.24, 0
+https://fin-plan.org/lk/obligations/RU000A107L33/, ВЭБ2P-К471, None, 1.7, 01.02.24, 01.02.24, 0
+https://fin-plan.org/lk/obligations/XS1143363940/, CBOM 05/25, None, 2 566.7, 26.05.25, -, 0
+https://fin-plan.org/lk/obligations/XS1843437036/, RZD-27 EUR, None, 1 420.2, 23.05.27, -, 0
+https://fin-plan.org/lk/obligations/XS1951067039/, CBOM-24 EU, None, 4 579.1, 20.02.24, -, 0
+https://fin-plan.org/lk/obligations/XS2281299763/, CBOM-26 EU, None, 8.2, 21.01.26, -, 0
+https://fin-plan.org/lk/obligations/XS2346922755/, STL-26 EUR, None, 895.4, 02.06.26, -, 0
+https://fin-plan.org/lk/obligations/SU24021RMFS6/, ОФЗ 24021, -, 36.0, 100.05, 24.04.2024, AAA, 17
+https://fin-plan.org/lk/obligations/SU26244RMFS2/, ОФЗ 26244, -, 27.4, 97.30, 15.03.2034, AAA, 17
+https://fin-plan.org/lk/obligations/SU26243RMFS4/, ОФЗ 26243, -, 12.6, 86.50, 19.05.2038, AAA, 17
+https://fin-plan.org/lk/obligations/SU26240RMFS0/, ОФЗ 26240, -, 30.5, 69.45, 30.07.2036, AAA, 17
+https://fin-plan.org/lk/obligations/SU26227RMFS7/, ОФЗ 26227, -, 1.0, 97.40, 17.07.2024, AAA, 17
+https://fin-plan.org/lk/obligations/SU26222RMFS8/, ОФЗ 26222, -, 18.7, 96.61, 16.10.2024, AAA, 17
+https://fin-plan.org/lk/obligations/SU26223RMFS6/, ОФЗ 26223, -, 25.8, 99.29, 28.02.2024, AAA, 17
+https://fin-plan.org/lk/obligations/SU26238RMFS4/, ОФЗ 26238, -, 9.1, 66.40, 15.05.2041, AAA, 17
+https://fin-plan.org/lk/obligations/SU26236RMFS8/, ОФЗ 26236, -, 9.5, 80.95, 17.05.2028, AAA, 17
+https://fin-plan.org/lk/obligations/SU26229RMFS3/, ОФЗ 26229, -, 13.3, 91.42, 12.11.2025, AAA, 17
+https://fin-plan.org/lk/obligations/SU26234RMFS3/, ОФЗ 26234, -, 0.6, 88.54, 16.07.2025, AAA, 17
+https://fin-plan.org/lk/obligations/SU29014RMFS6/, ОФЗ 29014, -, 10.9, 99.96, 25.03.2026, AAA, 17
+https://fin-plan.org/lk/obligations/SU26241RMFS8/, ОФЗ 26241, -, 14.1, 88.50, 17.11.2032, AAA, 17
+https://fin-plan.org/lk/obligations/SU26237RMFS6/, ОФЗ 26237, -, 22.8, 81.79, 14.03.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU26230RMFS1/, ОФЗ 26230, -, 23.2, 72.10, 16.03.2039, AAA, 17
+https://fin-plan.org/lk/obligations/SU26221RMFS0/, ОФЗ 26221, -, 23.2, 78.29, 23.03.2033, AAA, 17
+https://fin-plan.org/lk/obligations/SU52003RMFS9/, ОФЗ 52003, ИН, 16.2, 89.70, 17.07.2030, AAA, 17
+https://fin-plan.org/lk/obligations/SU26233RMFS5/, ОФЗ 26233, -, 28.9, 65.48, 18.07.2035, AAA, 17
+https://fin-plan.org/lk/obligations/SU29006RMFS2/, ОФЗ 29006, -, 40.4, 100.42, 29.01.2025, AAA, 17
+https://fin-plan.org/lk/obligations/SU26207RMFS9/, ОФЗ 26207, -, 37.1, 92.08, 03.02.2027, AAA, 17
+https://fin-plan.org/lk/obligations/SU26218RMFS6/, ОФЗ 26218, -, 27.2, 84.27, 17.09.2031, AAA, 17
+https://fin-plan.org/lk/obligations/SU26228RMFS5/, ОФЗ 26228, -, 20.1, 83.24, 10.04.2030, AAA, 17
+https://fin-plan.org/lk/obligations/SU26239RMFS2/, ОФЗ 26239, -, 32.7, 77.00, 23.07.2031, AAA, 17
+https://fin-plan.org/lk/obligations/SU26226RMFS9/, ОФЗ 26226, -, 22.4, 92.11, 07.10.2026, AAA, 17
+https://fin-plan.org/lk/obligations/SU26225RMFS1/, ОФЗ 26225, -, 12.1, 74.34, 10.05.2034, AAA, 17
+https://fin-plan.org/lk/obligations/SU29013RMFS8/, ОФЗ 29013, -, 10.9, 99.26, 18.09.2030, AAA, 17
+https://fin-plan.org/lk/obligations/SU26212RMFS9/, ОФЗ 26212, -, 34.8, 86.32, 19.01.2028, AAA, 17
+https://fin-plan.org/lk/obligations/SU29010RMFS4/, ОФЗ 29010, -, 11.9, 104.47, 06.12.2034, AAA, 17
+https://fin-plan.org/lk/obligations/SU52002RMFS1/, ОФЗ 52002, ИН, 16.4, 92.56, 02.02.2028, AAA, 17
+https://fin-plan.org/lk/obligations/SU26232RMFS7/, ОФЗ 26232, -, 16.9, 84.16, 06.10.2027, AAA, 17
+https://fin-plan.org/lk/obligations/SU26219RMFS4/, ОФЗ 26219, -, 26.3, 91.70, 16.09.2026, AAA, 17
+https://fin-plan.org/lk/obligations/SU29016RMFS1/, ОФЗ 29016, -, 10.9, 99.94, 23.12.2026, AAA, 17
+https://fin-plan.org/lk/obligations/SU29024RMFS5/, ОФЗ 29024, -, 33.5, 98.20, 18.04.2035, AAA, 17
+https://fin-plan.org/lk/obligations/SU26242RMFS6/, ОФЗ 26242, -, 34.0, 89.60, 29.08.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU46020RMFS2/, ОФЗ 46020, -, 30.1, 70.20, 06.02.2036, AAA, 17
+https://fin-plan.org/lk/obligations/SU26235RMFS0/, ОФЗ 26235, -, 20.0, 72.84, 12.03.2031, AAA, 17
+https://fin-plan.org/lk/obligations/SU29008RMFS8/, ОФЗ 29008, -, 29.0, 102.04, 03.10.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU29022RMFS9/, ОФЗ 29022, -, 33.5, 99.55, 20.07.2033, AAA, 17
+https://fin-plan.org/lk/obligations/SU29007RMFS0/, ОФЗ 29007, -, 34.9, 101.33, 03.03.2027, AAA, 17
+https://fin-plan.org/lk/obligations/SU46023RMFS6/, ОФЗ 46023, -, 12.0, 96.50, 23.07.2026, AAA, 17
+https://fin-plan.org/lk/obligations/SU29020RMFS3/, ОФЗ 29020, -, 10.9, 99.79, 22.09.2027, AAA, 17
+https://fin-plan.org/lk/obligations/SU26224RMFS4/, ОФЗ 26224, -, 10.2, 81.90, 23.05.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU29009RMFS6/, ОФЗ 29009, -, 21.6, 103.20, 05.05.2032, AAA, 17
+https://fin-plan.org/lk/obligations/SU29025RMFS2/, ОФЗ 29025, -, 22.4, 98.20, 12.08.2037, AAA, 17
+https://fin-plan.org/lk/obligations/SU52005RMFS4/, ОФЗ 52005, ИН, 4.4, 87.82, 11.05.2033, AAA, 17
+https://fin-plan.org/lk/obligations/SU29015RMFS3/, ОФЗ 29015, -, 36.0, 99.69, 18.10.2028, AAA, 17
+https://fin-plan.org/lk/obligations/SU29019RMFS5/, ОФЗ 29019, -, 36.0, 99.48, 18.07.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU29021RMFS1/, ОФЗ 29021, -, 19.5, 99.59, 27.11.2030, AAA, 17
+https://fin-plan.org/lk/obligations/SU52004RMFS7/, ОФЗ 52004, ИН, 9.9, 88.68, 17.03.2032, AAA, 17
+https://fin-plan.org/lk/obligations/SU29018RMFS7/, ОФЗ 29018, -, 19.5, 99.24, 26.11.2031, AAA, 17
+https://fin-plan.org/lk/obligations/SU29017RMFS9/, ОФЗ 29017, -, 19.5, 99.45, 25.08.2032, AAA, 17
+https://fin-plan.org/lk/obligations/SU29023RMFS7/, ОФЗ 29023, -, 19.5, 99.17, 23.08.2034, AAA, 17
+https://fin-plan.org/lk/obligations/SU46012RMFS9/, ОФЗ 46012, -, 30.0, 93.01, 05.09.2029, AAA, 17
+https://fin-plan.org/lk/obligations/SU46011RMFS1/, ОФЗ 46011, -, 20.8, 480.00, 20.08.2025, AAA, 17
+https://fin-plan.org/lk/obligations/SU26231RMFS9/, ОФЗ 26231, -, 1.1, -, 20.07.2044, AAA, 17
+https://fin-plan.org/lk/obligations/SU25085RMFS0/, ОФЗ 25085, -, 20.5, -, 24.09.2025, AAA, 17
+https://fin-plan.org/lk/obligations/RU000A1077U6/, Ульоб34006, 26.6, 100.20, 14.05.2026, -, BBB-, 7
+https://fin-plan.org/lk/obligations/RU000A102FV5/, Челяб35001, 6.3, 90.75, 30.11.2027, -, AA, 14
+https://fin-plan.org/lk/obligations/RU000A107B19/, Новосиб 23, 0.7, 99.99, 22.11.2030, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A106YE3/, МгдОбл2023, 9.8, 100.85, 20.09.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1030S9/, МГор72-об, 16.2, 98.15, 23.04.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1033Z8/, МГор74-об, 12.1, 85.00, 18.05.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101U61/, Ульоб35002, 4.3, 87.30, 25.06.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101WL3/, МосОб34014, 1.4, 92.70, 08.07.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100XP4/, МосОбл2019, 0.6, 95.40, 08.10.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A104BC0/, КалинОбл21, 8.3, 95.49, 14.12.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYL22/, КЧР 2017, 4.8, 97.10, 18.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYF61/, НАО 2017, 1.7, 95.50, 07.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYDU3/, СвердлОб4, -, 93.50, 22.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1010D3/, Якут-13 об, 10.3, 91.56, 02.11.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102DS6/, НижгорОб15, 10.4, 89.88, 27.05.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1033B9/, Якут-35015, 11.1, 86.25, 08.05.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100CN3/, Якут-12 об, 9.6, 94.22, 13.05.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYKU8/, КалинОбл17, 6.2, 96.71, 17.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102895/, Новосиб 21, 1.8, 92.67, 14.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A106FT0/, Башкорт23, 5.1, 93.16, 30.06.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A105NT6/, МгдОбл2022, 9.0, 95.95, 17.12.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102CR0/, МосОб35015, 11.3, 92.35, 10.11.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1018A2/, ТомскАдм 7, 4.2, 95.85, 22.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYHX8/, СПбГО35001, 11.4, 95.45, 28.05.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100WF7/, Новосиб10, 0.6, 92.00, 08.10.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A106607/, Ульоб34005, 25.6, 93.99, 26.04.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A105ND0/, КалинОбл22, 9.0, 101.43, 13.12.2029, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JVM81/, Оренб35003, 2.8, 101.60, 03.07.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1011Q3/, Новосиб 20, 1.3, 96.66, 13.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102DR8/, ОмскОб20, 11.0, 91.47, 24.11.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXSD3/, ВлгОб35007, 3.3, 98.10, 02.06.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102CX8/, Ульоб34003, 3.5, 87.63, 12.11.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101PA0/, БелОб34014, 8.0, 93.49, 16.05.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZQQ0/, ХабарКрай7, 0.4, 95.77, 24.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYCD1/, Курск35001, 0.7, 94.27, 12.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYCM2/, КрасЯрКр13, 1.9, 96.00, 03.10.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZSW4/, КамчКрай01, 6.9, 97.02, 11.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1024L7/, Томскобл20, 10.6, 88.29, 23.07.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101665/, НижгорОб14, 5.8, 94.17, 14.06.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102KT9/, Краснод 20, 3.5, 92.60, 23.12.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ8X4/, КраснодКр2, 5.8, 94.81, 03.06.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZNJ2/, Якут-11 об, 6.9, 97.30, 24.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101WD0/, ЯрОбл35018, 5.2, 89.30, 24.05.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102KN2/, КалинОбл20, 4.7, 89.29, 16.06.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYG60/, СаратОбл17, 5.4, 95.89, 20.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXYS9/, КраснодКр1, 6.9, 97.56, 09.08.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1029G6/, КрасЯрск13, 0.3, 93.28, 16.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1043K9/, НижгорОб16, 15.7, 92.92, 26.05.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101Z17/, СвердлОбл8, 14.7, 85.99, 29.07.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1040S8/, Ульоб34004, 7.7, 93.33, 10.11.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1011B5/, КраснодКр3, 14.1, 89.93, 12.11.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A103DN5/, Башкорт21, 2.7, 92.63, 07.07.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1043E2/, Новосиб 22, 0.5, 98.42, 14.11.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102H34/, СтаврКрай4, 5.2, 89.23, 14.12.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101RB4/, БелОб34015, 6.1, 93.44, 29.05.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101P27/, Якут-35014, 4.1, 87.37, 12.05.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JY031/, МФ МарЭл17, 3.6, 97.18, 21.08.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102K88/, СПбГО35004, 17.6, 99.54, 28.09.2028, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JWT91/, Удмурт2016, 8.7, 96.20, 19.09.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1020L5/, СамарОбл15, 8.5, 89.64, 04.08.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZR33/, ЛипецкОб10, 6.3, 94.94, 21.10.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102CT6/, СвердлОбл9, 9.3, 87.05, 17.11.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1026B3/, Башкорт20, 2.9, 91.74, 24.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102LR1/, ТомскАдм 8, 5.7, 93.04, 27.12.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYFB8/, КрасЯрКр14, 8.7, 96.01, 31.10.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYJB0/, Ульян.об17, 4.8, 95.82, 07.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ7E6/, Якут-10 об, 5.5, 95.00, 15.05.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZQH9/, СвердлОбл5, 1.7, 93.40, 23.10.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100PP0/, БелОб34012, 4.1, 97.74, 05.08.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYKH5/, Оренб35004, 10.3, 91.69, 02.12.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102A15/, СПбГО35003, 11.3, 88.41, 13.04.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1030T7/, МГор73-об, 17.8, 92.31, 21.04.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZUT6/, НижгорОб13, 3.2, 100.40, 24.05.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102598/, ЛипецкОб12, 2.1, 92.34, 16.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1016N9/, СвердлОбл6, 5.6, 89.10, 15.12.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZEM5/, ЯрОбл35016, 4.4, 95.04, 21.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXR43/, Якут-09 об, 4.4, 99.00, 16.05.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXUD9/, КОМИ 14 об, 3.9, 99.00, 25.06.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYJ18/, ТамбовОб17, 6.9, 92.52, 05.12.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JWM56/, СамарОбл12, 2.1, 98.74, 21.06.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXTW1/, БелгОб2017, 1.2, 100.21, 11.06.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102G35/, МосОб35016, 5.9, 90.48, 30.11.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZ9P8/, СамарОбл14, 4.2, 92.63, 04.06.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101988/, МосОб34013, 2.2, 95.38, 20.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100PR6/, ЯрОбл35017, 2.4, 95.81, 24.06.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXVH8/, ТамбовОбл3, 0.6, 98.20, 12.07.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYKJ1/, СПбГО35002, 4.7, 90.50, 04.12.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JWZ77/, СвердлОб3, 3.5, 98.40, 15.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102DQ0/, СвердлОб10, 3.9, 94.79, 23.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXT41/, СамарОбл13, 2.9, 98.75, 31.05.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A100Y84/, БелОб34013, 0.3, 98.66, 15.10.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYM47/, ЯНАО2017-2, 1.3, 737.04, 25.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1025F6/, БелОб34016, 2.2, 96.48, 18.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JXS83/, ЯрОбл 2017, 18.1, 95.56, 20.04.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A1013T3/, ЛипецкОб11, 2.2, 102.68, 21.11.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYKW4/, ХМАО 11, 0.7, 99.23, 17.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYB40/, МФКузбас17, 1.9, 97.35, 26.09.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZM87/, КрасЯрКр16, 2.7, 98.49, 12.09.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYMJ7/, ТомскОб 62, 1.6, 98.60, 19.12.2024, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZC48/, КрасЯрКр15, 0.8, 100.87, 26.06.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0JWHW8/, Новсиб 8об, 6.8, 95.18, 28.05.2026, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZYH93/, Новсиб 9об, 0.1, -, 27.11.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZXZ7/, КировОбл01, 5.2, -, 05.12.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A0ZZZV1/, Карелия 19, 2.3, 230.75, 24.12.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A101UG7/, СвердлОбл7, 3.3, 93.87, 28.06.2025, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102L61/, Челяб35002, 4.1, -, 17.12.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102L79/, Челяб35003, 4.1, -, 17.12.2027, -, None, 0
+https://fin-plan.org/lk/obligations/RU000A102M37/, ПрУдмР08, 3.3, -, 28.12.2025, -, None, 0

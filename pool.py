@@ -14,104 +14,27 @@ import os
 import requests
 import pandas as pd
 from tqdm import trange
-from multiprocessing import Lock
 import csv
+from pathlib import Path
+from sqlalchemy import create_engine, case, literal_column, func
+from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy.sql import or_
+from tqdm import tqdm
+import aiomoex
 
+from const import no_exist, kval, map_rating
+from models import Bond, Coupon, Base
+
+
+# engine = create_engine('postgresql+psycopg2://uetlairflow:postgres@77.37.238.118:22018/postgres')
+engine = create_engine('sqlite:///pool.db')
+if not Path('pool.db').exists():
+    Base.metadata.create_all(engine)
+Session = sessionmaker(bind=engine)
+db_session = Session()
 
 
 token_lock = asyncio.Lock()
-no_exist = [
-    "ОткрФКББ03",
-    "МФК ЦФПО02",
-    "МФК ЦФПО01",
-    "МаниМен 03",
-    "Займер 01",
-    "АйДиКоле01",
-    "МаниМен 02",
-    "ОткрБРСО3",
-    "ОткрБРСО5",
-    "ВЭББНКР 01",
-    "Займер 02",
-    "Маныч02",
-    "Брус 1P02",
-    "Займер 03",
-    "Kviku1P1",
-    "AAG-01",
-    "ГПБ-КИ-02",
-    "СФОВТБИП03",
-    "ОткрБРСО6",
-    "СФОВТБИП02",
-    "АйДиКоле02",
-    "ВЭББНКР 02",
-    "АСПЭКДом01",
-    "ЛаймЗайм01",
-    "КарМани 01",
-    "ОткрБРСО4",
-]
-kval = ["МежИнБ",
-        "Самолет1P4",
-    "Феррони",
-    "ОйлРесур0",
-    "МГКЛ 1P",
-    "АйДиКоле03",
-    "ВТБ Б1-",
-    "BCS",
-    "СберИОС",
-    "МКБ П0",
-    "ВТБ Б-1",
-    "ОткрФКБИО",
-    "МКБ П",
-    "ТинькоффИ",
-    "ОткрФКИОП",
-    "СибЭнМаш",
-    "ВЭББНКР ",
-    "ОткрФКИО13",
-    "ОткрБРСО7",
-    "БКСБ1Р-01",
-    "ЕАБР 1Р-04",
-    "ГПБ002P-12",
-    "МежИнБанк4",
-    "ЛаймЗайм02",
-    "ОткрБРСО9",
-    "ОткрБРСО8",
-    "МежИнБ01P5",
-    "МежИнБ01P5",
-    "МежИнБ01P1",
-    "ОткрБРСО12",
-    "ОткрБРСО11",
-    "ОткрФКИО12",
-    "Страна 01",
-    "МГКЛ 1P3",
-    "АйДиКоле03",
-    "ВТБ Б1-",
-    "BCS",
-    "СберИОС",
-    "МКБ П0",
-    "ВТБ Б-1",
-    "ОткрФКБИО",
-    "МКБ П",
-    "ТинькоффИ",
-    "ОткрФКИОП",
-    "СибЭнМаш",
-    "ВЭББНКР ",
-    "ОткрФКИО13",
-    "ОткрБРСО7",
-    "БКСБ1Р-01",
-    "ЕАБР 1Р-04",
-    "ГПБ002P-12",
-    "МежИнБанк4",
-    "ЛаймЗайм02",
-    "ОткрБРСО9",
-    "ОткрБРСО8",
-    "МежИнБ01P5",
-    "МежИнБ01P5",
-    "МежИнБ01P1",
-    "ОткрБРСО12",
-    "ОткрБРСО11",
-    "ОткрФКИО12",
-    "Страна 01",
-]
-map_rating = {'AAA': 17, 'AAA-': 16, 'AA+': 15, 'AA': 14, 'AA-': 13, 'A+': 12, 'A': 11, 'A-': 10, 'BBB+': 9, 'BBB': 8, 'BBB-': 7, 'BB+': 6, 'BB': 5, 'BB-': 4, 'B+': 3, 'B': 2, 'B-': 1, 'CCC': 0}
 
 def flatten_list(nested_list):
     flattened_list = []
@@ -121,14 +44,15 @@ def flatten_list(nested_list):
         else:
             flattened_list.append(item)
     return flattened_list
-async def get_rating(isin):
+
+async def get_rating():
     async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
         global token
         headers = {"Authorization": f"Bearer {token}"}
-        url = 'https://oko.grampus-studio.ru/api/bonds/?page=1&page_size=200&order=desc&order_by=name'
+        url = 'https://oko.grampus-studio.ru/api/bonds/?page=1&page_size=20000&order=desc&order_by=id'
         payload = {
             'loose': True,
-            'search': isin,
+            # 'search': isin,
             'status': ["В обращении", "Аннулирован", "Дефолт"]} 
         for _ in range(3):
             try:
@@ -145,9 +69,14 @@ async def get_rating(isin):
                         raise Exception(f"Ошибка: {data}")
                     elif not data['results']:
                         return
-                    ratings = Counter([k['value'] for k in data['results'][0]['ratings'] if k['value'] not in (None, 'Отозван', 'отозван')])
-                    if ratings:
-                        return ratings.most_common(1)[0][0]
+                    isin_ratings = {}
+                    for row in data['results']:
+                        ratings = Counter([k['value'] for k in row['ratings'] if k['value'] not in (None, 'Отозван', 'отозван')])
+                        if ratings:
+                            row['ratings'] = ratings.most_common(1)[0][0]
+                            row.pop('borrower')
+                            isin_ratings[row['isin']] = row
+                    return isin_ratings
             except (aiohttp.client_exceptions.ClientOSError, aiohttp.client_exceptions.ServerDisconnectedError):
                 return None 
         return None
@@ -205,10 +134,10 @@ async def process_site(session, site_url, soup="", params=None):
         isin = tds[1].a["href"].split('/')[-2]
         if "ofz" in site_url:
             def_params['Рейтинг'] = 'AAA'
-        elif "subfed" in site_url or "bond" in site_url or def_params["Рейтинг"] in (None, '', '-'):
-            def_params['Рейтинг'] = await get_rating(isin)
-        if (def_params.get("Рейтинг") or '').lower() in ("аннулирован", "дефолт", "отозван"):
-            continue
+        # elif "subfed" in site_url or "bond" in site_url or def_params["Рейтинг"] in (None, '', '-'):
+        #     def_params['Рейтинг'] = await get_rating(isin)
+        # if (def_params.get("Рейтинг") or '').lower() in ("аннулирован", "дефолт", "отозван"):
+        #     continue
         def_params['Рейтинг, порядок'] = map_rating.get(def_params['Рейтинг'], 0)
         tasks.append((f'https://fin-plan.org/lk/obligations/{isin}/' , def_params))
 
@@ -239,6 +168,13 @@ async def get_pages(session, site_url, params):
     results = await asyncio.gather(*coroutines)
     return results
 
+async def ask_moex(session, url, kwargs):
+    iss = aiomoex.ISSClient(session, url, kwargs)
+    data = await iss.get()
+    data = [s|m for s, m in zip(data['securities'], data['marketdata'])]
+    data = {x['ISIN']: x for x in data if any([x["BID"], x["OFFER"], x["MARKETPRICETODAY"]]) and x["FACEUNIT"] == "SUR"}
+    return data
+
 async def get_token():
     async with token_lock:
         async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
@@ -252,21 +188,28 @@ async def get_token():
 async def main():
     global token
     token = await get_token()
-    site_urls = [
-        ("https://smart-lab.ru/q/bonds",{"Имя": 1, "Рейтинг": 7, "НКД, руб": 11, "Цена": 13, "Погашение": 16, "Оферта": 17}),
-        ("https://smart-lab.ru/q/ofz",{"Имя": 1, "Переменный купон": 6, "НКД, руб": 14, "Цена": 9, "Погашение": 3}),
-        ("https://smart-lab.ru/q/subfed",{"Имя": 1, "НКД, руб": 13, "Цена": 8, "Погашение": 3, "Оферта": 16}),
-    ]
+
+    xml_url = "https://iss.moex.com/iss/engines/stock/markets/bonds/securities.json"
+    kwargs = {"iss.meta":"off",
+              "iss.only": "marketdata,securities",
+              "marketdata.columns": "BID,OFFER,MARKETPRICETODAY",   #спрос, предложение, рыночная цена %
+              "securities.columns": "ISIN,SHORTNAME,ACCRUEDINT,OFFERDATE,BUYBACKPRICE,LAST,LOTVALUE,MATDATE,FACEUNIT",
+              "marketprice_board": "1"  # краткое назв, нкд, дата оферты, цена оферты, цена посл сделки %, номинал, дата погашения, валюта
+             }
 
     async with aiohttp.ClientSession() as session:
-        site_tasks = []
+        
+        moex_task = ask_moex(session, xml_url, kwargs)
 
-        for site_url, params in site_urls:
-            site_task = asyncio.ensure_future(get_pages(session, site_url, params))
-            site_tasks.append(site_task)
+        ratings_task = get_rating()
 
-        result = await asyncio.gather(*site_tasks)
-    return result
+        moex_data, ratings = await asyncio.gather(moex_task, ratings_task)
+        for k, v in ratings.items():
+            if k in moex_data:
+                moex_data[k]['rating'] = v
+            else:
+                moex_data[k] = {'SHORTNAME': v['short'], 'ACCRUDIENT': v['nkd'], 'OFFERDATE': v['offer_date'], 'BUYBACKPRICE': v['buyback_price'], 'LOTVALUE': v['dolg'], 'MATDATE': v['maturity_date'], 'MARKETPRICETODAY': v['last_price'], 'rating': v['ratings']}
+    return moex_data
 
 inf4day = 1 - 0.13 / 365  # коэффициент обесценивания денег за счёт инфляции
 of_inf4day = 1 - 0.06 / 365  # официальная инфляция
@@ -274,7 +217,6 @@ gcurve7 = 0.118
 stavka = 0.14
 finished = []
 big_nom = []
-
 def extr(obl, text, tagname="p"):
     """
     Извлечение значения по тексту
@@ -401,49 +343,111 @@ def my_func(url, params):
         "Цена, %": cost_p,
         'Рейтинг, порядок': params['Рейтинг, порядок'],
     }
+dol = 90
+eur = 100
+aed = 25
+
+def add_coupons(bond, last_payday=None):
+    html = requests.get(bond.url).text
+    obl = BeautifulSoup(html, "html.parser")
+    changed = False
+    if not bond.nominal:
+        changed = True
+        nom = extr(obl, "Номинал: ").split(' ')[1]
+        nom = nom.replace('KGS', '') if nom else nom
+        if '$' in nom:
+            nom = nom.replace('$', '')
+            nom = float(nom) * dol
+        elif 'EUR' in nom:
+            nom = nom.replace('EUR', '')
+            nom = float(nom) * eur
+        elif 'AED' in nom:
+            nom = nom.replace('AED', '')
+            nom = float(nom) * aed
+        else:
+            bond.nominal = float(nom)
+    if not bond.price:
+        cost_p = extr(obl, "Текущая цена: ").replace('Текущая цена: ', '')
+        if cost_p:
+            cost_p = cost_p.replace('Текущая цена: ', '')[:-1]
+            bond.price = cost_p
+            changed = True
+    if changed:
+        db_session.merge(bond)
+        db_session.commit()
+    
+    has_unknown_coups = False
+    pk = obl.find_all(lambda tag: tag.name == 'p' and 'Формула расчета купона' in tag.text)
+    dop_stavka = 0
+    if pk:
+        bond.floating = 'ПК'
+        changed = True
+    tab = obl.findAll("tbody")
+    if len(tab) > 0:
+        # если есть таблица с купонами
+        tab = tab[0]
+        cur_line = tab.findAll(class_="green")
+        if not cur_line:
+            db_session.delete(bond)
+            db_session.commit()
+            return
+        cur_line = cur_line[0]
+        if bond.floating in ('ПК', 'ИН'):
+            coups = tab.find_all('tr', class_='coupon_table_row')
+            freq = len(coups) / (datetime.strptime(coups[-1].td.string, "%d.%m.%Y").date() - datetime.strptime(coups[0].td.string, "%d.%m.%Y").date()).days * 365
+        for coup in [cur_line] + list(cur_line.next_siblings):
+            if coup == '\n' or not coup.get('class'):
+                continue
+            tds = coup.find_all('td')
+            payday = datetime.strptime(tds[0].string, "%d.%m.%Y").date()
+            if last_payday and payday <= last_payday:
+                continue
+            if bond.oferta and bond.oferta < payday:
+                has_unknown_coups = True
+                break
+            amort = float(tds[3].string)
+            q = tds[2].string
+            if q in ("Купон пока не определен", '-'):
+                if bond.floating == 'ПК':
+                    if not dop_stavka and pk:
+                        dop_stavka = float(pk[-1].text.split('%')[0].split(' ')[-1]) if '%' in pk[-1].text else 0
+                    q = bond.nominal * (stavka + dop_stavka) / freq
+                if bond.floating == 'ИН':
+                    q = bond.nominal * 0.025 / freq
+                else:
+                    has_unknown_coups = True
+                    # закончились известные купоны
+                    break
+            coup = Coupon(isin=bond.isin, coup=float(q) * 0.87, payday=payday, amort=amort, temp=has_unknown_coups)
+            db_session.merge(coup)
+            db_session.commit()
+        bond.unknown_coupons = has_unknown_coups
+        db_session.merge(bond)
+        db_session.commit()
 
 if __name__ == '__main__' :
-    file_path = "urls.json"
-    sites = None
-    dd = None
-    if os.path.exists(file_path):
-        dt = os.path.getmtime(file_path)
-        dd = date.fromtimestamp(dt)
-    if dd != date.today():
-        loop = asyncio.get_event_loop()
-        sites = loop.run_until_complete(main())
-        sites = flatten_list(sites)
-        with open(file_path, "w") as f:
-            json.dump(sites, f)
-    if sites is None:
-        sites = json.load(open(file_path, "r"))
-
-    
-    with open('Итоги.csv', 'w', newline='') as f:
-        writer = csv.writer(f, delimiter=';', separator=',')
-        writer.writerow([
-            "Облигация",
-            "Прибыль, %",
-            "Прибыль с учётом инфляции, %",
-            "Годовая прибыль, %",
-            "Годовая прибыль с учётом инфляции, %",
-            "Дата погашения",
-            "Рейтинг",
-            "Оферта",
-            "Цена, %",
-            "Рейтинг, порядок",
-        ])
-
-    rows = []
-    with ProcessPoolExecutor(max_workers=10) as executor:
-        futures = [executor.submit(my_func, site_url, params) for site_url, params in sites]
-        with trange(len(futures)) as t:
-            for i, future in enumerate(as_completed(futures)):
-                result = future.result()
-                rows.append(result)
-                t.set_description(result["Облигация"])
-                t.update(1)
-
-    df = pd.DataFrame(rows)
-    df.to_csv(path_or_buf="Итоги.csv", sep=",", mode="a+", header=False)
-        
+    moex_data = asyncio.run(main())
+    for isin, data in moex_data.items():
+        try:
+            format = "%Y-%m-%d"
+            bond = Bond(name=data['SHORTNAME'], url=f'https://fin-plan.org/lk/obligations/{isin}', isin=isin, 
+                        price=data['MARKETPRICETODAY'], rating='AAA' if 'ОФЗ' in data['SHORTNAME'] else data.get('rating'), 
+                        end_date=datetime.strptime(data['MATDATE'], format), 
+                        oferta=datetime.strptime(data['OFFERDATE'], format) if data.get('Оферта', '-') != '-' else None, 
+                        oferta_price=data['BUYBACKPRICE'],
+                        bid=data['BID'], offer=data['OFFER'], nkd=data['ACCRUEDINT'], nominal=data['LOTVALUE'],)
+            db_session.merge(bond)
+            db_session.commit()
+        except Exception as e:
+            db_session.rollback()
+            print(f"Failed to insert: {isin}, Error: {e}")
+            
+    for coupon in db_session.query(Coupon).filter(Coupon.payday < date.today()).all():
+        db_session.delete(coupon)
+    db_session.commit()
+    no_coups = db_session.query(Bond).filter(Bond.unknown_coupons.in_([True, None])).all()
+    pbar = tqdm(no_coups)
+    for bond in pbar:
+        last_payday = db_session.query(func.max(Coupon.payday)).filter(Coupon.bond == bond).scalar()
+        pbar.set_description(bond.name)
+        add_coupons(bond, last_payday)
