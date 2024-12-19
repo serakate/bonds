@@ -7,20 +7,31 @@ Base = declarative_base()
 class Bond(Base):
     __tablename__ = 'bonds'
     # __table_args__ = {'schema': 'serakate'}
-    name = Column(String(20), unique=True)
-    url = Column(String(100), unique=True)
+
+    # Основные поля
     isin = Column(String(20), primary_key=True)
-    price = Column(Float, nullable=True)
-    bid = Column(Float, nullable=True)
-    offer = Column(Float, nullable=True)
-    nkd = Column(Float)
-    nominal = Column(Float)
-    rating = Column(String(10), nullable=True)
-    end_date = Column(Date, nullable=True)
-    oferta = Column(Date, nullable=True)
-    oferta_price = Column(Float, nullable=True)
+    name = Column(String(20), unique=True, nullable=True)  # краткое имя (SHORTNAME/short)
+    full_name = Column(String(100), nullable=True)  # полное имя с сайта рейтингов
+
+    # Торговые параметры
+    price = Column(Float, nullable=True)  # MARKETPRICETODAY/last_price
+    bid = Column(Float, nullable=True)  # только с MOEX
+    offer = Column(Float, nullable=True)  # только с MOEX
+    nkd = Column(Float, nullable=True)  # ACCRUEDINT/nkd
+    nominal = Column(Float, nullable=True)  # LOTVALUE/dolg
+    
+    # Параметры облигации
+    rating = Column(String(10), nullable=True)  # только с сайта рейтингов
+    status = Column(String(20), nullable=True)  # только с сайта рейтингов
+    end_date = Column(Date, nullable=True)  # MATDATE/maturity_date
+    oferta = Column(Date, nullable=True)  # OFFERDATE/offer_date
+    oferta_price = Column(Float, nullable=True)  # BUYBACKPRICE/buyback_price
+    
+    # Служебные поля
     unknown_coupons = Column(Boolean, nullable=True)
     floating = Column(String(3), nullable=True)
+    
+    # Связи
     coupons = relationship('Coupon', back_populates='bond', cascade='all, delete-orphan', passive_deletes=True)
 
 class Coupon(Base):
@@ -37,6 +48,12 @@ class Coupon(Base):
     __table_args__ = (
         UniqueConstraint('isin', 'payday', name='uq_coupon_isin_payday'),
     )
+
+class KvalBond(Base):
+    __tablename__ = 'kval_bonds'
+    isin = Column(String(20), primary_key=True)
+    name = Column(String(20), unique=True, nullable=True)
+    full_name = Column(String(100), nullable=True)
 
 # class Calc(Base):
 #     __tablename__ = 'calc'

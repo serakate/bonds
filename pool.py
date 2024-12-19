@@ -23,7 +23,7 @@ from tqdm import tqdm
 import aiomoex
 
 from const import no_exist, kval, map_rating
-from models import Bond, Coupon, Base
+from models import Bond, Coupon, Base, KvalBond
 
 
 # engine = create_engine('postgresql+psycopg2://uetlairflow:postgres@77.37.238.118:22018/postgres')
@@ -168,6 +168,48 @@ async def get_pages(session, site_url, params):
     results = await asyncio.gather(*coroutines)
     return results
 
+def merge_bond_data(moex_data={}, rating_data={}):
+    """
+    Объединяет данные из двух источников, предпочитая непустые значения
+    """
+    result = {}
+    
+    # Базовые поля
+    result['isin'] = moex_data.get('ISIN') or rating_data.get('isin')
+    result['name'] = moex_data.get('SHORTNAME', None) or rating_data.get('short', None)
+    result['full_name'] = rating_data.get('name') if rating_data else None
+    
+    # Торговые параметры
+    result['price'] = moex_data.get('MARKETPRICETODAY') or rating_data.get('last_price')
+    result['bid'] = moex_data.get('BID')  # только с MOEX
+    result['offer'] = moex_data.get('OFFER')  # только с MOEX
+    result['nkd'] = moex_data.get('ACCRUEDINT') or rating_data.get('nkd')
+    result['nominal'] = moex_data.get('LOTVALUE') or rating_data.get('dolg')
+    
+    # Параметры облигации
+    result['rating'] = ('AAA' if moex_data and 'ОФЗ' in moex_data.get('SHORTNAME', '') 
+                       else rating_data.get('ratings') if rating_data 
+                       else None)
+    result['status'] = rating_data.get('status') if rating_data else None
+    
+    # Даты
+    format = "%Y-%m-%d"
+    try:
+        result['end_date'] = (datetime.strptime(moex_data.get('MATDATE') or rating_data.get('maturity_date'), format) 
+                             if (moex_data.get('MATDATE') or rating_data.get('maturity_date')) else None)
+    except (ValueError, TypeError):
+        result['end_date'] = None
+        
+    try:
+        oferta_date = moex_data.get('OFFERDATE') or rating_data.get('offer_date')
+        result['oferta'] = datetime.strptime(oferta_date, format) if oferta_date and oferta_date != '-' else None
+    except (ValueError, TypeError):
+        result['oferta'] = None
+    
+    result['oferta_price'] = moex_data.get('BUYBACKPRICE') or rating_data.get('buyback_price')
+    
+    return result
+
 async def ask_moex(session, url, kwargs):
     iss = aiomoex.ISSClient(session, url, kwargs)
     data = await iss.get()
@@ -198,23 +240,28 @@ async def main():
              }
 
     async with aiohttp.ClientSession() as session:
-        
+        # Получаем данные асинхронно
         moex_task = ask_moex(session, xml_url, kwargs)
-
         ratings_task = get_rating()
-
+        
+        # Параллельно получаем список квалифицированных облигаций
+        kval_isins = {isin[0] for isin in db_session.query(KvalBond.isin).all()}
+        
+        # Дожидаемся получения данных
         moex_data, ratings = await asyncio.gather(moex_task, ratings_task)
-        for k, v in ratings.items():
-            if k in moex_data:
-                moex_data[k]['rating'] = v
-            else:
-                moex_data[k] = {'SHORTNAME': v['short'], 'ACCRUDIENT': v['nkd'], 'OFFERDATE': v['offer_date'], 'BUYBACKPRICE': v['buyback_price'], 'LOTVALUE': v['dolg'], 'MATDATE': v['maturity_date'], 'MARKETPRICETODAY': v['last_price'], 'rating': v['ratings']}
-    return moex_data
+        
+        # Фильтруем результаты
+        result = {
+            isin: merge_bond_data(moex_data.get(isin, {}), ratings.get(isin, {}))
+            for isin in (set(moex_data) | set(ratings)) - kval_isins
+        }
+                
+    return result
 
-inf4day = 1 - 0.13 / 365  # коэффициент обесценивания денег за счёт инфляции
-of_inf4day = 1 - 0.06 / 365  # официальная инфляция
+inf4day = 1 - 0.15 / 365  # коэффициент обесценивания денег за счёт инфляции
+of_inf4day = 1 - 0.09 / 365  # официальная инфляция
 gcurve7 = 0.118
-stavka = 0.14
+stavka = 0.21
 finished = []
 big_nom = []
 def extr(obl, text, tagname="p"):
@@ -343,81 +390,132 @@ def my_func(url, params):
         "Цена, %": cost_p,
         'Рейтинг, порядок': params['Рейтинг, порядок'],
     }
-dol = 90
-eur = 100
-aed = 25
+
+def get_currency_rate(currency: str) -> float:
+    """
+    Получает текущий курс валюты в рублях
+    
+    Args:
+        currency (str): Код валюты (EUR, USD, RUB, SUR и т.д.)
+        
+    Returns:
+        float: Курс валюты в рублях. Для рубля возвращает 1.0
+    """
+    # Нормализуем входную строку
+    currency = currency.upper().strip()
+    
+    # Для рубля сразу возвращаем 1
+    if currency in ('RUB', 'SUR', '₽', 'RUR'):
+        return 1.0
+    
+    fallback_rates = {
+        'USD': 90.0,
+        'EUR': 98.0,
+        'CNY': 12.5,
+        'AED': 25.0,
+        # Можно добавить другие валюты
+    }
+        
+    # Маппинг альтернативных обозначений
+    currency_map = {
+        'USD': 'USD',
+        '$': 'USD',
+        'EUR': 'EUR',
+        '€': 'EUR',
+        'GBP': 'GBP',
+        '£': 'GBP',
+        'CNY': 'CNY',
+        'JPY': 'JPY',
+        'AED': 'AED',
+        # Можно добавить другие валюты и их альтернативные обозначения
+    }
+        
+    try:
+        # Получаем курсы с сайта ЦБ РФ
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        }
+        response = requests.get('https://www.cbr-xml-daily.ru/daily_json.js', headers=headers)
+        response.raise_for_status()
+        rates = response.json()
+        
+        # Получаем стандартное обозначение валюты
+        currency_code = currency_map.get(currency, currency)
+        
+        # Получаем курс из ответа API
+        if currency_code in rates['Valute']:
+            return rates['Valute'][currency_code]['Value']
+            
+        raise ValueError(f"Неизвестная валюта: {currency}")
+        
+    except requests.RequestException as e:
+        print(f"Ошибка при получении курсов валют: {e}")
+        # В случае ошибки можно использовать резервный источник или закешированные значения
+        return fallback_rates.get(currency_map.get(currency, currency), 1.0)
+    
+    except Exception as e:
+        print(f"Неожиданная ошибка при получении курса валюты {currency}: {e}")
+        return 1.0
 
 def add_coupons(bond, last_payday=None):
-    html = requests.get(bond.url).text
-    obl = BeautifulSoup(html, "html.parser")
+    try:
+        coupons_data = requests.get(f'https://admin.fin-plan.org/api/actives/v1/getCoupons?isin={bond.isin}&initialfacevalue=1000').json()['data'].get('COUPONS', [])
+        bond_data = requests.get(f'https://admin.fin-plan.org/api/actives/v1/getObligationDetail?isin={bond.isin}&gx_session=undefined').json()['data']['radar_data']
+    except requests.exceptions.JSONDecodeError as err:
+        return
+    if bond_data['isqualifiedinvestors'] != 0:
+        db_session.add(KvalBond(isin=bond.isin, name=bond.name, full_name=bond.full_name))
+        db_session.delete(bond)
+        db_session.commit()
+        return
     changed = False
+    val = bond_data['currency_id']
     if not bond.nominal:
         changed = True
-        nom = extr(obl, "Номинал: ").split(' ')[1]
-        nom = nom.replace('KGS', '') if nom else nom
-        if '$' in nom:
-            nom = nom.replace('$', '')
-            nom = float(nom) * dol
-        elif 'EUR' in nom:
-            nom = nom.replace('EUR', '')
-            nom = float(nom) * eur
-        elif 'AED' in nom:
-            nom = nom.replace('AED', '')
-            nom = float(nom) * aed
-        else:
-            bond.nominal = float(nom)
-    if not bond.price:
-        cost_p = extr(obl, "Текущая цена: ").replace('Текущая цена: ', '')
-        if cost_p:
-            cost_p = cost_p.replace('Текущая цена: ', '')[:-1]
-            bond.price = cost_p
-            changed = True
+        bond.nominal = bond_data['facevalue'] * get_currency_rate(val)
+    if not bond.price and (price := bond_data['lastprice']):
+        changed = True
+        bond.price = price * get_currency_rate(val)
     if changed:
         db_session.merge(bond)
         db_session.commit()
     
     has_unknown_coups = False
-    pk = obl.find_all(lambda tag: tag.name == 'p' and 'Формула расчета купона' in tag.text)
+    # pk = obl.find_all(lambda tag: tag.name == 'p' and 'Формула расчета купона' in tag.text)
     dop_stavka = 0
-    if pk:
-        bond.floating = 'ПК'
-        changed = True
-    tab = obl.findAll("tbody")
-    if len(tab) > 0:
+    # if pk:
+    #     bond.floating = 'ПК'
+    #     changed = True
+    if len(coupons_data) > 0:
         # если есть таблица с купонами
-        tab = tab[0]
-        cur_line = tab.findAll(class_="green")
-        if not cur_line:
-            db_session.delete(bond)
-            db_session.commit()
+        coupons_data = [coup for coup in coupons_data if (datetime.strptime(coup['Дата выплаты'], "%d.%m.%Y").date() > datetime.today().date())]
+        if not coupons_data:
+            # db_session.delete(bond)
+            # db_session.commit()
             return
-        cur_line = cur_line[0]
-        if bond.floating in ('ПК', 'ИН'):
-            coups = tab.find_all('tr', class_='coupon_table_row')
-            freq = len(coups) / (datetime.strptime(coups[-1].td.string, "%d.%m.%Y").date() - datetime.strptime(coups[0].td.string, "%d.%m.%Y").date()).days * 365
-        for coup in [cur_line] + list(cur_line.next_siblings):
-            if coup == '\n' or not coup.get('class'):
-                continue
-            tds = coup.find_all('td')
-            payday = datetime.strptime(tds[0].string, "%d.%m.%Y").date()
+        # if bond.floating in ('ПК', 'ИН'):
+        #     coups = tab.find_all('tr', class_='coupon_table_row')
+        #     freq = len(coups) / (datetime.strptime(coups[-1].td.string, "%d.%m.%Y").date() - datetime.strptime(coups[0].td.string, "%d.%m.%Y").date()).days * 365
+        for coup in coupons_data:
+            payday = datetime.strptime(coup['Дата выплаты'], "%d.%m.%Y").date()
             if last_payday and payday <= last_payday:
                 continue
             if bond.oferta and bond.oferta < payday:
                 has_unknown_coups = True
                 break
-            amort = float(tds[3].string)
-            q = tds[2].string
+            amort = coup['Гашение']
+            q = coup['Купоны']
             if q in ("Купон пока не определен", '-'):
-                if bond.floating == 'ПК':
-                    if not dop_stavka and pk:
-                        dop_stavka = float(pk[-1].text.split('%')[0].split(' ')[-1]) if '%' in pk[-1].text else 0
-                    q = bond.nominal * (stavka + dop_stavka) / freq
-                if bond.floating == 'ИН':
-                    q = bond.nominal * 0.025 / freq
-                else:
-                    has_unknown_coups = True
-                    # закончились известные купоны
-                    break
+                # if bond.floating == 'ПК':
+                #     if not dop_stavka and pk:
+                #         dop_stavka = float(pk[-1].text.split('%')[0].split(' ')[-1]) if '%' in pk[-1].text else 0
+                #     q = bond.nominal * (stavka + dop_stavka) / freq
+                # if bond.floating == 'ИН':
+                #     q = bond.nominal * 0.025 / freq
+                # else:
+                has_unknown_coups = True
+                # закончились известные купоны
+                break
             coup = Coupon(isin=bond.isin, coup=float(q) * 0.87, payday=payday, amort=amort, temp=has_unknown_coups)
             db_session.merge(coup)
             db_session.commit()
@@ -429,13 +527,12 @@ if __name__ == '__main__' :
     moex_data = asyncio.run(main())
     for isin, data in moex_data.items():
         try:
-            format = "%Y-%m-%d"
-            bond = Bond(name=data['SHORTNAME'], url=f'https://fin-plan.org/lk/obligations/{isin}', isin=isin, 
-                        price=data['MARKETPRICETODAY'], rating='AAA' if 'ОФЗ' in data['SHORTNAME'] else data.get('rating'), 
-                        end_date=datetime.strptime(data['MATDATE'], format), 
-                        oferta=datetime.strptime(data['OFFERDATE'], format) if data.get('Оферта', '-') != '-' else None, 
-                        oferta_price=data['BUYBACKPRICE'],
-                        bid=data['BID'], offer=data['OFFER'], nkd=data['ACCRUEDINT'], nominal=data['LOTVALUE'],)
+            bond = Bond(name=data['name'] if data['name'] else None, isin=isin, 
+                        price=data['price'], rating=data.get('rating'), 
+                        end_date=data['end_date'], 
+                        oferta=data['oferta'], 
+                        oferta_price=data['oferta_price'],
+                        bid=data['bid'], offer=data['offer'], nkd=data['nkd'], nominal=data['nominal'],)
             db_session.merge(bond)
             db_session.commit()
         except Exception as e:
@@ -445,9 +542,9 @@ if __name__ == '__main__' :
     for coupon in db_session.query(Coupon).filter(Coupon.payday < date.today()).all():
         db_session.delete(coupon)
     db_session.commit()
-    no_coups = db_session.query(Bond).filter(Bond.unknown_coupons.in_([True, None])).all()
+    no_coups = db_session.query(Bond).filter(Bond.unknown_coupons == True or Bond.unknown_coupons.is_(None)).all()
     pbar = tqdm(no_coups)
     for bond in pbar:
         last_payday = db_session.query(func.max(Coupon.payday)).filter(Coupon.bond == bond).scalar()
-        pbar.set_description(bond.name)
+        pbar.set_description(bond.name or bond.isin)
         add_coupons(bond, last_payday)
