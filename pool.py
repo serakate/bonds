@@ -22,8 +22,10 @@ from sqlalchemy.sql import or_
 from tqdm import tqdm
 import aiomoex
 
+import time
 from const import no_exist, kval, map_rating
-from models import Bond, Coupon, Base, KvalBond
+from models import Bond, Coupon, Base, ExitBond
+from sqlalchemy.exc import IntegrityError
 
 
 # engine = create_engine('postgresql+psycopg2://uetlairflow:postgres@77.37.238.118:22018/postgres')
@@ -105,6 +107,24 @@ async def fetch(session, url, max_retries=3):
         await asyncio.sleep(1)  # Ожидаем перед повторной попыткой
 
     # print(f"{url} не смог быть обработан")
+    return None
+
+def fetch_sync(session, url, max_retries=3):
+    retries = 0
+    while retries < max_retries:
+        try:
+            response = session.get(url)
+            status = response.status_code
+            if status == 200:
+                return response.text
+            else:
+                return None
+        except Exception as e:
+            pass
+
+        retries += 1
+        time.sleep(1)  # Синхронное ожидание перед повторной попыткой
+
     return None
 
 async def process_site(session, site_url, soup="", params=None):
@@ -244,8 +264,8 @@ async def main():
         moex_task = ask_moex(session, xml_url, kwargs)
         ratings_task = get_rating()
         
-        # Параллельно получаем список квалифицированных облигаций
-        kval_isins = {isin[0] for isin in db_session.query(KvalBond.isin).all()}
+        # Параллельно получаем список квалифицированных и не доступных облигаций
+        kval_isins = {isin[0] for isin in db_session.query(ExitBond.isin).all()}
         
         # Дожидаемся получения данных
         moex_data, ratings = await asyncio.gather(moex_task, ratings_task)
@@ -457,14 +477,24 @@ def get_currency_rate(currency: str) -> float:
         print(f"Неожиданная ошибка при получении курса валюты {currency}: {e}")
         return 1.0
 
-def add_coupons(bond, last_payday=None):
+def add_coupons(session, bond, last_payday=None):
     try:
-        coupons_data = requests.get(f'https://admin.fin-plan.org/api/actives/v1/getCoupons?isin={bond.isin}&initialfacevalue=1000').json()['data'].get('COUPONS', [])
-        bond_data = requests.get(f'https://admin.fin-plan.org/api/actives/v1/getObligationDetail?isin={bond.isin}&gx_session=undefined').json()['data']['radar_data']
-    except requests.exceptions.JSONDecodeError as err:
+        # Используем переданную сессию
+        coupons_response = fetch_sync(session, f'https://admin.fin-plan.org/api/actives/v1/getCoupons?isin={bond.isin}&initialfacevalue=1000')
+        bond_response = fetch_sync(session, f'https://admin.fin-plan.org/api/actives/v1/getObligationDetail?isin={bond.isin}&gx_session=undefined')
+        
+        if not coupons_response or not bond_response:
+            return
+            
+        coupons_data = json.loads(coupons_response)['data'].get('COUPONS', [])
+        bond_data = json.loads(bond_response)['data']['radar_data']
+    except json.decoder.JSONDecodeError:
+        db_session.add(ExitBond(isin=bond.isin, name=bond.name, full_name=bond.full_name, reason='JSONDecodeError'))
+        db_session.delete(bond)
+        db_session.commit()
         return
     if bond_data['isqualifiedinvestors'] != 0:
-        db_session.add(KvalBond(isin=bond.isin, name=bond.name, full_name=bond.full_name))
+        db_session.add(ExitBond(isin=bond.isin, name=bond.name, full_name=bond.full_name, reason='isqualifiedinvestors'))
         db_session.delete(bond)
         db_session.commit()
         return
@@ -516,9 +546,13 @@ def add_coupons(bond, last_payday=None):
                 has_unknown_coups = True
                 # закончились известные купоны
                 break
-            coup = Coupon(isin=bond.isin, coup=float(q) * 0.87, payday=payday, amort=amort, temp=has_unknown_coups)
-            db_session.merge(coup)
-            db_session.commit()
+            try:
+                coup = Coupon(isin=bond.isin, coup=float(q) * 0.87, payday=payday, amort=amort, temp=has_unknown_coups)
+                db_session.merge(coup)
+                db_session.commit()
+            except IntegrityError as e:
+                db_session.rollback()
+                print(f"Failed to insert: {bond.isin}, Error: {e}")
         bond.unknown_coupons = has_unknown_coups
         db_session.merge(bond)
         db_session.commit()
@@ -542,9 +576,19 @@ if __name__ == '__main__' :
     for coupon in db_session.query(Coupon).filter(Coupon.payday < date.today()).all():
         db_session.delete(coupon)
     db_session.commit()
-    no_coups = db_session.query(Bond).filter(Bond.unknown_coupons == True or Bond.unknown_coupons.is_(None)).all()
-    pbar = tqdm(no_coups)
-    for bond in pbar:
-        last_payday = db_session.query(func.max(Coupon.payday)).filter(Coupon.bond == bond).scalar()
-        pbar.set_description(bond.name or bond.isin)
-        add_coupons(bond, last_payday)
+    bonds_with_paydays = (
+        db_session.query(
+            Bond,
+            func.max(Coupon.payday).label('last_payday')
+        )
+        .outerjoin(Coupon, Bond.isin == Coupon.isin)
+        .filter(or_(Bond.unknown_coupons == True, Bond.unknown_coupons.is_(None)))
+        .group_by(Bond)
+        .all()
+    )
+    pbar = tqdm(bonds_with_paydays)
+    with requests.Session() as session:
+        for bond, last_payday in pbar:
+            pbar.set_description(bond.name or bond.isin)
+            add_coupons(session, bond, last_payday)
+

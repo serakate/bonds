@@ -49,11 +49,12 @@ class Coupon(Base):
         UniqueConstraint('isin', 'payday', name='uq_coupon_isin_payday'),
     )
 
-class KvalBond(Base):
+class ExitBond(Base):
     __tablename__ = 'kval_bonds'
     isin = Column(String(20), primary_key=True)
     name = Column(String(20), unique=True, nullable=True)
     full_name = Column(String(100), nullable=True)
+    reason = Column(String(100))
 
 # class Calc(Base):
 #     __tablename__ = 'calc'
