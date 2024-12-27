@@ -1,25 +1,25 @@
-import warnings
-
-warnings.simplefilter(action="ignore", category=FutureWarning)
-warnings.simplefilter("ignore", category=ConnectionResetError)
-
 import asyncio
-import aiohttp
-from collections import Counter
-import json
-from datetime import datetime, date
-import requests
 import csv
+import json
+import time
+import warnings
+from collections import Counter
+from datetime import date, datetime
 from pathlib import Path
-from sqlalchemy import create_engine, case, func, inspect
+
+import aiohttp
+import aiomoex
+import requests
+from sqlalchemy import case, create_engine, func, inspect
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session, sessionmaker
 from sqlalchemy.sql import or_
 from tqdm import tqdm
-import aiomoex
 
-import time
-from models import Bond, Coupon, Base, ExitBond, Calc
-from sqlalchemy.exc import IntegrityError
+from models import Base, Bond, Calc, Coupon, ExitBond
+
+warnings.simplefilter(action="ignore", category=FutureWarning)
+warnings.simplefilter("ignore", category=ConnectionResetError)
 
 
 engine = create_engine('sqlite:///pool.db')
@@ -47,7 +47,7 @@ token_lock = asyncio.Lock()
 inf4day = 0.15  # коэффициент обесценивания денег за счёт инфляции
 commission = 0.0006
 
-def update_bond_calculations():
+def update_bond_calculations(specific_isin=None):
     """
     Обновляет расчетные значения для всех облигаций одним SQL-запросом
     """
@@ -95,7 +95,7 @@ def update_bond_calculations():
         
         case(
             (Bond.has_amort == False,
-             coupon_payments.c.total_income + Bond.nominal * get_inf_coef(
+             coupon_payments.c.total_income_i + Bond.nominal * get_inf_coef(
                  func.coalesce(Bond.oferta, Bond.end_date))),
             else_=coupon_payments.c.total_income_i
         ).label('total_income_i'),
@@ -148,10 +148,15 @@ def update_bond_calculations():
         final_query
     )
 
-    # Обновляем таблицу Calc
-    db_session.execute(
-        Calc.__table__.delete()
-    )
+    if specific_isin:
+        insert_query = insert_query.filter(final_query.c.isin == specific_isin)
+        db_session.execute(
+            Calc.__table__.delete().where(Calc.isin == specific_isin)
+        )
+    else:
+        db_session.execute(
+            Calc.__table__.delete()
+        )
     
     db_session.execute(
         Calc.__table__.insert().from_select(
@@ -431,7 +436,9 @@ def add_coupons(session, bond, last_payday=None):
         if data.get('COUPONS_TOTAL'):
             total = data['COUPONS_TOTAL']['Гашение']
         else:
-            total = sum(coup['Гашение'] for coup in data['COUPONS'] if isinstance(coup['Гашение'], (int, float)))
+            total = sum(float(str(coup['Гашение']).replace(',', '.')) 
+                       for coup in data['COUPONS'] 
+                       if coup['Гашение'] != 'Купон пока не определен')
         bond.has_amort = total > 0
         if bond.has_amort:
             changed = True
@@ -606,8 +613,86 @@ def save_results_to_csv(filename='Итоги.csv', limit=50):
 
     print(f"Результаты сохранены в файл {filename}")
 
+def calculate_bonds_by_isins(isins: list[str]):
+    """
+    Рассчитывает показатели для списка облигаций
+    
+    Args:
+        isins (list[str]): Список ISIN облигаций
+        
+    Returns:
+        dict: Словарь с результатами расчетов, где ключи - ISIN облигаций
+    """
+    # Проверяем существование облигации в базе
+    results = {}
+    existing_bonds = {}
+    moex_data = asyncio.run(main())
+        
+    # Записываем новые облигации в базу
+    for isin in isins:
+        if isin not in moex_data:
+            continue
+            
+        data = moex_data[isin]
+        bond = Bond(
+            name=data['name'],
+            isin=isin,
+            price=data['price'],
+            rating=data.get('rating'),
+            end_date=data['end_date'],
+            oferta=data['oferta'],
+            oferta_price=data['oferta_price'],
+            bid=data['bid'],
+            offer=data['offer'],
+            nkd=data['nkd'],
+            nominal=data['nominal'],
+            has_amort=False
+        )
+        db_session.merge(bond)
+        existing_bonds[isin] = bond
+    
+    db_session.commit()
+
+    # Обновляем купоны для всех облигаций
+    with requests.Session() as session:
+        for bond in existing_bonds.values():
+            last_payday = db_session.query(func.max(Coupon.payday)).filter(Coupon.isin == bond.isin).scalar()
+            add_coupons(session, bond, last_payday)
+
+    # Выполняем расчеты для всех ISIN'ов
+    for isin in isins:
+        if isin not in existing_bonds:
+            continue
+        update_bond_calculations(specific_isin=isin)
+    
+    # Получаем результаты расчетов
+    calcs = db_session.query(
+        Calc,
+        Bond.name,
+        Bond.rating,
+        Bond.unknown_coupons
+    ).join(Bond).filter(Calc.isin.in_(isins)).all()
+    
+    # Формируем результаты
+    for calc, name, rating, unknown_coupons in calcs:
+        results[calc.isin] = {
+            'isin': calc.isin,
+            'name': name,
+            'rating': rating,
+            'unknown_coupons': unknown_coupons,
+            'purchase_price': round(calc.purchase_price, 2),
+            'yield_p': round(calc.yield_p, 2),
+            'yield_i': round(calc.yield_i, 2),
+            'yield_y': round(calc.yield_y, 2),
+            'yield_iy': round(calc.yield_iy, 2),
+            'years': round(calc.years, 2)
+        }
+    
+    return results
+
 if __name__ == '__main__' :
     get_bond_data()
     update_coupons()        
     update_bond_calculations()
-    save_results_to_csv()
+#     calculate_bonds_by_isins(isins)
+    save_results_to_csv(limit=200)

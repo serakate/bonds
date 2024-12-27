@@ -16,33 +16,34 @@ WITH coupon_payments AS (
             END
         ) AS total_income
     FROM coupons
-    where isin = 'RU000A0ZYHX8'
+    where isin = 'RU000A104YR0'
     GROUP BY coupons.isin
-)
-SELECT bonds.has_amort,
-    bonds.isin AS isin,
-    (
-        julianday(coalesce(bonds.oferta, bonds.end_date)) - julianday(date('now'))
-    ) / 365 AS years,
-    (
-        (bonds.offer / 100) * bonds.nominal + coalesce(bonds.nkd, 0)
-    ) * 1.0006 AS purchase_price,
-    CASE
-        WHEN (bonds.has_amort = false) THEN coupon_payments.total_income + bonds.nominal * power(
-            1 - 0.15 / 365,
+),
+calc_query AS (
+    SELECT bonds.has_amort,
+        bonds.isin as isin,
+        (
             julianday(coalesce(bonds.oferta, bonds.end_date)) - julianday(date('now'))
-        )
-        ELSE coupon_payments.total_income_i
-    END AS total_income_i,
-    CASE
-        WHEN (bonds.has_amort = false) THEN coupon_payments.total_income + bonds.nominal
-        ELSE coupon_payments.total_income
-    END AS total_income
-FROM bonds
-    JOIN coupon_payments ON bonds.isin = coupon_payments.isin
-WHERE bonds.offer IS NOT NULL
-    AND bonds.nominal IS NOT NULL
-    AND coalesce(bonds.oferta, bonds.end_date) > date('now')
+        ) / 365 AS years,
+        (
+            (bonds.offer / 100) * bonds.nominal + coalesce(bonds.nkd, 0)
+        ) * 1.0006 AS purchase_price,
+        CASE
+            WHEN (bonds.has_amort = false) THEN coupon_payments.total_income_i + bonds.nominal * power(
+                1 - 0.15 / 365,
+                julianday(coalesce(bonds.oferta, bonds.end_date)) - julianday(date('now'))
+            )
+            ELSE coupon_payments.total_income_i
+        END AS total_income_i,
+        CASE
+            WHEN (bonds.has_amort = false) THEN coupon_payments.total_income + bonds.nominal
+            ELSE coupon_payments.total_income
+        END AS total_income
+    FROM bonds
+        JOIN coupon_payments ON bonds.isin = coupon_payments.isin
+    WHERE bonds.offer IS NOT NULL
+        AND bonds.nominal IS NOT NULL
+        AND coalesce(bonds.oferta, bonds.end_date) > date('now')
 ),
 final_query AS (
     SELECT calc_query.isin AS isin,
