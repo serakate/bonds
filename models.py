@@ -11,7 +11,6 @@ class Bond(Base):
     # Основные поля
     isin = Column(String(20), primary_key=True)
     name = Column(String(20), unique=True, nullable=True)  # краткое имя (SHORTNAME/short)
-    full_name = Column(String(100), nullable=True)  # полное имя с сайта рейтингов
 
     # Торговые параметры
     price = Column(Float, nullable=True)  # MARKETPRICETODAY/last_price
@@ -30,6 +29,7 @@ class Bond(Base):
     # Служебные поля
     unknown_coupons = Column(Boolean, nullable=True)
     floating = Column(String(3), nullable=True)
+    has_amort = Column(Boolean, nullable=True)
     
     # Связи
     coupons = relationship('Coupon', back_populates='bond', cascade='all, delete-orphan', passive_deletes=True)
@@ -53,9 +53,19 @@ class ExitBond(Base):
     __tablename__ = 'kval_bonds'
     isin = Column(String(20), primary_key=True)
     name = Column(String(20), unique=True, nullable=True)
-    full_name = Column(String(100), nullable=True)
     reason = Column(String(100))
 
-# class Calc(Base):
-#     __tablename__ = 'calc'
+class Calc(Base):
+    __tablename__ = 'calc'
     
+    isin = Column(String(20), ForeignKey('bonds.isin'), primary_key=True)
+    
+    # Расчетные поля
+    purchase_price = Column(Float) # Цена покупки
+    yield_p = Column(Float)        # Доходность в процентах
+    yield_i = Column(Float)        # Доходность в процентах с учётом инфляции
+    yield_y = Column(Float)        # Годовая доходность
+    yield_iy = Column(Float)       # Годовая доходность с учётом инфляции
+    years = Column(Float)          # Срок до погашения/оферты в годах
+    
+    bond = relationship('Bond', backref='calc')

@@ -5,47 +5,162 @@ warnings.simplefilter("ignore", category=ConnectionResetError)
 
 import asyncio
 import aiohttp
-from concurrent.futures import ProcessPoolExecutor, as_completed
-from bs4 import BeautifulSoup
 from collections import Counter
 import json
 from datetime import datetime, date
-import os
 import requests
-import pandas as pd
-from tqdm import trange
 import csv
 from pathlib import Path
-from sqlalchemy import create_engine, case, literal_column, func
+from sqlalchemy import create_engine, case, func, inspect
 from sqlalchemy.orm import Session, sessionmaker
 from sqlalchemy.sql import or_
 from tqdm import tqdm
 import aiomoex
 
 import time
-from const import no_exist, kval, map_rating
-from models import Bond, Coupon, Base, ExitBond
+from models import Bond, Coupon, Base, ExitBond, Calc
 from sqlalchemy.exc import IntegrityError
 
 
-# engine = create_engine('postgresql+psycopg2://uetlairflow:postgres@77.37.238.118:22018/postgres')
 engine = create_engine('sqlite:///pool.db')
 if not Path('pool.db').exists():
     Base.metadata.create_all(engine)
+else:
+        # Проверяем наличие каждой таблицы
+    inspector = inspect(engine)
+    existing_tables = inspector.get_table_names()
+    
+    if 'bonds' not in existing_tables:
+        Bond.__table__.create(engine)
+    if 'coupons' not in existing_tables:
+        Coupon.__table__.create(engine)
+    if 'kval_bonds' not in existing_tables:
+        ExitBond.__table__.create(engine)
+    if 'calc' not in existing_tables:
+        Calc.__table__.create(engine)
 Session = sessionmaker(bind=engine)
 db_session = Session()
 
 
 token_lock = asyncio.Lock()
 
-def flatten_list(nested_list):
-    flattened_list = []
-    for item in nested_list:
-        if isinstance(item, list):
-            flattened_list.extend(flatten_list(item))
-        else:
-            flattened_list.append(item)
-    return flattened_list
+inf4day = 0.15  # коэффициент обесценивания денег за счёт инфляции
+commission = 0.0006
+
+def update_bond_calculations():
+    """
+    Обновляет расчетные значения для всех облигаций одним SQL-запросом
+    """
+    current_date = date.today()
+
+    def get_inf_coef(date_column):
+        """Возвращает коэффициент инфляции для указанной даты"""
+        return func.power(
+            1 - inf4day/365.0,
+            func.julianday(date_column) - func.julianday(current_date)
+        )
+
+    # Создаем CTE для расчета купонных выплат
+    coupon_payments = db_session.query(
+        Coupon.isin,
+        func.sum(
+            case(
+                # Купон с НДФЛ + амортизация, умноженные на коэффициент инфляции
+                (Coupon.payday > current_date,
+                  (Coupon.coup + Coupon.amort) * get_inf_coef(Coupon.payday)),
+                else_=0
+            )
+        ).label('total_income_i'),
+        func.sum(
+            case(
+                # Купон с НДФЛ + амортизация без учета инфляции
+                (Coupon.payday > current_date,
+                  Coupon.coup + Coupon.amort),
+                else_=0
+            )
+        ).label('total_income')
+    ).group_by(Coupon.isin).cte('coupon_payments')
+
+    # Основной запрос
+    calc_query = db_session.query(
+        Bond.isin,
+        # Годы до погашения/оферты
+        ((func.julianday(func.coalesce(Bond.oferta, Bond.end_date)) - 
+          func.julianday(current_date)) / 365).label('years'),
+        
+        # Цена покупки с учетом комиссии и НКД
+        ((Bond.offer / 100 * Bond.nominal + 
+          func.coalesce(Bond.nkd, 0)) * 
+         (1 + commission)).label('purchase_price'),
+        
+        case(
+            (Bond.has_amort == False,
+             coupon_payments.c.total_income + Bond.nominal * get_inf_coef(
+                 func.coalesce(Bond.oferta, Bond.end_date))),
+            else_=coupon_payments.c.total_income_i
+        ).label('total_income_i'),
+        
+        case(
+            (Bond.has_amort == False,
+             coupon_payments.c.total_income + Bond.nominal),
+            else_=coupon_payments.c.total_income
+        ).label('total_income')
+    ).join(
+        coupon_payments,
+        Bond.isin == coupon_payments.c.isin
+    ).filter(
+        Bond.offer.isnot(None),
+        Bond.nominal.isnot(None),
+        func.coalesce(Bond.oferta, Bond.end_date) > current_date
+    ).cte('calc_query')
+    
+    # Финальный запрос с расчетом доходностей
+    final_query = db_session.query(
+        calc_query.c.isin,
+        calc_query.c.purchase_price,
+        # Общая доходность
+        ((calc_query.c.total_income / 
+          calc_query.c.purchase_price - 1) * 100
+        ).label('yield_p'),
+        
+        # Общая доходность с учетом инфляции
+        ((calc_query.c.total_income_i / 
+          calc_query.c.purchase_price - 1) * 100
+        ).label('yield_i'),
+        calc_query.c.years
+    ).join(
+        Bond,
+        Bond.isin == calc_query.c.isin
+    ).cte('final_query')
+
+    # Создаем подзапрос для вставки/обновления
+    insert_query = db_session.query(
+        final_query.c.isin,
+        final_query.c.purchase_price,
+        final_query.c.yield_p,
+        final_query.c.yield_i,
+        final_query.c.years,
+        # Годовая доходность
+        (final_query.c.yield_p / final_query.c.years).label('yield_y'),
+        # Годовая доходность с учетом инфляции
+        (final_query.c.yield_i / final_query.c.years).label('yield_iy')
+    ).select_from(
+        final_query
+    )
+
+    # Обновляем таблицу Calc
+    db_session.execute(
+        Calc.__table__.delete()
+    )
+    
+    db_session.execute(
+        Calc.__table__.insert().from_select(
+            ['isin', 'purchase_price', 'yield_p', 'yield_i', 'years', 'yield_y', 'yield_iy'],
+            insert_query
+        )
+    )
+    
+    db_session.commit()
 
 async def get_rating():
     async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
@@ -54,34 +169,56 @@ async def get_rating():
         url = 'https://oko.grampus-studio.ru/api/bonds/?page=1&page_size=20000&order=desc&order_by=id'
         payload = {
             'loose': True,
-            # 'search': isin,
             'status': ["В обращении", "Аннулирован", "Дефолт"]} 
-        for _ in range(3):
-            try:
-                async with session.post(url, json=payload, headers=headers) as response:
-                    code = response.status
-                    if code != 200:
-                        await asyncio.sleep(1)
-                        continue
-                    data = await response.json()
-                    if data.get('detail') == 'Signature has expired':
-                        token = await get_token()
+        
+        filename = f'danger_bonds.csv'
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f, delimiter=';')
+            writer.writerow(['isin', 'name', 'status'])  # Записываем заголовки
+
+            for _ in range(3):
+                try:
+                    async with session.post(url, json=payload, headers=headers) as response:
+                        code = response.status
+                        if code != 200:
+                            await asyncio.sleep(1)
+                            continue
                         data = await response.json()
-                    elif not 'results' in data.keys():
-                        raise Exception(f"Ошибка: {data}")
-                    elif not data['results']:
-                        return
-                    isin_ratings = {}
-                    for row in data['results']:
-                        ratings = Counter([k['value'] for k in row['ratings'] if k['value'] not in (None, 'Отозван', 'отозван')])
-                        if ratings:
-                            row['ratings'] = ratings.most_common(1)[0][0]
-                            row.pop('borrower')
-                            isin_ratings[row['isin']] = row
-                    return isin_ratings
-            except (aiohttp.client_exceptions.ClientOSError, aiohttp.client_exceptions.ServerDisconnectedError):
-                return None 
-        return None
+                        if data.get('detail') == 'Signature has expired':
+                            token = await get_token()
+                            data = await response.json()
+                        elif not 'results' in data.keys():
+                            raise Exception(f"Ошибка: {data}")
+                        elif not data['results']:
+                            return
+
+                        isin_ratings = {}
+                        bond_count = 0
+
+                        for row in data['results']:
+                            if row['status'] in ('Аннулирован', 'Дефолт'):
+                                writer.writerow([
+                                    row['isin'], 
+                                    row.get('name', '') or row.get('short', ''), 
+                                    row['status']
+                                ])
+                                bond_count += 1
+                                db_session.merge(ExitBond(isin=row['isin'], name=row.get('name', '') or row.get('short', ''), reason=row['status']))
+                                db_session.commit()
+                                continue
+                            
+                            ratings = Counter([k['value'] for k in row['ratings'] 
+                                               if k['value'] and 'отозван' not in k['value'].lower()])
+                            if ratings:
+                                row['ratings'] = ratings.most_common(1)[0][0]
+                                row.pop('borrower')
+                                isin_ratings[row['isin']] = row
+
+                        return isin_ratings
+                except (aiohttp.client_exceptions.ClientOSError, 
+                        aiohttp.client_exceptions.ServerDisconnectedError):
+                    return None 
+            return None
 
 async def fetch(session, url, max_retries=3):
     retries = 0
@@ -93,20 +230,12 @@ async def fetch(session, url, max_retries=3):
                     return await response.text()
                 else:
                     return None
-        # except aiohttp.ClientConnectorError as e:
-        #     print(f"Ошибка подключения: {e}")
-        # except aiohttp.ClientError as e:
-        #     print(f"Ошибка клиента: {e}")
-        # except asyncio.exceptions.CancelledError:
-        #     print(f"URL {url} не смог быть обработан")
         except Exception as e:
             pass
-            # print(f"Неизвестная ошибка {e}")
 
         retries += 1
         await asyncio.sleep(1)  # Ожидаем перед повторной попыткой
 
-    # print(f"{url} не смог быть обработан")
     return None
 
 def fetch_sync(session, url, max_retries=3):
@@ -127,66 +256,6 @@ def fetch_sync(session, url, max_retries=3):
 
     return None
 
-async def process_site(session, site_url, soup="", params=None):
-    if not soup:
-        html = await fetch(session, site_url)
-        soup = BeautifulSoup(html, "html.parser")
-    tags = soup.find_all('table', class_='_hidden')[0].find_all('tr')
-
-    tasks = []
-
-    for tag in tags[1:]:
-        def_params = {}
-        tds = tag.find_all("td")
-        for k, v in params.items():
-            value = tds[v].find_all(string=True)
-            if value:
-                def_params[k] = value[0].string.strip()
-        if def_params["Имя"] in no_exist:
-            continue
-        flag = False
-        for i in kval:
-            if i in def_params["Имя"]:
-                flag = True
-                break
-        if flag:
-            continue
-        isin = tds[1].a["href"].split('/')[-2]
-        if "ofz" in site_url:
-            def_params['Рейтинг'] = 'AAA'
-        # elif "subfed" in site_url or "bond" in site_url or def_params["Рейтинг"] in (None, '', '-'):
-        #     def_params['Рейтинг'] = await get_rating(isin)
-        # if (def_params.get("Рейтинг") or '').lower() in ("аннулирован", "дефолт", "отозван"):
-        #     continue
-        def_params['Рейтинг, порядок'] = map_rating.get(def_params['Рейтинг'], 0)
-        tasks.append((f'https://fin-plan.org/lk/obligations/{isin}/' , def_params))
-
-    print(f"Страница {site_url} закончена")
-    return tasks
-
-async def get_pages(session, site_url, params):
-    html = await fetch(session, site_url)
-    soup = BeautifulSoup(html, "html.parser")
-    last_link = soup.find_all("a", class_="pager__link pager__link--arrow")
-    coroutines = []
-    if not last_link:
-        coroutines.append(process_site(session=session, site_url=site_url, soup=soup, params=params))
-    else:
-        href = last_link[-1]["href"]
-        pages = int(href[href.find("page") + 4 : -1])
-        coroutines.append(process_site(session=session, site_url=site_url, soup=soup, params=params))
-        for i in range(2, pages + 1):
-            coroutines.append(
-                process_site(
-                    session=session,
-                    site_url="https://smart-lab.ru" + href.replace(str(pages), str(i)),
-                    soup=None, 
-                    params=params,
-                )
-            )
-
-    results = await asyncio.gather(*coroutines)
-    return results
 
 def merge_bond_data(moex_data={}, rating_data={}):
     """
@@ -197,7 +266,6 @@ def merge_bond_data(moex_data={}, rating_data={}):
     # Базовые поля
     result['isin'] = moex_data.get('ISIN') or rating_data.get('isin')
     result['name'] = moex_data.get('SHORTNAME', None) or rating_data.get('short', None)
-    result['full_name'] = rating_data.get('name') if rating_data else None
     
     # Торговые параметры
     result['price'] = moex_data.get('MARKETPRICETODAY') or rating_data.get('last_price')
@@ -234,7 +302,7 @@ async def ask_moex(session, url, kwargs):
     iss = aiomoex.ISSClient(session, url, kwargs)
     data = await iss.get()
     data = [s|m for s, m in zip(data['securities'], data['marketdata'])]
-    data = {x['ISIN']: x for x in data if any([x["BID"], x["OFFER"], x["MARKETPRICETODAY"]]) and x["FACEUNIT"] == "SUR"}
+    data = {x['ISIN']: x for x in data if any([x["BID"], x["OFFER"], x["MARKETPRICETODAY"]]) and x["FACEUNIT"] not in ('EUR', 'USD')}
     return data
 
 async def get_token():
@@ -247,6 +315,7 @@ async def get_token():
                     return data['access_token']
                 else:
                     raise Exception(f"Ошибка: {data}")
+
 async def main():
     global token
     token = await get_token()
@@ -261,10 +330,11 @@ async def main():
 
     async with aiohttp.ClientSession() as session:
         # Получаем данные асинхронно
+        print("Получаем данные из MOEX и рейтингов")
         moex_task = ask_moex(session, xml_url, kwargs)
         ratings_task = get_rating()
         
-        # Параллельно получаем список квалифицированных и не доступных облигаций
+        # Параллельно получаем список квалифицированных и недоступных облигаций
         kval_isins = {isin[0] for isin in db_session.query(ExitBond.isin).all()}
         
         # Дожидаемся получения данных
@@ -278,138 +348,6 @@ async def main():
                 
     return result
 
-inf4day = 1 - 0.15 / 365  # коэффициент обесценивания денег за счёт инфляции
-of_inf4day = 1 - 0.09 / 365  # официальная инфляция
-gcurve7 = 0.118
-stavka = 0.21
-finished = []
-big_nom = []
-def extr(obl, text, tagname="p"):
-    """
-    Извлечение значения по тексту
-    """
-    fnd = obl.find_all(lambda tag: text in tag.text and tag.name == tagname)
-    if not fnd:
-        return None
-    return fnd[0].text.strip()
-
-def my_func(url, params):
-    """
-    Расчёт прибыли одной облигации
-    """
-    html = requests.get(url).text
-    obl = BeautifulSoup(html, "html.parser")
-    name = params.get("Имя")
-    rating = params.get("Рейтинг")
-    if len(params["Погашение"]) == 10:
-        form = "%d.%m.%Y"
-    else:
-        form = "%d.%m.%y"
-    days = (datetime.strptime(params["Погашение"], form) - datetime.now()).days
-    if days < 2:
-        return {}
-    years = days / 365
-    if years == 0:
-        # не учитывать закончившиеся
-        finished.append(name)
-        return {}
-    nom = extr(obl, "Номинал: ").split(' ')[1]
-    if '$' in nom:
-        # print(f'проверить доступность {name} в $')
-        return {}
-    elif 'EUR' in nom:
-        # print(f'проверить доступность {name} в EUR')
-        return {}
-    else:
-        nom = float(nom)
-    if nom > 10000:
-        big_nom.append(name)
-        return {}
-    if params.get('Цена', '-') == '-':
-        cost_p = extr(obl, "Текущая цена: ")
-        if cost_p:
-            cost_p = cost_p[:-1]
-        if not cost_p:
-            return {}
-        cost_p = float(cost_p)
-    else:
-        cost_p = float(params['Цена'])
-    oferta = None
-    if params.get("Оферта") and params["Оферта"] != '-':
-        oferta = datetime.strptime(params['Оферта'], form).date()
-        if oferta <= datetime.now().date():
-            oferta = None
-        else:
-            days = (oferta - datetime.today().date()).days
-            years = days / 365
-
-    pk = obl.find_all(lambda tag: tag.name == 'p' and 'Формула расчета купона' in tag.text)
-    dop_stavka = 0
-    if pk:
-        dop_stavka = float(pk[0].text.split('%')[0].split(' ')[-1]) if '%' in pk[0].text else 0
-        params["Переменный купон"] = 'ПК'
-    nkd = float(params['НКД, руб'].replace('-', '0'))
-    # стоимость с учётом НКД и комиссией
-    cost = (cost_p / 100 * nom + nkd) * 1.0006
-    profit = 0  # прибыль
-    profit_in = 0  # прибыль с учётом инфляции
-    tab = obl.findAll("tbody")
-    if len(tab) > 0:
-        # если есть таблица с купонами
-        tab = tab[0]
-        if params.get("Переменный купон") in ('ПК', 'ИН'):
-            coups = tab.find_all('tr', class_='coupon_table_row')
-            freq = len(coups) / (datetime.strptime(coups[-1].td.string, "%d.%m.%Y").date() - datetime.strptime(coups[0].td.string, "%d.%m.%Y").date()).days * 365
-        cur_line = tab.findAll(class_="green")[0]
-        for coup in [cur_line] + list(cur_line.next_siblings):
-            if coup == '\n' or not coup.get('class'):
-                continue
-            tds = coup.find_all('td')
-            n = datetime.strptime(tds[0].string, "%d.%m.%Y").date()
-            if oferta and oferta < n:
-                break
-            delta = (n - datetime.today().date()).days
-            if delta < 3:
-                # если купон выплачивается послезавтра и раньше, не считается
-                continue
-            if params.get("Переменный купон") == 'ПК':
-                q = nom * (stavka + dop_stavka) / freq
-            else:
-                q = tds[2].string
-            if params.get("Переменный купон") == 'ИН':
-                q = nom * 0.025 / freq
-            if q == "Купон пока не определен":
-                days = delta    # не учитывать закончившиеся
-                years = delta / 365
-                oferta = n
-                # закончились известные купоны
-                break
-            gash = float(tds[3].string)
-            inc = float(q) * 0.87 + gash  # купон за вычетом налогов с погашением
-            nom -= gash
-            profit += inc
-            # защита от официальной инфляции
-            profit_in += inc * inf4day**delta / (of_inf4day**delta if params.get("Переменный купон") == 'ИН' else 1)
-    nom = min(cost, nom) if oferta else nom
-    nom = nom / (of_inf4day**delta) if params.get("Переменный купон") == 'ИН' else nom
-    perc = ((profit + nom) / cost - 1) * 100  # общая прибыль
-    perc_g = perc / years  # прибыль в год
-    perc_i = (
-            (profit_in + nom * inf4day**days) / cost - 1
-        ) * 100  # общая прибыль с учётом инфляции
-    perc_in = perc_i / years  # прибыль в год с учётом инфляции
-    return {
-        "Облигация": name,
-        "Прибыль, %": round(perc, 3),
-        "Прибыль с учётом инфляции, %": round(perc_i, 3),
-        "Годовая прибыль, %": round(perc_g, 3),
-        "Годовая прибыль с учётом инфляции, %": round(perc_in, 3),
-        "Дата погашения": datetime.strptime(params["Погашение"], form),
-        "Рейтинг": rating,
-        'Оферта': oferta,
-        "Цена, %": cost_p,
-        'Рейтинг, порядок': params['Рейтинг, порядок'],
-    }
 
 def get_currency_rate(currency: str) -> float:
     """
@@ -479,6 +417,7 @@ def get_currency_rate(currency: str) -> float:
 
 def add_coupons(session, bond, last_payday=None):
     try:
+        changed = False
         # Используем переданную сессию
         coupons_response = fetch_sync(session, f'https://admin.fin-plan.org/api/actives/v1/getCoupons?isin={bond.isin}&initialfacevalue=1000')
         bond_response = fetch_sync(session, f'https://admin.fin-plan.org/api/actives/v1/getObligationDetail?isin={bond.isin}&gx_session=undefined')
@@ -486,19 +425,27 @@ def add_coupons(session, bond, last_payday=None):
         if not coupons_response or not bond_response:
             return
             
-        coupons_data = json.loads(coupons_response)['data'].get('COUPONS', [])
+        data = json.loads(coupons_response)['data']
+        coupons_data = data.get('COUPONS', [])
         bond_data = json.loads(bond_response)['data']['radar_data']
+        if data.get('COUPONS_TOTAL'):
+            total = data['COUPONS_TOTAL']['Гашение']
+        else:
+            total = sum(coup['Гашение'] for coup in data['COUPONS'] if isinstance(coup['Гашение'], (int, float)))
+        bond.has_amort = total > 0
+        if bond.has_amort:
+            changed = True
     except json.decoder.JSONDecodeError:
-        db_session.add(ExitBond(isin=bond.isin, name=bond.name, full_name=bond.full_name, reason='JSONDecodeError'))
+        db_session.add(ExitBond(isin=bond.isin, name=bond.name, reason='JSONDecodeError'))
         db_session.delete(bond)
         db_session.commit()
         return
     if bond_data['isqualifiedinvestors'] != 0:
-        db_session.add(ExitBond(isin=bond.isin, name=bond.name, full_name=bond.full_name, reason='isqualifiedinvestors'))
+        db_session.add(ExitBond(isin=bond.isin, name=bond.name, reason='isqualifiedinvestors'))
         db_session.delete(bond)
         db_session.commit()
         return
-    changed = False
+
     val = bond_data['currency_id']
     if not bond.nominal:
         changed = True
@@ -506,44 +453,28 @@ def add_coupons(session, bond, last_payday=None):
     if not bond.price and (price := bond_data['lastprice']):
         changed = True
         bond.price = price * get_currency_rate(val)
-    if changed:
-        db_session.merge(bond)
-        db_session.commit()
     
     has_unknown_coups = False
-    # pk = obl.find_all(lambda tag: tag.name == 'p' and 'Формула расчета купона' in tag.text)
-    dop_stavka = 0
-    # if pk:
-    #     bond.floating = 'ПК'
-    #     changed = True
     if len(coupons_data) > 0:
         # если есть таблица с купонами
         coupons_data = [coup for coup in coupons_data if (datetime.strptime(coup['Дата выплаты'], "%d.%m.%Y").date() > datetime.today().date())]
         if not coupons_data:
-            # db_session.delete(bond)
-            # db_session.commit()
+            db_session.delete(bond)
+            db_session.commit()
             return
-        # if bond.floating in ('ПК', 'ИН'):
-        #     coups = tab.find_all('tr', class_='coupon_table_row')
-        #     freq = len(coups) / (datetime.strptime(coups[-1].td.string, "%d.%m.%Y").date() - datetime.strptime(coups[0].td.string, "%d.%m.%Y").date()).days * 365
         for coup in coupons_data:
             payday = datetime.strptime(coup['Дата выплаты'], "%d.%m.%Y").date()
             if last_payday and payday <= last_payday:
                 continue
             if bond.oferta and bond.oferta < payday:
                 has_unknown_coups = True
+                changed = True
                 break
             amort = coup['Гашение']
             q = coup['Купоны']
             if q in ("Купон пока не определен", '-'):
-                # if bond.floating == 'ПК':
-                #     if not dop_stavka and pk:
-                #         dop_stavka = float(pk[-1].text.split('%')[0].split(' ')[-1]) if '%' in pk[-1].text else 0
-                #     q = bond.nominal * (stavka + dop_stavka) / freq
-                # if bond.floating == 'ИН':
-                #     q = bond.nominal * 0.025 / freq
-                # else:
                 has_unknown_coups = True
+                changed = True
                 # закончились известные купоны
                 break
             try:
@@ -553,12 +484,16 @@ def add_coupons(session, bond, last_payday=None):
             except IntegrityError as e:
                 db_session.rollback()
                 print(f"Failed to insert: {bond.isin}, Error: {e}")
-        bond.unknown_coupons = has_unknown_coups
+        if bond.unknown_coupons != has_unknown_coups:
+            bond.unknown_coupons = has_unknown_coups
+            changed = True
+    if changed:
         db_session.merge(bond)
         db_session.commit()
 
-if __name__ == '__main__' :
+def get_bond_data():
     moex_data = asyncio.run(main())
+    print("Записываем данные облигаций в базу")
     for isin, data in moex_data.items():
         try:
             bond = Bond(name=data['name'] if data['name'] else None, isin=isin, 
@@ -566,13 +501,16 @@ if __name__ == '__main__' :
                         end_date=data['end_date'], 
                         oferta=data['oferta'], 
                         oferta_price=data['oferta_price'],
-                        bid=data['bid'], offer=data['offer'], nkd=data['nkd'], nominal=data['nominal'],)
+                        bid=data['bid'], offer=data['offer'], nkd=data['nkd'], nominal=data['nominal'],
+                        has_amort=False)
             db_session.merge(bond)
             db_session.commit()
         except Exception as e:
             db_session.rollback()
             print(f"Failed to insert: {isin}, Error: {e}")
-            
+
+def update_coupons():
+    print("Обновляем купоны")
     for coupon in db_session.query(Coupon).filter(Coupon.payday < date.today()).all():
         db_session.delete(coupon)
     db_session.commit()
@@ -592,3 +530,84 @@ if __name__ == '__main__' :
             pbar.set_description(bond.name or bond.isin)
             add_coupons(session, bond, last_payday)
 
+def save_results_to_csv(filename='Итоги.csv', limit=50):
+    """
+    Сохраняет отсортированные результаты расчетов в CSV файл
+    
+    Args:
+        filename (str): Имя файла для сохранения
+        limit (int): Количество строк для сохранения
+    """
+    print("Сохраняем результаты в CSV")
+    # Определяем порядок рейтингов
+    rating_order = {
+        'AAA': 1, 'AA+': 2, 'AA': 3, 'AA-': 4,
+        'A+': 5, 'A': 6, 'A-': 7,
+        'BBB+': 8, 'BBB': 9, 'BBB-': 10
+    }
+
+    # Получаем отсортированные результаты
+    results = db_session.query(
+        Calc,
+        Bond.name,
+        Bond.rating,
+        Bond.unknown_coupons
+    ).join(Bond).order_by(
+        case(
+            (Calc.yield_iy > 35, 1),
+            (Calc.yield_iy.between(30, 35), 2),
+            (Calc.yield_iy.between(25, 30), 3),
+            (Calc.yield_iy.between(20, 25), 4),
+            (Calc.yield_iy.between(15, 20), 5),
+            (Calc.yield_iy.between(10, 15), 6),
+            else_=7
+        ),
+        case(
+            *[(Bond.rating == k, v) for k, v in rating_order.items()],
+            else_=99
+        ),
+        Calc.yield_iy.desc()
+    ).limit(limit).all()
+
+    # Записываем результаты в CSV
+    with open(filename, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f, delimiter=';')
+        
+        # Записываем заголовки
+        headers = [
+            'ISIN',
+            'Название',
+            'Рейтинг',
+            'Неизвестные купоны',
+            'Цена покупки',
+            'Доходность, %',
+            'Доходность с учетом инфляции, %',
+            'Годовая доходность, %',
+            'Годовая доходность с учетом инфляции, %',
+            'Срок, лет'
+        ]
+        writer.writerow(headers)
+        
+        # Записываем данные
+        for calc, name, rating, unknown_coupons in results:
+            row = [
+                calc.isin,
+                name,
+                rating,
+                '+' if unknown_coupons else '',
+                round(calc.purchase_price, 2),
+                round(calc.yield_p, 2),
+                round(calc.yield_i, 2),
+                round(calc.yield_y, 2),
+                round(calc.yield_iy, 2),
+                round(calc.years, 2)
+            ]
+            writer.writerow(row)
+
+    print(f"Результаты сохранены в файл {filename}")
+
+if __name__ == '__main__' :
+    get_bond_data()
+    update_coupons()        
+    update_bond_calculations()
+    save_results_to_csv()
